@@ -1,0 +1,1670 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"Project-Id-Version: iThemeland WooCommerce Bulk Orders Editing Lite\n"
+"POT-Creation-Date: 2021-01-18 16:35+0330\n"
+"PO-Revision-Date: 2021-01-18 16:35+0330\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.2\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-Flags-xgettext: --add-comments=translators:\n"
+"X-Poedit-WPHeader: ithemeland-woocommerce-bulk-orders-editing-lite.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+
+#: classes/bootstrap/WOBEF.php:57
+msgid "Woo Orders"
+msgstr ""
+
+#: classes/controllers/WOBEF_Ajax.php:230
+#: classes/controllers/WOBEF_Ajax.php:383
+#: classes/controllers/WOBEF_Ajax.php:587
+#: classes/controllers/WOBEF_Ajax.php:622 classes/controllers/WOBEF_Post.php:72
+#: classes/controllers/WOBEF_Post.php:107
+#: classes/controllers/WOBEF_Post.php:149
+#: classes/controllers/WOBEF_Post.php:162
+#: classes/controllers/WOBEF_Post.php:212
+msgid "Success !"
+msgstr ""
+
+#: classes/controllers/WOBEF_Ajax.php:618
+msgid "Error !"
+msgstr ""
+
+#: classes/controllers/Woo_Order_Controller.php:92
+msgid "WooCommerce Bulk Orders Editing"
+msgstr ""
+
+#: classes/helpers/Generator.php:45 classes/repositories/Meta_Field.php:59
+#: views/bulk_edit/columns_modals/order_billing.php:33
+#: views/bulk_edit/columns_modals/order_billing.php:58
+#: views/bulk_edit/columns_modals/order_billing.php:78
+#: views/bulk_edit/columns_modals/order_shipping.php:35
+#: views/bulk_edit/columns_modals/order_shipping.php:56
+#: views/history/main.php:18 views/history/main.php:29
+msgid "Select"
+msgstr ""
+
+#: classes/helpers/Operator.php:10 classes/helpers/Operator.php:21
+msgid "Append"
+msgstr ""
+
+#: classes/helpers/Operator.php:11
+msgid "Prepend"
+msgstr ""
+
+#: classes/helpers/Operator.php:12
+msgid "New"
+msgstr ""
+
+#: classes/helpers/Operator.php:13 classes/helpers/Operator.php:23
+#: views/bulk_edit/top_navigation.php:39 views/column_manager/main.php:43
+#: views/history/history_items.php:45 views/modals/filter_profile_item.php:18
+msgid "Delete"
+msgstr ""
+
+#: classes/helpers/Operator.php:14 classes/helpers/Operator.php:22
+msgid "Replace"
+msgstr ""
+
+#: classes/helpers/Operator.php:30
+msgid "Set New"
+msgstr ""
+
+#: classes/helpers/Operator.php:31
+msgid "Clear Value"
+msgstr ""
+
+#: classes/helpers/Operator.php:32
+msgid "Formula"
+msgstr ""
+
+#: classes/helpers/Operator.php:33
+msgid "Increase by value"
+msgstr ""
+
+#: classes/helpers/Operator.php:34
+msgid "Decrease by value"
+msgstr ""
+
+#: classes/helpers/Operator.php:35
+msgid "Increase by %"
+msgstr ""
+
+#: classes/helpers/Operator.php:36
+msgid "Decrease by %"
+msgstr ""
+
+#: classes/helpers/Operator.php:43
+msgid "Increase by value (From sale)"
+msgstr ""
+
+#: classes/helpers/Operator.php:44
+msgid "Increase by % (From sale)"
+msgstr ""
+
+#: classes/helpers/Operator.php:51
+msgid "Decrease by value (From regular)"
+msgstr ""
+
+#: classes/helpers/Operator.php:52
+msgid "Decrease by % (From regular)"
+msgstr ""
+
+#: classes/helpers/Operator.php:59
+msgid "Like"
+msgstr ""
+
+#: classes/helpers/Operator.php:60 classes/repositories/Tab_Repository.php:788
+#: views/bulk_edit/top_navigation.php:97
+msgid "Exact"
+msgstr ""
+
+#: classes/helpers/Operator.php:61
+msgid "Not"
+msgstr ""
+
+#: classes/helpers/Operator.php:62
+msgid "Begin"
+msgstr ""
+
+#: classes/helpers/Operator.php:63
+msgid "End"
+msgstr ""
+
+#: classes/providers/column/OrderColumnProvider.php:88
+msgid "Processing"
+msgstr ""
+
+#: classes/providers/column/OrderColumnProvider.php:95
+msgid "Complete"
+msgstr ""
+
+#: classes/providers/column/OrderColumnProvider.php:264
+msgid "No Image"
+msgstr ""
+
+#: classes/providers/column/OrderColumnProvider.php:284
+#: classes/repositories/Tab_Repository.php:89
+#: classes/repositories/Tab_Repository.php:550
+#: classes/repositories/Tab_Repository.php:564
+#: classes/repositories/Tab_Repository.php:578
+#: classes/repositories/Tab_Repository.php:591
+#: classes/repositories/Tab_Repository.php:605
+#: classes/repositories/Tab_Repository.php:619
+#: classes/repositories/Tab_Repository.php:704
+#: classes/repositories/Tab_Repository.php:1347
+#: classes/repositories/Tab_Repository.php:1359
+#: classes/repositories/Tab_Repository.php:1371
+#: classes/repositories/Tab_Repository.php:1383
+#: classes/repositories/Tab_Repository.php:1395
+#: classes/repositories/Tab_Repository.php:1407 views/settings/main.php:44
+#: views/settings/main.php:66 views/settings/main.php:121
+msgid "Yes"
+msgstr ""
+
+#: classes/providers/column/OrderColumnProvider.php:348
+msgid "Apply"
+msgstr ""
+
+#: classes/providers/column/OrderColumnProvider.php:353
+msgid "Details"
+msgstr ""
+
+#: classes/providers/column/OrderColumnProvider.php:358
+#: classes/repositories/Column.php:312 classes/repositories/Column.php:745
+#: classes/repositories/Column.php:746
+msgid "All Billing"
+msgstr ""
+
+#: classes/providers/column/OrderColumnProvider.php:363
+#: classes/repositories/Column.php:319 classes/repositories/Column.php:853
+#: classes/repositories/Column.php:854
+msgid "All Shipping"
+msgstr ""
+
+#: classes/providers/column/OrderColumnProvider.php:368
+#: classes/repositories/Column.php:185
+msgid "Order Notes"
+msgstr ""
+
+#: classes/providers/column/OrderColumnProvider.php:373
+msgid "Show Address"
+msgstr ""
+
+#: classes/providers/column/OrderColumnProvider.php:379
+#: classes/repositories/Column.php:207
+#: views/bulk_edit/columns_modals/order_items.php:6
+msgid "Order Items"
+msgstr ""
+
+#: classes/repositories/Column.php:167
+#: classes/repositories/Tab_Repository.php:51
+#: classes/repositories/Tab_Repository.php:659
+#: views/bulk_edit/columns_modals/order_billing.php:84
+msgid "Other"
+msgstr ""
+
+#: classes/repositories/Column.php:171
+#: classes/repositories/Tab_Repository.php:140
+#: classes/repositories/Tab_Repository.php:798 views/history/main.php:42
+msgid "Date"
+msgstr ""
+
+#: classes/repositories/Column.php:178
+#: views/bulk_edit/columns_modals/order_shipping.php:70
+msgid "Customer Note"
+msgstr ""
+
+#: classes/repositories/Column.php:192 classes/repositories/Column.php:581
+#: classes/repositories/Column.php:582
+#: classes/repositories/Tab_Repository.php:160
+#: classes/repositories/Tab_Repository.php:866
+msgid "Status"
+msgstr ""
+
+#: classes/repositories/Column.php:200
+msgid "Modification Date"
+msgstr ""
+
+#: classes/repositories/Column.php:214
+msgid "Order Items No."
+msgstr ""
+
+#: classes/repositories/Column.php:221
+msgid "Coupon Used"
+msgstr ""
+
+#: classes/repositories/Column.php:228
+msgid "Order Stock Reduce"
+msgstr ""
+
+#: classes/repositories/Column.php:235
+#: classes/repositories/Tab_Repository.php:613
+#: classes/repositories/Tab_Repository.php:1400
+msgid "Recorded Sales"
+msgstr ""
+
+#: classes/repositories/Column.php:242
+#: classes/repositories/Tab_Repository.php:852
+msgid "Customer IP Address"
+msgstr ""
+
+#: classes/repositories/Column.php:249
+msgid "Customer User"
+msgstr ""
+
+#: classes/repositories/Column.php:256
+msgid "Customer User Agent"
+msgstr ""
+
+#: classes/repositories/Column.php:263
+#: classes/repositories/Tab_Repository.php:150
+#: classes/repositories/Tab_Repository.php:834
+msgid "Paid Date"
+msgstr ""
+
+#: classes/repositories/Column.php:270
+msgid "Completed Date"
+msgstr ""
+
+#: classes/repositories/Column.php:277
+#: classes/repositories/Tab_Repository.php:500
+#: classes/repositories/Tab_Repository.php:1227
+msgid "Order Total"
+msgstr ""
+
+#: classes/repositories/Column.php:284
+msgid "Order SubTotal"
+msgstr ""
+
+#: classes/repositories/Column.php:291
+#: classes/repositories/Tab_Repository.php:472
+#: classes/repositories/Tab_Repository.php:1187
+msgid "Cart Discount"
+msgstr ""
+
+#: classes/repositories/Column.php:298
+#: classes/repositories/Tab_Repository.php:486
+#: classes/repositories/Tab_Repository.php:1207
+msgid "Cart Discount Tax"
+msgstr ""
+
+#: classes/repositories/Column.php:305
+msgid "Order Details"
+msgstr ""
+
+#: classes/repositories/Column.php:326
+#: classes/repositories/Tab_Repository.php:523
+#: classes/repositories/Tab_Repository.php:1319
+msgid "Create Via"
+msgstr ""
+
+#: classes/repositories/Column.php:331
+#: classes/repositories/Tab_Repository.php:530
+#: classes/repositories/Tab_Repository.php:1326
+msgid "Checkout"
+msgstr ""
+
+#: classes/repositories/Column.php:332
+#: classes/repositories/Tab_Repository.php:531
+#: classes/repositories/Tab_Repository.php:1327
+msgid "Admin"
+msgstr ""
+
+#: classes/repositories/Column.php:337
+#: classes/repositories/Tab_Repository.php:461
+#: classes/repositories/Tab_Repository.php:1177
+msgid "Order Currency"
+msgstr ""
+
+#: classes/repositories/Column.php:345
+#: classes/repositories/Tab_Repository.php:535
+#: classes/repositories/Tab_Repository.php:1331
+#: views/bulk_edit/columns_modals/order_billing.php:76
+msgid "Payment Method"
+msgstr ""
+
+#: classes/repositories/Column.php:353
+msgid "Payment Method Title"
+msgstr ""
+
+#: classes/repositories/Column.php:360
+msgid "Order Version"
+msgstr ""
+
+#: classes/repositories/Column.php:367
+msgid "Prices Include Tax"
+msgstr ""
+
+#: classes/repositories/Column.php:374
+msgid "Order Tax"
+msgstr ""
+
+#: classes/repositories/Column.php:381
+#: classes/repositories/Tab_Repository.php:558
+#: classes/repositories/Tab_Repository.php:1352
+msgid "Order Shipping"
+msgstr ""
+
+#: classes/repositories/Column.php:388
+msgid "Order Shipping Tax"
+msgstr ""
+
+#: classes/repositories/Column.php:395 classes/repositories/Column.php:591
+#: classes/repositories/Column.php:592 classes/repositories/Column.php:636
+#: classes/repositories/Column.php:637
+#: classes/repositories/Tab_Repository.php:178
+#: classes/repositories/Tab_Repository.php:885
+msgid "Billing First Name"
+msgstr ""
+
+#: classes/repositories/Column.php:402 classes/repositories/Column.php:645
+#: classes/repositories/Column.php:646
+#: classes/repositories/Tab_Repository.php:192
+#: classes/repositories/Tab_Repository.php:899
+msgid "Billing Last Name"
+msgstr ""
+
+#: classes/repositories/Column.php:409 classes/repositories/Column.php:700
+#: classes/repositories/Column.php:701
+#: classes/repositories/Tab_Repository.php:206
+#: classes/repositories/Tab_Repository.php:913
+msgid "Billing Address 1"
+msgstr ""
+
+#: classes/repositories/Column.php:416 classes/repositories/Column.php:709
+#: classes/repositories/Column.php:710
+#: classes/repositories/Tab_Repository.php:220
+#: classes/repositories/Tab_Repository.php:927
+msgid "Billing Address 2"
+msgstr ""
+
+#: classes/repositories/Column.php:423 classes/repositories/Column.php:430
+#: classes/repositories/Column.php:672 classes/repositories/Column.php:673
+#: classes/repositories/Tab_Repository.php:234
+#: classes/repositories/Tab_Repository.php:941
+msgid "Billing City"
+msgstr ""
+
+#: classes/repositories/Column.php:437 classes/repositories/Column.php:736
+#: classes/repositories/Column.php:737
+#: classes/repositories/Tab_Repository.php:248
+#: classes/repositories/Tab_Repository.php:955
+msgid "Billing Company"
+msgstr ""
+
+#: classes/repositories/Column.php:444 classes/repositories/Column.php:681
+#: classes/repositories/Column.php:682
+#: classes/repositories/Tab_Repository.php:262
+#: classes/repositories/Tab_Repository.php:969
+msgid "Billing Country"
+msgstr ""
+
+#: classes/repositories/Column.php:452 classes/repositories/Column.php:654
+#: classes/repositories/Column.php:655
+#: classes/repositories/Tab_Repository.php:282
+#: classes/repositories/Tab_Repository.php:994
+msgid "Billing Email"
+msgstr ""
+
+#: classes/repositories/Column.php:459 classes/repositories/Column.php:600
+#: classes/repositories/Column.php:601 classes/repositories/Column.php:663
+#: classes/repositories/Column.php:664
+#: classes/repositories/Tab_Repository.php:296
+#: classes/repositories/Tab_Repository.php:1008
+msgid "Billing Phone"
+msgstr ""
+
+#: classes/repositories/Column.php:466 classes/repositories/Column.php:718
+#: classes/repositories/Column.php:719
+msgid "Billing Address Index"
+msgstr ""
+
+#: classes/repositories/Column.php:473 classes/repositories/Column.php:727
+#: classes/repositories/Column.php:728
+#: classes/repositories/Tab_Repository.php:310
+#: classes/repositories/Tab_Repository.php:1022
+msgid "Billing Postcode"
+msgstr ""
+
+#: classes/repositories/Column.php:480 classes/repositories/Column.php:691
+#: classes/repositories/Column.php:692
+#: classes/repositories/Tab_Repository.php:272
+#: classes/repositories/Tab_Repository.php:979
+msgid "Billing State"
+msgstr ""
+
+#: classes/repositories/Column.php:487 classes/repositories/Column.php:609
+#: classes/repositories/Column.php:610 classes/repositories/Column.php:762
+#: classes/repositories/Column.php:763
+#: classes/repositories/Tab_Repository.php:333
+#: classes/repositories/Tab_Repository.php:1045
+msgid "Shipping First Name"
+msgstr ""
+
+#: classes/repositories/Column.php:494 classes/repositories/Column.php:618
+#: classes/repositories/Column.php:619 classes/repositories/Column.php:771
+#: classes/repositories/Column.php:772
+#: classes/repositories/Tab_Repository.php:347
+#: classes/repositories/Tab_Repository.php:1059
+msgid "Shipping Last Name"
+msgstr ""
+
+#: classes/repositories/Column.php:501 classes/repositories/Column.php:808
+#: classes/repositories/Column.php:809
+#: classes/repositories/Tab_Repository.php:361
+#: classes/repositories/Tab_Repository.php:1073
+msgid "Shipping Address 1"
+msgstr ""
+
+#: classes/repositories/Column.php:508 classes/repositories/Column.php:817
+#: classes/repositories/Column.php:818
+#: classes/repositories/Tab_Repository.php:375
+#: classes/repositories/Tab_Repository.php:1087
+msgid "Shipping Address 2"
+msgstr ""
+
+#: classes/repositories/Column.php:515 classes/repositories/Column.php:780
+#: classes/repositories/Column.php:781
+#: classes/repositories/Tab_Repository.php:389
+#: classes/repositories/Tab_Repository.php:1101
+msgid "Shipping City"
+msgstr ""
+
+#: classes/repositories/Column.php:522 classes/repositories/Column.php:844
+#: classes/repositories/Column.php:845
+#: classes/repositories/Tab_Repository.php:403
+#: classes/repositories/Tab_Repository.php:1115
+msgid "Shipping Company"
+msgstr ""
+
+#: classes/repositories/Column.php:529 classes/repositories/Column.php:789
+#: classes/repositories/Column.php:790
+#: classes/repositories/Tab_Repository.php:417
+#: classes/repositories/Tab_Repository.php:1129
+msgid "Shipping Country"
+msgstr ""
+
+#: classes/repositories/Column.php:537 classes/repositories/Column.php:826
+#: classes/repositories/Column.php:827
+msgid "Shipping Address Index"
+msgstr ""
+
+#: classes/repositories/Column.php:544 classes/repositories/Column.php:835
+#: classes/repositories/Column.php:836
+#: classes/repositories/Tab_Repository.php:438
+#: classes/repositories/Tab_Repository.php:1154
+msgid "Shipping Postcode"
+msgstr ""
+
+#: classes/repositories/Column.php:551 classes/repositories/Column.php:799
+#: classes/repositories/Column.php:800
+#: classes/repositories/Tab_Repository.php:428
+#: classes/repositories/Tab_Repository.php:1139
+msgid "Shipping State"
+msgstr ""
+
+#: classes/repositories/History.php:25
+msgid "Bulk Operation"
+msgstr ""
+
+#: classes/repositories/History.php:26
+msgid "Inline Operation"
+msgstr ""
+
+#: classes/repositories/Meta_Field.php:47
+msgid "TextInput"
+msgstr ""
+
+#: classes/repositories/Meta_Field.php:48
+msgid "TextArea"
+msgstr ""
+
+#: classes/repositories/Meta_Field.php:49
+msgid "Checkbox"
+msgstr ""
+
+#: classes/repositories/Meta_Field.php:50
+msgid "Radio"
+msgstr ""
+
+#: classes/repositories/Meta_Field.php:51
+msgid "Array"
+msgstr ""
+
+#: classes/repositories/Meta_Field.php:52
+msgid "Calendar"
+msgstr ""
+
+#: classes/repositories/Meta_Field.php:53
+#: views/bulk_edit/columns_modals/order_billing.php:42
+#: views/bulk_edit/columns_modals/order_details.php:20
+msgid "Email"
+msgstr ""
+
+#: classes/repositories/Meta_Field.php:54
+msgid "Password"
+msgstr ""
+
+#: classes/repositories/Meta_Field.php:55
+msgid "Url"
+msgstr ""
+
+#: classes/repositories/Meta_Field.php:56
+msgid "Image"
+msgstr ""
+
+#: classes/repositories/Meta_Field.php:57
+msgid "File"
+msgstr ""
+
+#: classes/repositories/Meta_Field.php:58
+msgid "Editor"
+msgstr ""
+
+#: classes/repositories/Meta_Field.php:89
+msgid "String"
+msgstr ""
+
+#: classes/repositories/Meta_Field.php:90
+msgid "Number"
+msgstr ""
+
+#: classes/repositories/Order.php:106 views/column_manager/main.php:22
+#: views/history/main.php:79 views/modals/filter_profiles.php:21
+msgid "Actions"
+msgstr ""
+
+#: classes/repositories/Order.php:288
+msgid "Trash"
+msgstr ""
+
+#: classes/repositories/Search.php:21
+msgid "All Orders"
+msgstr ""
+
+#: classes/repositories/Tab_Repository.php:13
+#: views/bulk_edit/top_navigation.php:5
+msgid "Bulk Edit"
+msgstr ""
+
+#: classes/repositories/Tab_Repository.php:14
+msgid "Column Manager"
+msgstr ""
+
+#: classes/repositories/Tab_Repository.php:15
+msgid "Meta Fields"
+msgstr ""
+
+#: classes/repositories/Tab_Repository.php:16
+msgid "History"
+msgstr ""
+
+#: classes/repositories/Tab_Repository.php:17
+msgid "Import/Export"
+msgstr ""
+
+#: classes/repositories/Tab_Repository.php:18
+msgid "Settings"
+msgstr ""
+
+#: classes/repositories/Tab_Repository.php:37
+#: classes/repositories/Tab_Repository.php:643
+msgid "General"
+msgstr ""
+
+#: classes/repositories/Tab_Repository.php:38
+#: classes/repositories/Tab_Repository.php:644
+#: views/bulk_edit/columns_modals/order_billing.php:14
+msgid "Billing"
+msgstr ""
+
+#: classes/repositories/Tab_Repository.php:39
+#: classes/repositories/Tab_Repository.php:645
+#: views/bulk_edit/columns_modals/order_shipping.php:14
+msgid "Shipping"
+msgstr ""
+
+#: classes/repositories/Tab_Repository.php:40
+#: classes/repositories/Tab_Repository.php:646
+msgid "Pricing"
+msgstr ""
+
+#: classes/repositories/Tab_Repository.php:41
+#: classes/repositories/Tab_Repository.php:648
+msgid "Other Fields"
+msgstr ""
+
+#: classes/repositories/Tab_Repository.php:42
+#: classes/repositories/Tab_Repository.php:649
+msgid "Custom Fields"
+msgstr ""
+
+#: classes/repositories/Tab_Repository.php:90
+#: classes/repositories/Tab_Repository.php:551
+#: classes/repositories/Tab_Repository.php:565
+#: classes/repositories/Tab_Repository.php:579
+#: classes/repositories/Tab_Repository.php:592
+#: classes/repositories/Tab_Repository.php:606
+#: classes/repositories/Tab_Repository.php:620
+#: classes/repositories/Tab_Repository.php:705
+#: classes/repositories/Tab_Repository.php:1348
+#: classes/repositories/Tab_Repository.php:1360
+#: classes/repositories/Tab_Repository.php:1372
+#: classes/repositories/Tab_Repository.php:1384
+#: classes/repositories/Tab_Repository.php:1396
+#: classes/repositories/Tab_Repository.php:1408 views/settings/main.php:47
+#: views/settings/main.php:69 views/settings/main.php:124
+msgid "No"
+msgstr ""
+
+#: classes/repositories/Tab_Repository.php:126
+#: classes/repositories/Tab_Repository.php:768
+msgid ""
+"There is not any added Meta Fields, You can add new Meta Fields trough "
+"\"Meta Fields\" tab."
+msgstr ""
+
+#: classes/repositories/Tab_Repository.php:146
+msgid "Date ..."
+msgstr ""
+
+#: classes/repositories/Tab_Repository.php:156
+msgid "Paid Date ..."
+msgstr ""
+
+#: classes/repositories/Tab_Repository.php:165
+#: classes/repositories/Tab_Repository.php:872
+msgid "Select Status ..."
+msgstr ""
+
+#: classes/repositories/Tab_Repository.php:182
+#: classes/repositories/Tab_Repository.php:196
+#: classes/repositories/Tab_Repository.php:210
+#: classes/repositories/Tab_Repository.php:224
+#: classes/repositories/Tab_Repository.php:337
+#: classes/repositories/Tab_Repository.php:351
+#: classes/repositories/Tab_Repository.php:365
+#: classes/repositories/Tab_Repository.php:379
+#: classes/repositories/Tab_Repository.php:786
+#: classes/repositories/Tab_Repository.php:856
+#: classes/repositories/Tab_Repository.php:889
+#: classes/repositories/Tab_Repository.php:903
+#: classes/repositories/Tab_Repository.php:917
+#: classes/repositories/Tab_Repository.php:931
+#: classes/repositories/Tab_Repository.php:945
+#: classes/repositories/Tab_Repository.php:959
+#: classes/repositories/Tab_Repository.php:998
+#: classes/repositories/Tab_Repository.php:1012
+#: classes/repositories/Tab_Repository.php:1026
+#: classes/repositories/Tab_Repository.php:1049
+#: classes/repositories/Tab_Repository.php:1063
+#: classes/repositories/Tab_Repository.php:1077
+#: classes/repositories/Tab_Repository.php:1091
+#: classes/repositories/Tab_Repository.php:1105
+#: classes/repositories/Tab_Repository.php:1119
+#: classes/repositories/Tab_Repository.php:1158
+#: classes/repositories/Tab_Repository.php:1257
+#: views/modals/numeric_calculator.php:13
+msgid "Select Operator"
+msgstr ""
+
+#: classes/repositories/Tab_Repository.php:188
+#: classes/repositories/Tab_Repository.php:895
+msgid "Billing First Name ..."
+msgstr ""
+
+#: classes/repositories/Tab_Repository.php:202
+#: classes/repositories/Tab_Repository.php:909
+msgid "Billing Last Name ..."
+msgstr ""
+
+#: classes/repositories/Tab_Repository.php:216
+#: classes/repositories/Tab_Repository.php:923
+msgid "Billing Address 1 ..."
+msgstr ""
+
+#: classes/repositories/Tab_Repository.php:230
+#: classes/repositories/Tab_Repository.php:937
+msgid "Billing Address 2 ..."
+msgstr ""
+
+#: classes/repositories/Tab_Repository.php:241
+#: classes/repositories/Tab_Repository.php:951
+msgid "Billing City ..."
+msgstr ""
+
+#: classes/repositories/Tab_Repository.php:243
+#: classes/repositories/Tab_Repository.php:257
+#: classes/repositories/Tab_Repository.php:267
+#: classes/repositories/Tab_Repository.php:277
+#: classes/repositories/Tab_Repository.php:291
+#: classes/repositories/Tab_Repository.php:305
+#: classes/repositories/Tab_Repository.php:319
+#: classes/repositories/Tab_Repository.php:398
+#: classes/repositories/Tab_Repository.php:412
+#: classes/repositories/Tab_Repository.php:423
+#: classes/repositories/Tab_Repository.php:433
+#: classes/repositories/Tab_Repository.php:447
+#: classes/repositories/Tab_Repository.php:467
+#: classes/repositories/Tab_Repository.php:481
+#: classes/repositories/Tab_Repository.php:495
+#: classes/repositories/Tab_Repository.php:509
+#: classes/repositories/Tab_Repository.php:553
+#: classes/repositories/Tab_Repository.php:567
+#: classes/repositories/Tab_Repository.php:581
+#: classes/repositories/Tab_Repository.php:594
+#: classes/repositories/Tab_Repository.php:608
+#: classes/repositories/Tab_Repository.php:622
+#: classes/repositories/Tab_Repository.php:1182
+#: classes/repositories/Tab_Repository.php:1202
+#: classes/repositories/Tab_Repository.php:1222
+#: classes/repositories/Tab_Repository.php:1277
+#: classes/repositories/Tab_Repository.php:1291
+#: classes/repositories/Tab_Repository.php:1305
+msgid "Upgrade to pro version"
+msgstr ""
+
+#: classes/repositories/Tab_Repository.php:255
+#: classes/repositories/Tab_Repository.php:965
+msgid "Billing Company ..."
+msgstr ""
+
+#: classes/repositories/Tab_Repository.php:289
+#: classes/repositories/Tab_Repository.php:1004
+msgid "Billing Email ..."
+msgstr ""
+
+#: classes/repositories/Tab_Repository.php:303
+#: classes/repositories/Tab_Repository.php:1018
+msgid "Billing Phone ..."
+msgstr ""
+
+#: classes/repositories/Tab_Repository.php:317
+#: classes/repositories/Tab_Repository.php:1032
+msgid "Billing Postcode ..."
+msgstr ""
+
+#: classes/repositories/Tab_Repository.php:343
+#: classes/repositories/Tab_Repository.php:1055
+msgid "Shipping First Name ..."
+msgstr ""
+
+#: classes/repositories/Tab_Repository.php:357
+#: classes/repositories/Tab_Repository.php:1069
+msgid "Shipping Last Name ..."
+msgstr ""
+
+#: classes/repositories/Tab_Repository.php:371
+#: classes/repositories/Tab_Repository.php:1083
+msgid "Shipping Address 1 ..."
+msgstr ""
+
+#: classes/repositories/Tab_Repository.php:385
+#: classes/repositories/Tab_Repository.php:1097
+msgid "Shipping Address 2 ..."
+msgstr ""
+
+#: classes/repositories/Tab_Repository.php:396
+#: classes/repositories/Tab_Repository.php:1111
+msgid "Shipping City ..."
+msgstr ""
+
+#: classes/repositories/Tab_Repository.php:410
+#: classes/repositories/Tab_Repository.php:1125
+msgid "Shipping Company ..."
+msgstr ""
+
+#: classes/repositories/Tab_Repository.php:421
+#: classes/repositories/Tab_Repository.php:1135
+msgid "Shipping Country ..."
+msgstr ""
+
+#: classes/repositories/Tab_Repository.php:445
+#: classes/repositories/Tab_Repository.php:1164
+msgid "Shipping Postcode ..."
+msgstr ""
+
+#: classes/repositories/Tab_Repository.php:465
+msgid "Order Currency ..."
+msgstr ""
+
+#: classes/repositories/Tab_Repository.php:479
+msgid "Cart Discount ..."
+msgstr ""
+
+#: classes/repositories/Tab_Repository.php:493
+msgid "Cart Discount Tax ..."
+msgstr ""
+
+#: classes/repositories/Tab_Repository.php:507
+msgid "Order Total ..."
+msgstr ""
+
+#: classes/repositories/Tab_Repository.php:528
+#: classes/repositories/Tab_Repository.php:1324
+msgid "Create Via ..."
+msgstr ""
+
+#: classes/repositories/Tab_Repository.php:540
+#: classes/repositories/Tab_Repository.php:1336
+msgid "Payment Method ..."
+msgstr ""
+
+#: classes/repositories/Tab_Repository.php:544
+#: classes/repositories/Tab_Repository.php:1340
+msgid "Shipping Tax"
+msgstr ""
+
+#: classes/repositories/Tab_Repository.php:548
+#: classes/repositories/Tab_Repository.php:1345
+msgid "Shipping Tax ..."
+msgstr ""
+
+#: classes/repositories/Tab_Repository.php:562
+#: classes/repositories/Tab_Repository.php:1357
+msgid "Order Shipping ..."
+msgstr ""
+
+#: classes/repositories/Tab_Repository.php:572
+#: classes/repositories/Tab_Repository.php:1364
+msgid "Coupon Usage Counts"
+msgstr ""
+
+#: classes/repositories/Tab_Repository.php:576
+#: classes/repositories/Tab_Repository.php:1369
+msgid "Recorder Coupon Usage Counts ..."
+msgstr ""
+
+#: classes/repositories/Tab_Repository.php:586
+#: classes/repositories/Tab_Repository.php:1376
+msgid "Order Stock Reduced"
+msgstr ""
+
+#: classes/repositories/Tab_Repository.php:599
+#: classes/repositories/Tab_Repository.php:1388
+msgid "Prices Index Tax"
+msgstr ""
+
+#: classes/repositories/Tab_Repository.php:603
+#: classes/repositories/Tab_Repository.php:1393
+msgid "Prices Index Tax ..."
+msgstr ""
+
+#: classes/repositories/Tab_Repository.php:617
+#: classes/repositories/Tab_Repository.php:1405
+msgid "Recorded Sales ..."
+msgstr ""
+
+#: classes/repositories/Tab_Repository.php:647
+msgid "Items"
+msgstr ""
+
+#: classes/repositories/Tab_Repository.php:782
+msgid "Order ID(s)"
+msgstr ""
+
+#: classes/repositories/Tab_Repository.php:794
+msgid "for example: 1,2,3 or 1-10 or 1,2,3|10-20"
+msgstr ""
+
+#: classes/repositories/Tab_Repository.php:805
+msgid "Date From ..."
+msgstr ""
+
+#: classes/repositories/Tab_Repository.php:812
+msgid "Date To ..."
+msgstr ""
+
+#: classes/repositories/Tab_Repository.php:816
+msgid "Modified Date"
+msgstr ""
+
+#: classes/repositories/Tab_Repository.php:823
+msgid "Modified Date From ..."
+msgstr ""
+
+#: classes/repositories/Tab_Repository.php:830
+msgid "Modified Date To ..."
+msgstr ""
+
+#: classes/repositories/Tab_Repository.php:841
+msgid "Paid Date From ..."
+msgstr ""
+
+#: classes/repositories/Tab_Repository.php:848
+msgid "Paid Date To ..."
+msgstr ""
+
+#: classes/repositories/Tab_Repository.php:862
+msgid "Customer IP Address ..."
+msgstr ""
+
+#: classes/repositories/Tab_Repository.php:975
+msgid "Billing Country ..."
+msgstr ""
+
+#: classes/repositories/Tab_Repository.php:984
+#: classes/repositories/Tab_Repository.php:990
+msgid "Billing State ..."
+msgstr ""
+
+#: classes/repositories/Tab_Repository.php:989
+#: classes/repositories/Tab_Repository.php:1149
+msgid "State ..."
+msgstr ""
+
+#: classes/repositories/Tab_Repository.php:1144
+#: classes/repositories/Tab_Repository.php:1150
+msgid "Shipping State ..."
+msgstr ""
+
+#: classes/repositories/Tab_Repository.php:1193
+msgid "Cart Discount From ..."
+msgstr ""
+
+#: classes/repositories/Tab_Repository.php:1200
+msgid "Cart Discount To ..."
+msgstr ""
+
+#: classes/repositories/Tab_Repository.php:1213
+msgid "Cart Discount Tax From ..."
+msgstr ""
+
+#: classes/repositories/Tab_Repository.php:1220
+msgid "Cart Discount Tax To ..."
+msgstr ""
+
+#: classes/repositories/Tab_Repository.php:1233
+msgid "Order Total From ..."
+msgstr ""
+
+#: classes/repositories/Tab_Repository.php:1240
+msgid "Order Total To ..."
+msgstr ""
+
+#: classes/repositories/Tab_Repository.php:1253
+msgid "Products"
+msgstr ""
+
+#: classes/repositories/Tab_Repository.php:1264
+msgid "Select Product"
+msgstr ""
+
+#: classes/repositories/Tab_Repository.php:1268
+msgid "Categories"
+msgstr ""
+
+#: classes/repositories/Tab_Repository.php:1275
+msgid "Select Category"
+msgstr ""
+
+#: classes/repositories/Tab_Repository.php:1282
+msgid "Tags"
+msgstr ""
+
+#: classes/repositories/Tab_Repository.php:1289
+msgid "Select Tag"
+msgstr ""
+
+#: classes/repositories/Tab_Repository.php:1296
+msgid "Taxonomies"
+msgstr ""
+
+#: classes/repositories/Tab_Repository.php:1303
+msgid "Select Taxonomy"
+msgstr ""
+
+#: classes/repositories/Tab_Repository.php:1381
+msgid "Order Stock Reduced ..."
+msgstr ""
+
+#: classes/services/order/Duplicate_Order_Service.php:55
+msgid "Duplicated Order"
+msgstr ""
+
+#: views/alerts/wobef_woocommerce_required.php:5
+msgid ""
+"\"iThemeland WooCommerce Bulk Orders Editing\" Plugin needs \"WooCommerce\" "
+"Plugin, Please Install/Activate that."
+msgstr ""
+
+#: views/bulk_edit/bulk_edit_form.php:6
+msgid "Bulk Edit Form"
+msgstr ""
+
+#: views/bulk_edit/bulk_edit_form.php:58
+msgid "Do Bulk Edit"
+msgstr ""
+
+#: views/bulk_edit/bulk_edit_form.php:61
+msgid "Reset Form"
+msgstr ""
+
+#: views/bulk_edit/columns_modals/customer_details.php:34
+#: views/bulk_edit/columns_modals/order_address.php:24
+#: views/bulk_edit/columns_modals/order_billing.php:99
+#: views/bulk_edit/columns_modals/order_details.php:61
+#: views/bulk_edit/columns_modals/order_items.php:32
+#: views/bulk_edit/columns_modals/order_notes.php:30
+#: views/bulk_edit/columns_modals/order_shipping.php:81
+msgid "Close"
+msgstr ""
+
+#: views/bulk_edit/columns_modals/order_address.php:6
+msgid "Order Address"
+msgstr ""
+
+#: views/bulk_edit/columns_modals/order_address.php:15
+msgid "Address ..."
+msgstr ""
+
+#: views/bulk_edit/columns_modals/order_address.php:21
+msgid "Save"
+msgstr ""
+
+#: views/bulk_edit/columns_modals/order_billing.php:6
+#: views/bulk_edit/columns_modals/order_details.php:6
+#: views/bulk_edit/columns_modals/order_notes.php:6
+#: views/bulk_edit/columns_modals/order_shipping.php:6
+msgid "Order"
+msgstr ""
+
+#: views/bulk_edit/columns_modals/order_billing.php:15
+msgid "Load billing address"
+msgstr ""
+
+#: views/bulk_edit/columns_modals/order_billing.php:19
+#: views/bulk_edit/columns_modals/order_shipping.php:21
+msgid "First Name"
+msgstr ""
+
+#: views/bulk_edit/columns_modals/order_billing.php:23
+#: views/bulk_edit/columns_modals/order_shipping.php:25
+msgid "Address 1"
+msgstr ""
+
+#: views/bulk_edit/columns_modals/order_billing.php:27
+#: views/bulk_edit/columns_modals/order_shipping.php:29
+msgid "City"
+msgstr ""
+
+#: views/bulk_edit/columns_modals/order_billing.php:31
+#: views/bulk_edit/columns_modals/order_shipping.php:33
+msgid "Country"
+msgstr ""
+
+#: views/bulk_edit/columns_modals/order_billing.php:48
+#: views/bulk_edit/columns_modals/order_shipping.php:46
+msgid "Last Name"
+msgstr ""
+
+#: views/bulk_edit/columns_modals/order_billing.php:52
+#: views/bulk_edit/columns_modals/order_shipping.php:50
+msgid "Address 2"
+msgstr ""
+
+#: views/bulk_edit/columns_modals/order_billing.php:56
+#: views/bulk_edit/columns_modals/order_shipping.php:54
+msgid "State"
+msgstr ""
+
+#: views/bulk_edit/columns_modals/order_billing.php:62
+#: views/bulk_edit/columns_modals/order_shipping.php:60
+msgid "Postcode"
+msgstr ""
+
+#: views/bulk_edit/columns_modals/order_billing.php:66
+#: views/bulk_edit/columns_modals/order_details.php:24
+msgid "Phone"
+msgstr ""
+
+#: views/bulk_edit/columns_modals/order_billing.php:72
+#: views/bulk_edit/columns_modals/order_shipping.php:66
+msgid "Company"
+msgstr ""
+
+#: views/bulk_edit/columns_modals/order_billing.php:88
+msgid "Transaction ID"
+msgstr ""
+
+#: views/bulk_edit/columns_modals/order_billing.php:96
+#: views/bulk_edit/columns_modals/order_shipping.php:78
+#: views/settings/main.php:134
+msgid "Save Changes"
+msgstr ""
+
+#: views/bulk_edit/columns_modals/order_details.php:15
+msgid "Billing Details"
+msgstr ""
+
+#: views/bulk_edit/columns_modals/order_details.php:28
+msgid "Payment Via"
+msgstr ""
+
+#: views/bulk_edit/columns_modals/order_details.php:33
+msgid "Shipping Details"
+msgstr ""
+
+#: views/bulk_edit/columns_modals/order_details.php:38
+msgid "Shipping Method"
+msgstr ""
+
+#: views/bulk_edit/columns_modals/order_details.php:46
+#: views/bulk_edit/columns_modals/order_items.php:18
+msgid "Product"
+msgstr ""
+
+#: views/bulk_edit/columns_modals/order_details.php:47
+#: views/bulk_edit/columns_modals/order_items.php:19
+msgid "Quantity"
+msgstr ""
+
+#: views/bulk_edit/columns_modals/order_details.php:48
+msgid "Tax"
+msgstr ""
+
+#: views/bulk_edit/columns_modals/order_details.php:49
+msgid "Total"
+msgstr ""
+
+#: views/bulk_edit/columns_modals/order_notes.php:14
+msgid "Notes"
+msgstr ""
+
+#: views/bulk_edit/columns_modals/order_notes.php:17
+msgid "New Note"
+msgstr ""
+
+#: views/bulk_edit/columns_modals/order_notes.php:18
+msgid "Note"
+msgstr ""
+
+#: views/bulk_edit/columns_modals/order_notes.php:20
+msgid "Private note"
+msgstr ""
+
+#: views/bulk_edit/columns_modals/order_notes.php:21
+msgid "Note to customer"
+msgstr ""
+
+#: views/bulk_edit/columns_modals/order_notes.php:23
+msgid "Add Note"
+msgstr ""
+
+#: views/bulk_edit/columns_modals/order_notes_items.php:10
+msgid "delete note"
+msgstr ""
+
+#: views/bulk_edit/columns_modals/order_shipping.php:15
+msgid "Load shipping address"
+msgstr ""
+
+#: views/bulk_edit/columns_modals/order_shipping.php:17
+msgid "Copy billing address"
+msgstr ""
+
+#: views/bulk_edit/filter_form.php:44
+msgid "Get orders"
+msgstr ""
+
+#: views/bulk_edit/filter_form.php:47 views/history/main.php:55
+msgid "Reset Filters"
+msgstr ""
+
+#: views/bulk_edit/filter_form.php:53
+msgid "Save Profile"
+msgstr ""
+
+#: views/bulk_edit/filter_form.php:63
+msgid "Filter Form"
+msgstr ""
+
+#: views/bulk_edit/status_filters.php:3
+msgid "All"
+msgstr ""
+
+#: views/bulk_edit/top_navigation.php:11
+msgid "Column Profile"
+msgstr ""
+
+#: views/bulk_edit/top_navigation.php:14 views/modals/filter_profiles.php:6
+msgid "Filter Profiles"
+msgstr ""
+
+#: views/bulk_edit/top_navigation.php:18
+msgid "Reset Filter"
+msgstr ""
+
+#: views/bulk_edit/top_navigation.php:24
+msgid "Undo"
+msgstr ""
+
+#: views/bulk_edit/top_navigation.php:27
+msgid "Redo"
+msgstr ""
+
+#: views/bulk_edit/top_navigation.php:29
+msgid "New Order"
+msgstr ""
+
+#: views/bulk_edit/top_navigation.php:34
+msgid "Unselect"
+msgstr ""
+
+#: views/bulk_edit/top_navigation.php:35 views/modals/duplicate_item.php:6
+msgid "Duplicate"
+msgstr ""
+
+#: views/bulk_edit/top_navigation.php:45
+msgid "Move to trash"
+msgstr ""
+
+#: views/bulk_edit/top_navigation.php:48
+msgid "Permanently"
+msgstr ""
+
+#: views/bulk_edit/top_navigation.php:58
+msgid "Change Order Status"
+msgstr ""
+
+#: views/bulk_edit/top_navigation.php:59
+msgid "Change Status"
+msgstr ""
+
+#: views/bulk_edit/top_navigation.php:69
+msgid "Bind Edit"
+msgstr ""
+
+#: views/bulk_edit/top_navigation.php:89
+msgid "Quick Search ..."
+msgstr ""
+
+#: views/bulk_edit/top_navigation.php:92 views/data_table/items.php:19
+#: views/settings/main.php:25
+msgid "ID"
+msgstr ""
+
+#: views/column_manager/main.php:4
+msgid ""
+"Mange columns of table. You can Create your customize presets and use them "
+"in column profile section."
+msgstr ""
+
+#: views/column_manager/main.php:14 views/modals/column_profiles.php:6
+msgid "Column Profiles"
+msgstr ""
+
+#: views/column_manager/main.php:20 views/modals/filter_profiles.php:18
+msgid "Profile Name"
+msgstr ""
+
+#: views/column_manager/main.php:21 views/history/main.php:78
+#: views/modals/filter_profiles.php:19
+msgid "Date Modified"
+msgstr ""
+
+#: views/column_manager/main.php:39
+msgid "Edit"
+msgstr ""
+
+#: views/column_manager/main.php:58
+msgid "Create New Profile"
+msgstr ""
+
+#: views/column_manager/main.php:60
+msgid "Search Field"
+msgstr ""
+
+#: views/column_manager/main.php:60
+msgid "Search Field ..."
+msgstr ""
+
+#: views/column_manager/main.php:64 views/data_table/items.php:18
+#: views/modals/column_profiles.php:32
+msgid "Select All"
+msgstr ""
+
+#: views/column_manager/main.php:94
+msgid "Save Preset"
+msgstr ""
+
+#: views/column_manager/main.php:98
+msgid "Please add your columns here"
+msgstr ""
+
+#: views/data_table/items.php:76 views/layouts/header.php:3
+msgid "Loading ..."
+msgstr ""
+
+#: views/data_table/items.php:85
+msgid "No Data Available!"
+msgstr ""
+
+#: views/history/history_items.php:41
+msgid "Revert"
+msgstr ""
+
+#: views/history/main.php:4
+msgid "List of your changes and possible to roll back to the previous data"
+msgstr ""
+
+#: views/history/main.php:16
+msgid "Operation"
+msgstr ""
+
+#: views/history/main.php:27 views/history/main.php:77
+msgid "Author"
+msgstr ""
+
+#: views/history/main.php:38 views/import_export/main.php:26
+msgid "Fields"
+msgstr ""
+
+#: views/history/main.php:43
+msgid "From ..."
+msgstr ""
+
+#: views/history/main.php:44
+msgid "To ..."
+msgstr ""
+
+#: views/history/main.php:51
+msgid "Apply Filters"
+msgstr ""
+
+#: views/history/main.php:63
+msgid "Clear History"
+msgstr ""
+
+#: views/history/main.php:70
+msgid "Column(s)"
+msgstr ""
+
+#: views/history/main.php:76
+msgid "History Name"
+msgstr ""
+
+#: views/import_export/main.php:4
+msgid "Import/Export orders as CSV files"
+msgstr ""
+
+#: views/import_export/main.php:15
+msgid "Orders"
+msgstr ""
+
+#: views/import_export/main.php:18
+msgid "All Orders In Table"
+msgstr ""
+
+#: views/import_export/main.php:22
+msgid "Only Selected orders"
+msgstr ""
+
+#: views/import_export/main.php:29
+msgid "All Fields"
+msgstr ""
+
+#: views/import_export/main.php:33
+msgid "Only Visible Fields"
+msgstr ""
+
+#: views/import_export/main.php:37
+msgid "Delimiter"
+msgstr ""
+
+#: views/import_export/main.php:47
+msgid "Export Now"
+msgstr ""
+
+#: views/import_export/main.php:57
+msgid ""
+"If you have orders in another system, you can import those into this site. "
+msgstr ""
+
+#: views/import_export/main.php:64
+msgid "Import Now"
+msgstr ""
+
+#: views/layouts/header.php:12
+msgid "Be professionals with managing data in the reliable and flexible way!"
+msgstr ""
+
+#: views/layouts/header.php:17
+msgid "Need Help"
+msgstr ""
+
+#: views/meta_field/main.php:4
+msgid ""
+"You can add new orders meta fields in two ways: 1- Individually 2- Get from "
+"other order."
+msgstr ""
+
+#: views/meta_field/main.php:11
+msgid "Manually"
+msgstr ""
+
+#: views/meta_field/main.php:13
+msgid "Enter Meta Key ..."
+msgstr ""
+
+#: views/meta_field/main.php:20
+msgid "Automatically From Order"
+msgstr ""
+
+#: views/meta_field/main.php:22
+msgid "Enter Order ID ..."
+msgstr ""
+
+#: views/meta_field/main.php:32
+msgid "Please add your meta key manually"
+msgstr ""
+
+#: views/meta_field/main.php:32
+msgid "OR"
+msgstr ""
+
+#: views/meta_field/main.php:32
+msgid "From another order"
+msgstr ""
+
+#: views/meta_field/main.php:45
+msgid "Save Fields"
+msgstr ""
+
+#: views/meta_field/meta_field_item.php:4
+msgid "Enter field title ..."
+msgstr ""
+
+#: views/meta_field/meta_field_item.php:11
+#: views/meta_field/meta_field_item.php:20
+msgid "Select Type"
+msgstr ""
+
+#: views/meta_field/meta_field_item.php:30
+msgid "Drag"
+msgstr ""
+
+#: views/modals/column_profiles.php:16
+msgid ""
+"You can load saved column profile presets through Column Manager. You can "
+"change the columns and save your changes too."
+msgstr ""
+
+#: views/modals/column_profiles.php:19
+msgid "Choose Preset"
+msgstr ""
+
+#: views/modals/column_profiles.php:73
+msgid "Apply To Table"
+msgstr ""
+
+#: views/modals/column_profiles.php:76
+msgid "Search"
+msgstr ""
+
+#: views/modals/column_profiles.php:77
+msgid "Search Column ..."
+msgstr ""
+
+#: views/modals/duplicate_item.php:15
+msgid "Enter how many item(s) to Duplicate!"
+msgstr ""
+
+#: views/modals/duplicate_item.php:17 views/modals/new_item.php:15
+msgid "Number ..."
+msgstr ""
+
+#: views/modals/duplicate_item.php:23
+msgid "Start Duplicate"
+msgstr ""
+
+#: views/modals/filter_profile_item.php:8
+msgid "Use it constantly"
+msgstr ""
+
+#: views/modals/filter_profiles.php:20
+msgid "Use Always"
+msgstr ""
+
+#: views/modals/new_item.php:30
+msgid "Create"
+msgstr ""
+
+#: views/modals/numeric_calculator.php:6
+msgid "Calculator"
+msgstr ""
+
+#: views/modals/numeric_calculator.php:16
+msgid "replace"
+msgstr ""
+
+#: views/modals/numeric_calculator.php:18
+msgid "Enter Value ..."
+msgstr ""
+
+#: views/modals/numeric_calculator.php:18
+msgid "Value"
+msgstr ""
+
+#: views/modals/numeric_calculator.php:23 views/modals/text_editor.php:18
+msgid "Apply Changes"
+msgstr ""
+
+#: views/modals/text_editor.php:6
+msgid "Content Edit"
+msgstr ""
+
+#: views/settings/main.php:6
+msgid "You can set bulk editor settings"
+msgstr ""
+
+#: views/settings/main.php:12
+msgid "Count Per Page"
+msgstr ""
+
+#: views/settings/main.php:22
+msgid "Default Sort By"
+msgstr ""
+
+#: views/settings/main.php:30
+msgid "Default Sort"
+msgstr ""
+
+#: views/settings/main.php:33
+msgid "ASC"
+msgstr ""
+
+#: views/settings/main.php:36
+msgid "DESC"
+msgstr ""
+
+#: views/settings/main.php:41
+msgid "Show Quick Search"
+msgstr ""
+
+#: views/settings/main.php:52
+msgid "Search Form Mode"
+msgstr ""
+
+#: views/settings/main.php:55
+msgid "Don't Push Down the Content"
+msgstr ""
+
+#: views/settings/main.php:58
+msgid "Push Down the Content"
+msgstr ""
+
+#: views/settings/main.php:63
+msgid "Sticky 'ID' Column"
+msgstr ""
+
+#: views/settings/main.php:74
+msgid "Display Columns Label"
+msgstr ""
+
+#: views/settings/main.php:77
+msgid "Completely"
+msgstr ""
+
+#: views/settings/main.php:80
+msgid "In short"
+msgstr ""
+
+#: views/settings/main.php:85
+msgid "Customer Details Column"
+msgstr ""
+
+#: views/settings/main.php:88 views/settings/main.php:99
+#: views/settings/main.php:110
+msgid "Show as popup"
+msgstr ""
+
+#: views/settings/main.php:91 views/settings/main.php:102
+#: views/settings/main.php:113
+msgid "Show as text"
+msgstr ""
+
+#: views/settings/main.php:96
+msgid "Order Items Column"
+msgstr ""
+
+#: views/settings/main.php:107
+msgid "Billing/Shipping Address"
+msgstr ""
+
+#: views/settings/main.php:118
+msgid "Colorize 'Status' Column"
+msgstr ""
+
+#. Plugin Name of the plugin/theme
+msgid "iThemeland WooCommerce Bulk Orders Editing Lite"
+msgstr ""
+
+#. Plugin URI of the plugin/theme
+msgid "https://ithemelandco.com/plugins/wordpress-bulk-orders-editing"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid ""
+"Editing Date in WordPress is very painful. Be professionals with managing "
+"data in the reliable and flexible way by WooCommerce Bulk Order Editor."
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "iThemelandco"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "https://www.ithemelandco.com"
+msgstr ""

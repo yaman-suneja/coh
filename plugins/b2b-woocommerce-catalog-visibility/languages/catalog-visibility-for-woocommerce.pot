@@ -1,0 +1,418 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR Codup
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-05-28 16:25+0500\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: contact_us/class-cwccv-contact-us.php:46
+msgid "Get Support"
+msgstr ""
+
+#: contact_us/class-cwccv-contact-us.php:48
+#, php-format
+msgid "Having trouble in configuration? %s"
+msgstr ""
+
+#: contact_us/class-cwccv-contact-us.php:75
+msgid " Contact us"
+msgstr ""
+
+#: contact_us/class-cwccv-contact-us.php:78
+#, php-format
+msgid "Having trouble in configuration? %s for support"
+msgstr ""
+
+#: contact_us/class-cwccv-contact-us.php:82
+#, php-format
+msgid "Or email your query at %s "
+msgstr ""
+
+#: includes/catalog-visibility-dependencies.php:59
+#, php-format
+msgid ""
+"The %3$sWooCommerce plugin%4$s must be active for %1$s Catalog Visibility "
+"for WooCommerce %2$s to work. Please %5$sinstall & activate WooCommerce "
+"&raquo;%6$s"
+msgstr ""
+
+#: includes/catalog-visibility-dependencies.php:76
+msgid "Settings"
+msgstr ""
+
+#: includes/classes/class-cwccv-catalog-visibility.php:152
+#: includes/classes/class-cwccv-catalog-visibility.php:158
+#: includes/classes/class-cwccv-catalog-visibility.php:192
+#: includes/classes/class-cwccv-catalog-visibility.php:199
+msgid "Sign In To View"
+msgstr ""
+
+#: includes/classes/class-cwccv-loader.php:61
+msgid "Please Select to either Hide Or Show."
+msgstr ""
+
+#: includes/classes/class-cwccv-loader.php:62
+msgid "Please either select Category or Product to Hide/Show."
+msgstr ""
+
+#: includes/classes/class-cwccv-loader.php:63
+msgid "Please Enter To Price Value."
+msgstr ""
+
+#: includes/classes/admin/class-cwccv-settings-tab.php:57
+msgid "Catalog Visibility"
+msgstr ""
+
+#: includes/classes/admin/class-cwccv-settings-tab.php:73
+#: templates/cwccv-custom-visibility-settings.php:21
+msgid "Visibility Settings"
+msgstr ""
+
+#: includes/classes/admin/class-cwccv-settings-tab.php:74
+msgid "Roles"
+msgstr ""
+
+#: includes/classes/admin/class-cwccv-settings-tab.php:75
+msgid "Groups"
+msgstr ""
+
+#: includes/classes/admin/class-cwccv-settings-tab.php:76
+msgid "API Settings"
+msgstr ""
+
+#: includes/classes/admin/class-cwccv-settings-tab.php:499
+msgid "Enter Role Name"
+msgstr ""
+
+#: includes/classes/admin/class-cwccv-settings-tab.php:522
+msgid "Enter Group Name"
+msgstr ""
+
+#: includes/classes/admin/class-cwccv-settings-tab.php:545
+msgid "Enter Token"
+msgstr ""
+
+#: includes/classes/admin/class-cwccv-settings-tab.php:618
+#: templates/cwccv-custom-visibility-settings.php:41
+msgid ""
+"Turning on the toggle will let you create visibility rule by selecting "
+"individual customers and defining which products/categories to show/hide to "
+"them."
+msgstr ""
+
+#: includes/classes/admin/class-cwccv-settings-tab.php:637
+#: includes/classes/admin/class-cwccv-settings-tab.php:675
+#: includes/classes/admin/class-cwccv-settings-tab.php:724
+#: includes/classes/admin/class-cwccv-settings-tab.php:773
+#: includes/classes/admin/class-cwccv-settings-tab.php:826
+msgid ""
+"Select Priority from 1-5. In case of conflicting conditions, the rule with "
+"higher priority will be executed."
+msgstr ""
+
+#: includes/classes/admin/class-cwccv-settings-tab.php:643
+#: templates/cwccv-custom-visibility-settings.php:50
+msgid "Search Customers"
+msgstr ""
+
+#: includes/classes/admin/class-cwccv-settings-tab.php:650
+#: templates/cwccv-custom-visibility-settings.php:60
+#: templates/cwccv-custom-visibility-settings.php:222
+#: templates/cwccv-custom-visibility-settings.php:381
+#: templates/cwccv-custom-visibility-settings.php:541
+#: templates/cwccv-custom-visibility-settings.php:722
+#: templates/cwccv-custom-visibility-settings.php:873
+#: templates/cwccv-custom-visibility-settings.php:926
+msgid "Search Categories"
+msgstr ""
+
+#: includes/classes/admin/class-cwccv-settings-tab.php:657
+#: templates/cwccv-custom-visibility-settings.php:65
+#: templates/cwccv-custom-visibility-settings.php:227
+#: templates/cwccv-custom-visibility-settings.php:386
+#: templates/cwccv-custom-visibility-settings.php:546
+#: templates/cwccv-custom-visibility-settings.php:727
+#: templates/cwccv-custom-visibility-settings.php:878
+#: templates/cwccv-custom-visibility-settings.php:931
+msgid "Search Products"
+msgstr ""
+
+#: includes/classes/ajax/class-cwccv-admin-settings.php:58
+msgid "Role cannot be an empty value."
+msgstr ""
+
+#: includes/classes/ajax/class-cwccv-admin-settings.php:64
+msgid "Role already exists."
+msgstr ""
+
+#: includes/classes/ajax/class-cwccv-admin-settings.php:84
+msgid "Role has been updated."
+msgstr ""
+
+#: includes/classes/ajax/class-cwccv-admin-settings.php:116
+msgid "Role has been deleted."
+msgstr ""
+
+#: includes/classes/ajax/class-cwccv-admin-settings.php:138
+msgid "Group cannot be an empty value."
+msgstr ""
+
+#: includes/classes/ajax/class-cwccv-admin-settings.php:144
+msgid "Group already exist."
+msgstr ""
+
+#: includes/classes/ajax/class-cwccv-admin-settings.php:153
+msgid "Group has been updated."
+msgstr ""
+
+#: includes/classes/ajax/class-cwccv-admin-settings.php:175
+msgid "Group has been deleted."
+msgstr ""
+
+#: templates/cwccv-admin-settings-user-settings.php:16
+msgid "Catalog Visibility User Groups"
+msgstr ""
+
+#: templates/cwccv-custom-group-settings.php:24
+#: templates/cwccv-custom-visibility-settings.php:356
+#: templates/cwccv-custom-visibility-settings.php:371
+msgid "User Groups"
+msgstr ""
+
+#: templates/cwccv-custom-group-settings.php:34
+#: templates/cwccv-custom-role-settings.php:34
+msgid "Edit"
+msgstr ""
+
+#: templates/cwccv-custom-group-settings.php:35
+#: templates/cwccv-custom-role-settings.php:35
+msgid "Save"
+msgstr ""
+
+#: templates/cwccv-custom-group-settings.php:36
+#: templates/cwccv-custom-role-settings.php:36
+msgid "Cancel"
+msgstr ""
+
+#: templates/cwccv-custom-group-settings.php:37
+#: templates/cwccv-custom-role-settings.php:37
+msgid "Delete"
+msgstr ""
+
+#: templates/cwccv-custom-group-settings.php:49
+msgid "Add Group"
+msgstr ""
+
+#: templates/cwccv-custom-location-api-settings.php:23
+msgid "Location API Token"
+msgstr ""
+
+#: templates/cwccv-custom-location-api-settings.php:27
+msgid ""
+"Adding the token here will grant you \"50000\" requests per month for the "
+"geo location feature.To get this token "
+msgstr ""
+
+#: templates/cwccv-custom-location-api-settings.php:28
+msgid "Signup here"
+msgstr ""
+
+#: templates/cwccv-custom-location-api-settings.php:29
+msgid " for free."
+msgstr ""
+
+#: templates/cwccv-custom-location-api-settings.php:37
+msgid "Add Token"
+msgstr ""
+
+#: templates/cwccv-custom-role-settings.php:17
+msgid "Role already exist"
+msgstr ""
+
+#: templates/cwccv-custom-role-settings.php:24
+#: templates/cwccv-custom-visibility-settings.php:194
+#: templates/cwccv-custom-visibility-settings.php:212
+msgid "User Roles"
+msgstr ""
+
+#: templates/cwccv-custom-role-settings.php:49
+msgid "Add Role"
+msgstr ""
+
+#: templates/cwccv-custom-visibility-settings.php:33
+msgid "Individual Customer"
+msgstr ""
+
+#: templates/cwccv-custom-visibility-settings.php:50
+msgid "Customer Name"
+msgstr ""
+
+#: templates/cwccv-custom-visibility-settings.php:55
+#: templates/cwccv-custom-visibility-settings.php:217
+#: templates/cwccv-custom-visibility-settings.php:376
+#: templates/cwccv-custom-visibility-settings.php:536
+#: templates/cwccv-custom-visibility-settings.php:717
+msgid "Action"
+msgstr ""
+
+#: templates/cwccv-custom-visibility-settings.php:55
+msgid ""
+"Choose whether you want to hide or show the products or categories you will "
+"define."
+msgstr ""
+
+#: templates/cwccv-custom-visibility-settings.php:60
+#: templates/cwccv-custom-visibility-settings.php:222
+#: templates/cwccv-custom-visibility-settings.php:381
+#: templates/cwccv-custom-visibility-settings.php:541
+#: templates/cwccv-custom-visibility-settings.php:722
+#: templates/cwccv-custom-visibility-settings.php:873
+#: templates/cwccv-custom-visibility-settings.php:926
+msgid "By Category"
+msgstr ""
+
+#: templates/cwccv-custom-visibility-settings.php:65
+#: templates/cwccv-custom-visibility-settings.php:227
+#: templates/cwccv-custom-visibility-settings.php:386
+#: templates/cwccv-custom-visibility-settings.php:546
+#: templates/cwccv-custom-visibility-settings.php:727
+msgid "By Product"
+msgstr ""
+
+#: templates/cwccv-custom-visibility-settings.php:88
+#: templates/cwccv-custom-visibility-settings.php:148
+#: templates/cwccv-custom-visibility-settings.php:249
+#: templates/cwccv-custom-visibility-settings.php:310
+#: templates/cwccv-custom-visibility-settings.php:407
+#: templates/cwccv-custom-visibility-settings.php:468
+#: templates/cwccv-custom-visibility-settings.php:581
+#: templates/cwccv-custom-visibility-settings.php:649
+#: templates/cwccv-custom-visibility-settings.php:748
+#: templates/cwccv-custom-visibility-settings.php:809
+#: templates/cwccv-custom-visibility-settings.php:980
+#: templates/cwccv-custom-visibility-settings.php:1060
+#: templates/cwccv-custom-visibility-settings.php:1140
+#: templates/cwccv-custom-visibility-settings.php:1220
+#: templates/cwccv-custom-visibility-settings.php:1300
+msgid "Show"
+msgstr ""
+
+#: templates/cwccv-custom-visibility-settings.php:102
+#: templates/cwccv-custom-visibility-settings.php:157
+#: templates/cwccv-custom-visibility-settings.php:263
+#: templates/cwccv-custom-visibility-settings.php:319
+#: templates/cwccv-custom-visibility-settings.php:421
+#: templates/cwccv-custom-visibility-settings.php:477
+#: templates/cwccv-custom-visibility-settings.php:594
+#: templates/cwccv-custom-visibility-settings.php:658
+#: templates/cwccv-custom-visibility-settings.php:762
+#: templates/cwccv-custom-visibility-settings.php:818
+#: templates/cwccv-custom-visibility-settings.php:998
+#: templates/cwccv-custom-visibility-settings.php:1078
+#: templates/cwccv-custom-visibility-settings.php:1158
+#: templates/cwccv-custom-visibility-settings.php:1238
+#: templates/cwccv-custom-visibility-settings.php:1318
+msgid "Hide"
+msgstr ""
+
+#: templates/cwccv-custom-visibility-settings.php:202
+msgid ""
+"Turning on the toggle will let you create visibility rule by selecting "
+"custom user roles and defining which products/categories to show/hide to "
+"them."
+msgstr ""
+
+#: templates/cwccv-custom-visibility-settings.php:212
+msgid "Search User Roles"
+msgstr ""
+
+#: templates/cwccv-custom-visibility-settings.php:217
+#: templates/cwccv-custom-visibility-settings.php:376
+#: templates/cwccv-custom-visibility-settings.php:536
+#: templates/cwccv-custom-visibility-settings.php:717
+msgid ""
+"Choose whether you want to hide or show the products or categories you’ll "
+"define."
+msgstr ""
+
+#: templates/cwccv-custom-visibility-settings.php:362
+msgid ""
+"Turning on the toggle will let you create visibility rule by selecting "
+"custom user groups and defining which products/categories to show/hide to "
+"them."
+msgstr ""
+
+#: templates/cwccv-custom-visibility-settings.php:371
+msgid "Search User Groups"
+msgstr ""
+
+#: templates/cwccv-custom-visibility-settings.php:514
+msgid "Price Tier"
+msgstr ""
+
+#: templates/cwccv-custom-visibility-settings.php:522
+msgid ""
+"Turning on the toggle will let you create visibility rule by creating a "
+"custom purchase tier and defining which products/categories to show/hide to "
+"customers falling in that tier."
+msgstr ""
+
+#: templates/cwccv-custom-visibility-settings.php:531
+msgid "Total order Volume"
+msgstr ""
+
+#: templates/cwccv-custom-visibility-settings.php:531
+msgid "Set Order Volumn"
+msgstr ""
+
+#: templates/cwccv-custom-visibility-settings.php:695
+msgid "Geo Location"
+msgstr ""
+
+#: templates/cwccv-custom-visibility-settings.php:702
+msgid ""
+"Turning on the toggle will let you create visibility rule by selecting "
+"countries and defining which products/categories to show/hide to customers "
+"from those countries."
+msgstr ""
+
+#: templates/cwccv-custom-visibility-settings.php:712
+msgid "Country"
+msgstr ""
+
+#: templates/cwccv-custom-visibility-settings.php:712
+msgid "Select Countries"
+msgstr ""
+
+#: templates/cwccv-custom-visibility-settings.php:853
+msgid "Hide catalog price for Non-Logged-in Users"
+msgstr ""
+
+#: templates/cwccv-custom-visibility-settings.php:867
+msgid "Hide whole catalog price"
+msgstr ""
+
+#: templates/cwccv-custom-visibility-settings.php:878
+#: templates/cwccv-custom-visibility-settings.php:931
+msgid "By Products"
+msgstr ""
+
+#: templates/cwccv-custom-visibility-settings.php:906
+msgid "Hide catalog product for Non-Logged-in Users"
+msgstr ""
+
+#: templates/cwccv-custom-visibility-settings.php:920
+msgid "Hide whole catalog product"
+msgstr ""

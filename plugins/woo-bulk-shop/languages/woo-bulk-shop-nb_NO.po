@@ -1,0 +1,563 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Bulk Shop for WooCommerce\n"
+"POT-Creation-Date: 2020-10-28 08:27+0100\n"
+"PO-Revision-Date: 2020-10-28 08:28+0100\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: nb_NO\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Poedit 2.2.4\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-Flags-xgettext: --add-comments=translators:\n"
+"X-Poedit-WPHeader: woo-bulk-shop.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.min.js\n"
+
+#: includes/class-wbs-options.php:25 includes/class-wbs-options.php:61
+#: includes/class-wbs-options.php:201 includes/class-wbs-options.php:242
+#: views/wbs-shortcodes.php:43
+msgid "Bulk Shop"
+msgstr "Bulk Shop"
+
+#: includes/class-wbs-options.php:41
+msgid "List settings"
+msgstr "Liste innstillinger"
+
+#: includes/class-wbs-options.php:42
+msgid "CSS"
+msgstr "CSS"
+
+#: includes/class-wbs-options.php:43
+msgid "Integrations"
+msgstr "Integrasjoner"
+
+#: includes/class-wbs-options.php:63
+msgid ""
+"Settings for table headings and buttons. Use with caution, this options "
+"overwrites language settings."
+msgstr ""
+"Innstillinger for tabelloverskrifter og knapper. Vær varsom ved bruk, dette "
+"alternativet overskriver navn i språkinnstillinger."
+
+#: includes/class-wbs-options.php:68
+msgid "Heading(mobile): Product image"
+msgstr "Overskrift (mobil): Produktbilde"
+
+#: includes/class-wbs-options.php:69
+msgid "Set your own label for product image. If blank the default name is used"
+msgstr ""
+"Angi din egen etikett for produktbilde. Hvis tomt standardnavnet brukes"
+
+#: includes/class-wbs-options.php:76
+msgid "Heading: Name"
+msgstr "Overskrift: Navn"
+
+#: includes/class-wbs-options.php:77
+msgid "Set your own heading for name. If blank the default name is used"
+msgstr "Angi din egen overskrift for navn. Hvis tomt standardnavnet brukes"
+
+#: includes/class-wbs-options.php:84
+msgid "Heading: Description"
+msgstr "Overskrift: Beskrivelse"
+
+#: includes/class-wbs-options.php:85
+msgid "Set your own heading for description. If blank the default name is used"
+msgstr ""
+"Angi din egen overskrift for beskrivelse. Hvis tomt standardnavnet brukes"
+
+#: includes/class-wbs-options.php:92
+msgid "Heading: Price"
+msgstr "Overskrift: Pris"
+
+#: includes/class-wbs-options.php:93
+msgid "Set your own heading for price. If blank the default name is used"
+msgstr "Angi din egen kurs for pris. Hvis tomt standardnavnet brukes"
+
+#: includes/class-wbs-options.php:100
+msgid "Heading: Quantity"
+msgstr "Overskrift: Antall"
+
+#: includes/class-wbs-options.php:101
+msgid "Set your own heading for quantity. If blank the default name is used"
+msgstr "Angi din egen overskrift for antall. Hvis tomt standardnavnet brukes"
+
+#: includes/class-wbs-options.php:108
+msgid "Heading: Total"
+msgstr "Overskrift: Totalt"
+
+#: includes/class-wbs-options.php:109
+msgid "Set your own heading for total. If blank the default name is used"
+msgstr "Angi din egen overskrift for total. Hvis tomt standardnavnet brukes"
+
+#: includes/class-wbs-options.php:116
+msgid "Button: Add"
+msgstr "Knapp: Legg til"
+
+#: includes/class-wbs-options.php:117
+msgid "Set your own button name for Add. If blank the default name is used"
+msgstr ""
+"Angi ditt eget knappenavn for Legg til. Hvis tomt standardnavnet brukes"
+
+#: includes/class-wbs-options.php:124
+msgid "Button: Add to cart"
+msgstr "Knapp: Legg i handlekurven"
+
+#: includes/class-wbs-options.php:125
+msgid ""
+"Set your own button name for Add to cart. If blank the default name is used"
+msgstr ""
+"Angi ditt eget knappenavn for Legg til i handlekurven. Hvis tomt "
+"standardnavnet brukes"
+
+#: includes/class-wbs-options.php:132
+msgid "Button: Sales"
+msgstr "Knapp: Salg"
+
+#: includes/class-wbs-options.php:133
+msgid "Set your own button name for Sales. If blank the default name is used"
+msgstr "Angi ditt eget knappenavn for Salg. Hvis tomt standardnavnet brukes"
+
+#: includes/class-wbs-options.php:140
+msgid "Placeholder: Quantity"
+msgstr "Plassholder: Antall"
+
+#: includes/class-wbs-options.php:141 includes/class-wbs-options.php:149
+msgid "Set your own placeholder. If blank the default name is used"
+msgstr "Angi din egen plassholder. Hvis tomt standardnavnet brukes"
+
+#: includes/class-wbs-options.php:148
+msgid "Placeholder: Search"
+msgstr "Plassholder: Søk"
+
+#: includes/class-wbs-options.php:156
+msgid "Search radio: Text"
+msgstr "Søk radio boks: Tekst"
+
+#: includes/class-wbs-options.php:157 includes/class-wbs-options.php:165
+#: includes/class-wbs-options.php:173 includes/class-wbs-options.php:181
+msgid "If blank the default name is used"
+msgstr "Hvis det er tomt, brukes standardnavnet"
+
+#: includes/class-wbs-options.php:164
+msgid "Search radio: SKU"
+msgstr "Søk radio boks: SKU"
+
+#: includes/class-wbs-options.php:172
+msgid "Search radio: Tag"
+msgstr "Søk radio boks: Tag"
+
+#: includes/class-wbs-options.php:180 includes/class-wbsfunctions.php:950
+msgid "Login to see price"
+msgstr "Logg inn for å se pris"
+
+#: includes/class-wbs-options.php:203
+msgid "Styling options"
+msgstr "Alternativer for styling"
+
+#: includes/class-wbs-options.php:208
+msgid "Remove storefront (shop-table) CSS"
+msgstr "Fjerne storefront (shop-table) CSS"
+
+#: includes/class-wbs-options.php:209
+msgid "If your theme have truble showing Bulk Shop on i.e mobile"
+msgstr "Hvis temaet ditt har problemer å vise Bulk Shop på mobil"
+
+#: includes/class-wbs-options.php:216
+msgid "Thumbnail size (max width)"
+msgstr "Miniatyrstørrelse (maks. bredde)"
+
+#: includes/class-wbs-options.php:217
+msgid "Set thumbnail image size, default 50px"
+msgstr "Angi miniatyrbildestørrelse, standard 50 piksler"
+
+#: includes/class-wbs-options.php:224
+msgid "Thumbnail size - mobile (max width)"
+msgstr "Miniatyrstørrelse - mobil (maks bredde)"
+
+#: includes/class-wbs-options.php:225
+msgid "Set thumbnail image size, default 150px"
+msgstr "Angi miniatyrbildestørrelse, standard 150 piksler"
+
+#: includes/class-wbs-options.php:244
+msgid "Settings for integration options"
+msgstr "Innstillinger for integreringsalternativer"
+
+#: includes/class-wbs-options.php:249
+msgid "Name your price: Text"
+msgstr "Name your price: Tekst"
+
+#: includes/class-wbs-options.php:250
+msgid "Set label for Name your price"
+msgstr "Angi etikett for Name your price"
+
+#: includes/class-wbs-options.php:257
+msgid "Name your price: Min price"
+msgstr "Name your price: Minimum pris"
+
+#: includes/class-wbs-options.php:258
+msgid "Set label for minimum price"
+msgstr "Angi etikett for minimumspris"
+
+#: includes/class-wbs-options.php:293
+msgid "Clear fields"
+msgstr "Fjerne felt"
+
+#: includes/class-wbsfunctions.php:30
+msgid "Select category"
+msgstr "Velg kategori"
+
+#: includes/class-wbsfunctions.php:58
+msgid "All categories"
+msgstr "Alle kategorier"
+
+#: includes/class-wbsfunctions.php:345
+msgid "First page"
+msgstr "Første side"
+
+#: includes/class-wbsfunctions.php:347
+msgid "Previous page"
+msgstr "Forrige side"
+
+#: includes/class-wbsfunctions.php:351
+msgid "of"
+msgstr "av"
+
+#: includes/class-wbsfunctions.php:369
+msgid "Next page"
+msgstr "Neste side"
+
+#: includes/class-wbsfunctions.php:371
+msgid "Last page"
+msgstr "Siste side"
+
+#: includes/class-wbsfunctions.php:463
+msgid "In stock"
+msgstr "På lager"
+
+#: includes/class-wbsfunctions.php:466
+msgid "Out of stock"
+msgstr "Tomt på lager"
+
+#: includes/class-wbsfunctions.php:469
+msgid "On backorder"
+msgstr "På restordre"
+
+#: includes/class-wbsfunctions.php:484
+msgid "Select"
+msgstr "Velg"
+
+#: includes/class-wbsfunctions.php:638
+msgid "In cart"
+msgstr "I handlekurv"
+
+#. translators: quantity in stock
+#: includes/class-wbsfunctions.php:736
+#, php-format
+msgid "%1$s in stock"
+msgstr "%1$s på lager"
+
+#: includes/class-wbsfunctions.php:757 includes/class-wbsfunctions.php:942
+msgid "SKU"
+msgstr "SKU"
+
+#: includes/class-wbsfunctions.php:886 includes/class-wbsfunctions.php:910
+msgid "Quantity"
+msgstr "Antall"
+
+#: includes/class-wbsfunctions.php:890
+msgid "Add"
+msgstr "Legg til"
+
+#: includes/class-wbsfunctions.php:894
+msgid "Search.."
+msgstr "Søk..."
+
+#: includes/class-wbsfunctions.php:898
+msgid "Name"
+msgstr "Navn"
+
+#: includes/class-wbsfunctions.php:902
+msgid "Description"
+msgstr "Beskrivelse"
+
+#: includes/class-wbsfunctions.php:906
+msgid "Price"
+msgstr "Pris"
+
+#: includes/class-wbsfunctions.php:914
+msgid "Total"
+msgstr "Total"
+
+#: includes/class-wbsfunctions.php:918
+msgid "Add to cart"
+msgstr "Legg i handlekurv"
+
+#: includes/class-wbsfunctions.php:922
+msgid "SALE"
+msgstr "SALG"
+
+#: includes/class-wbsfunctions.php:926
+msgid "Product image"
+msgstr "Produktbilde"
+
+#: includes/class-wbsfunctions.php:930
+msgid "Name your price"
+msgstr "Din pris"
+
+#: includes/class-wbsfunctions.php:934
+msgid "Minimum price"
+msgstr "Minimumspris"
+
+#: includes/class-wbsfunctions.php:938
+msgid "Text"
+msgstr "Tekst"
+
+#: includes/class-wbsfunctions.php:946
+msgid "Tag"
+msgstr "Stikkord"
+
+#: includes/class-wbstemplates.php:125
+#, fuzzy
+#| msgid "Search.."
+msgid "Search"
+msgstr "Søk..."
+
+#: includes/class-wbstemplates.php:208
+msgid "Total quantity"
+msgstr "Totalt antall"
+
+#: includes/class-wbstemplates.php:209
+msgid "Totals"
+msgstr "Totaler"
+
+#: views/wbs-shortcodes.php:47
+msgid ""
+"The shortcode: [bulkshop] shows all features default, generate shortcode to "
+"specify or hide features and columns. "
+msgstr ""
+"Kortkoden: [bulkshop] viser alle funksjoner som standard, genererer kortkode "
+"for å angi eller skjule funksjoner og kolonner."
+
+#: views/wbs-shortcodes.php:48
+msgid ""
+"After creating a new shortcode, copy and use it in new or existing posts or "
+"pages. "
+msgstr ""
+"Når du har opprettet en ny kortkode, kopierer og bruker du den i nye eller "
+"eksisterende innlegg eller sider."
+
+#. translators: %s: url for documentation
+#: views/wbs-shortcodes.php:50 woo-bulk-shop.php:92
+#, php-format
+msgid "Read the %1$s extension documentation %2$s for more information."
+msgstr "Les %1$s plugin dokumentasjon %2$s for mer informasjon."
+
+#: views/wbs-shortcodes.php:60
+msgid "Select categories"
+msgstr "Velg kategorier"
+
+#: views/wbs-shortcodes.php:70
+msgid "Products per page"
+msgstr "Antall produkter per side"
+
+#: views/wbs-shortcodes.php:77
+msgid "Default product quantity"
+msgstr "Standard produktantall"
+
+#: views/wbs-shortcodes.php:84
+msgid "Related products (in single product page)"
+msgstr "Relaterte produkter (på én produktside)"
+
+#: views/wbs-shortcodes.php:91
+msgid "Related products quantity"
+msgstr "Relaterte produkter antall"
+
+#: views/wbs-shortcodes.php:98
+msgid "Sort products Z - A (desc) "
+msgstr "Sorter produkter Å - A (desc)"
+
+#: views/wbs-shortcodes.php:105
+msgid "Hide expanded variations (show select option for variations)"
+msgstr "Skjul utvidede variasjoner (vis valgalternativ for variasjoner)"
+
+#: views/wbs-shortcodes.php:112
+msgid "Hide stock"
+msgstr "Skjul lager"
+
+#: views/wbs-shortcodes.php:119
+msgid "Hide sale badge"
+msgstr "Skjul salgs merke"
+
+#: views/wbs-shortcodes.php:126
+msgid "Hide category selector"
+msgstr "Skjul kategori velger"
+
+#: views/wbs-shortcodes.php:133
+msgid "Hide SKU"
+msgstr "Skjul SKU"
+
+#: views/wbs-shortcodes.php:140
+msgid "Hide thumbnail (column)"
+msgstr "Skjul miniatyrbilde (kolonne)"
+
+#: views/wbs-shortcodes.php:147
+msgid "Hide short description (column)"
+msgstr "Skjul kort beskrivelse (kolonne)"
+
+#: views/wbs-shortcodes.php:154
+msgid "Hide price (column)"
+msgstr "Skjul pris (kolonne)"
+
+#: views/wbs-shortcodes.php:161
+msgid "Hide total (column)"
+msgstr "Skjul total (kolonne)"
+
+#: views/wbs-shortcodes.php:168
+msgid "Hide add to cart icon (per row)"
+msgstr "Skjul handlekurv ikon (pr rad)"
+
+#: views/wbs-shortcodes.php:175
+msgid "Hide bulk add (input and button)"
+msgstr "Skjul bulk legg til (input og knapp)"
+
+#: views/wbs-shortcodes.php:182
+msgid "Hide search (search box and buttons)"
+msgstr "Skjul søk (søkeboks og knapper)"
+
+#: views/wbs-shortcodes.php:189
+msgid "Hide checkboxes (first column)"
+msgstr "Skjul avmerkingsbokser (første kolonne)"
+
+#: views/wbs-shortcodes.php:196
+msgid "Hide price (for not logged in users)"
+msgstr "Skjul pris (for ikke innloggede brukere)"
+
+#: views/wbs-shortcodes.php:203
+msgid "Custom price"
+msgstr "Skreddersydd pris"
+
+#: views/wbs-shortcodes.php:206
+msgid "i.e _wholesaler_price"
+msgstr "eks _wholesaler_price"
+
+#: views/wbs-shortcodes.php:211
+msgid "Custom price roles"
+msgstr "Egendefinerte pris roller"
+
+#: views/wbs-shortcodes.php:214
+msgid "Select roles"
+msgstr "Velg roller"
+
+#: views/wbs-shortcodes.php:223
+msgid "Add price and role(s)"
+msgstr "Legge til pris og rolle(er)"
+
+#: views/wbs-shortcodes.php:228
+msgid "Price and role(s) - max 10"
+msgstr "Pris og rolle(er) - maks 10"
+
+#: views/wbs-shortcodes.php:237 woo-bulk-shop.php:162
+msgid "Create shortcode"
+msgstr "Opprett shortcode"
+
+#: views/wbs-shortcodes.php:242
+msgid "Shortcode"
+msgstr "Kortkode"
+
+#: views/wbs-shortcodes.php:251
+msgid "Copy shortcode"
+msgstr "Kopier Shortcode"
+
+#: woo-bulk-shop.php:87
+msgid "Dismiss"
+msgstr "Avvis"
+
+#: woo-bulk-shop.php:90
+msgid ""
+"Thank you for installing Bulk Shop for WooCommerce. You can now start to "
+"create your lists and pages."
+msgstr ""
+"Takk for at du installerer Bulk Shop for WooCommerce. Du kan nå begynne å "
+"opprette lister og sider."
+
+#: woo-bulk-shop.php:95
+msgid "Start bulk shop generator"
+msgstr "Start bulk shop generator"
+
+#: woo-bulk-shop.php:96 woo-bulk-shop.php:171 woo-bulk-shop.php:172
+msgid "Settings"
+msgstr "Innstillinger"
+
+#: woo-bulk-shop.php:161
+#, fuzzy
+#| msgid "Bulk Shop, shortcode generator"
+msgid "Shortcode generator"
+msgstr "Bulk Shop, shortcode generator"
+
+#. translators: %s: url to vendor and logo
+#: woo-bulk-shop.php:361
+#, php-format
+msgid "- developed by %1$s%2$s%3$s"
+msgstr "- utviklet av %1$s%2$s%3$s"
+
+#. Plugin Name of the plugin/theme
+msgid "Bulk Shop for WooCommerce"
+msgstr "Bulk Shop for WooCommerce"
+
+#. Plugin URI of the plugin/theme
+msgid "https://woocommerce.com/products/bulk-shop-for-woocommerce/"
+msgstr "https://woocommerce.com/products/bulk-shop-for-woocommerce/"
+
+#. Description of the plugin/theme
+msgid "List products in a table, enables bulk ordering of products."
+msgstr "Vis produkter i en tabell, aktiverer massebestilling av produkter."
+
+#. Author of the plugin/theme
+msgid "Consortia"
+msgstr "Consortia"
+
+#. Author URI of the plugin/theme
+msgid "https://www.consortia.no/en/"
+msgstr "https://www.consortia.no/en/"
+
+#~ msgid "Has variations"
+#~ msgstr "Har variasjoner"
+
+#~ msgid "Hide variations"
+#~ msgstr "Skjul variasjoner"
+
+#~ msgid ""
+#~ "Use shortcode: [bulkshop] in your pages to show the Bulk Shop product "
+#~ "catalog. "
+#~ msgstr "Bruk shortcode: [bulkshop] på sidene for å vise produkt katalog. "
+
+#~ msgid "Generate shortcodes here for other pages i.e a category page. "
+#~ msgstr ""
+#~ "Opprett din shortcode her for andre sider, for eksempel en kategori side. "
+
+#~ msgid ""
+#~ "Select several categories if you like then copy the shortcode to your "
+#~ "page. "
+#~ msgstr ""
+#~ "Velge fler kategorier hvis du vil, kopier så den genererte koden til din "
+#~ "side. "
+
+#~ msgid "Enables customers to bulk shop products using table lists."
+#~ msgstr "Lar kunder bulk handle produkter i tabell liste visninger."
+
+#~ msgid "Product"
+#~ msgstr "Produkt"
+
+#~ msgid "https://www.consortia.no/bulk-shop-sheet/"
+#~ msgstr "https://www.consortia.no/bulk-shop-sheet/"
+
+#~ msgid "Stock"
+#~ msgstr "Lager"

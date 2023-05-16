@@ -1,0 +1,107 @@
+*** Catalog Visibility for WooCommerce ***
+
+2021-08-05 - version 1.1.8.6
+* Build Geo location compatibility with woocommerce.
+* Build compatibility with woocommerce 5.5.2.
+
+2021-07-16 - version 1.1.8.5
+* Build compatibility with woocommerce 5.5.1.
+
+2021-05-28 - version 1.1.8.4
+* Validation on Main settings screen for required values for activating rule.
+
+2021-05-26 - version 1.1.8.3
+* Code refactoring.
+
+2021-05-05 - version 1.1.8.2
+* Cookie issue solved for live search on flatsome.
+
+2021-05-04 - version 1.1.8.1
+* Now Users are not able to access hidden products even by URL, which will be redirected to the Shop page.
+
+2021-04-27 - version 1.1.8.0
+* Added Hide product functionality for WooCommerce category widget.
+
+2021-04-16 - version 1.1.7.0
+* Added Hide product functionality.
+
+2021-04-05 - version 1.1.6.5
+* Fixed builders shortcode issues & fixed new woocommerce shop page feature compatibility.
+
+2021-03-22 - version 1.1.6.4
+* Fixed Price Tier issue.
+* Fixed Admin profile dropdown issue.
+
+2021-03-17 - version 1.1.6.3
+* Fixed Price Tier issue.
+
+2021-03-09 - version 1.1.6.2
+* Fixed Geo location radio button issue.
+
+2021-01-22 - version 1.1.6.1
+* Fixed Cookie issue.
+
+2021-01-20 - version 1.1.6.0
+* Added API Token Setting for Geo Location Issue.
+
+2021-01-18 - version 1.1.5.26
+* Fixed Settings Select2 issue.
+
+2021-01-01 - version 1.1.5.25
+* Made Compatibilty with b2b ecommerce price visibility.
+
+2020-12-15 - version 1.1.5.24
+* Backend UI issue fixed.
+
+2020-12-08 - version 1.1.5.23
+* Multi site issue fixed.
+
+2020-12-02 - version 1.1.5.22
+* Bug fixing.
+
+2020-11-02 - version 1.1.5.21
+* jquery issue fixed.
+
+2020-09-08 - version  1.1.5.20
+* Inter Plugin Compatibility Issue.
+
+2020-09-02 - version 1.1.5.19
+* Improvment in Support Section
+
+2020-08-30 - version 1.1.5.18
+* Added Translate Support
+
+2020-08-04 - version 1.1.5.17
+* Added Support Option.
+* Built Compatibilty with WooCommerce version 4.3.1
+
+2020-07-24 - version 1.1.5.16
+* CBWCV-361 - Resolved
+
+2020-07-23 - version 1.1.5.15
+* CBWCV-338 - Done
+* CBWCV-339 - Done
+* CBWCV-341 - please check comment
+* CBWCV-345 - not valid as discussed
+* CBWCV-346 - Done
+
+2020-08-22 - version 1.1.5.14
+* CBWCV-182 - Done
+* CBWCV-184 - Done
+* CBWCV-237 - Done
+* CBWCV-242 - Done
+* CBWCV-252 - Done
+* CBWCV-279 - Done
+* CBWCV-280 - Done
+* CBWCV-291 - Done
+* CBWCV-292 - Done
+* CBWCV-307 - Done
+* CBWCV-308 - Done
+* CBWCV-313 - Done
+
+2019-06-09 - version 1.1.5.13
+* Fixed UI issues
+ 
+
+2019-06-09 - version 1.1.5.11
+* First Release.

@@ -1,0 +1,8 @@
+*** Hide Variations by User Roles Change log ***
+
+
+
+2021-04-23 - version 1.0.0
+* Initial release of the plugin.
+
+

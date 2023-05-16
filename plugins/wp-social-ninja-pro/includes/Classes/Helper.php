@@ -1,0 +1,140 @@
+<?php
+namespace WPSocialReviewsPro\Classes;
+
+if (!defined('ABSPATH')) {
+    exit;
+}
+
+class Helper {
+    //convert string to time for other languages
+    public static function unixTimeStamp($date_string)
+    {
+        $months = array(
+            'janvier'      => 'jan',
+            'février'      => 'feb',
+            'mars'         => 'march',
+            'avril'        => 'apr',
+            'mai'          => 'may',
+            'juin'         => 'jun',
+            'juillet'      => 'jul',
+            'août'         => 'aug',
+            'septembre'    => 'sep',
+            'octobre'      => 'oct',
+            'novembre'     => 'nov',
+            'décembre'     => 'dec',
+            'gennaio'      => 'jan',
+            'febbraio'     => 'feb',
+            'marzo'        => 'march',
+            'aprile'       => 'apr',
+            'maggio'       => 'may',
+            'giugno'       => 'jun',
+            'luglio'       => 'jul',
+            'agosto'       => 'aug',
+            'settembre'    => 'sep',
+            'ottobre'      => 'oct',
+            'novembre'     => 'nov',
+            'dicembre'     => 'dec',
+            'janeiro'      => 'jan',
+            'fevereiro'    => 'feb',
+            'março'        => 'march',
+            'abril'        => 'apr',
+            'maio'         => 'may',
+            'junho'        => 'jun',
+            'julho'        => 'jul',
+            'agosto'       => 'aug',
+            'setembro'     => 'sep',
+            'outubro'      => 'oct',
+            'novembro'     => 'nov',
+            'dezembro'     => 'dec',
+            'enero'        => 'jan',
+            'febrero'      => 'feb',
+            'marzo'        => 'march',
+            'abril'        => 'apr',
+            'mayo'         => 'may',
+            'junio'        => 'jun',
+            'julio'        => 'jul',
+            'agosto'       => 'aug',
+            'septiembre'   => 'sep',
+            'octubre'      => 'oct',
+            'noviembre'    => 'nov',
+            'diciembre'    => 'dec',
+            'januari'      => 'jan',
+            'februari'     => 'feb',
+            'maart'        => 'march',
+            'april'        => 'apr',
+            'mei'          => 'may',
+            'juni'         => 'jun',
+            'juli'         => 'jul',
+            'augustus'     => 'aug',
+            'september'    => 'sep',
+            'oktober'      => 'oct',
+            'november'     => 'nov',
+            'december'     => 'dec',
+            ' de '         => '',
+            'dezember'     => 'dec',
+            'januar '      => 'jan ',
+            'stycznia'     => 'jan',
+            'lutego'       => 'feb',
+            'februar'      => 'feb',
+            'marca'        => 'march',
+            'märz'         => 'march',
+            'kwietnia'     => 'apr',
+            'maja'         => 'may',
+            'czerwca'      => 'jun',
+            'lipca'        => 'jul',
+            'sierpnia'     => 'aug',
+            'września'     => 'sep',
+            'października' => 'oct',
+            'listopada'    => 'nov',
+            'grudnia'      => 'dec',
+            'february'     => 'feb',
+            'января'       => 'jan',
+            'февраля'      => 'feb',
+            'марта'        => 'march',
+            'апреля'       => 'apr',
+            'мая'          => 'may',
+            'июня'         => 'jun',
+            'июля'         => 'jul',
+            'августа'      => 'aug',
+            'сентября'     => 'sep',
+            'октября'      => 'oct',
+            'ноября'       => 'nov',
+            'декабря'      => 'dec',
+            'tháng 1,'     => 'jan',
+            'tháng 2,'     => 'feb',
+            'tháng 3,'     => 'march',
+            'tháng 4,'     => 'apr',
+            'tháng 5,'     => 'may',
+            'tháng 6,'     => 'jun',
+            'tháng 7,'     => 'jul',
+            'tháng 8,'     => 'aug',
+            'tháng 9,'     => 'sep',
+            'tháng 10,'    => 'oct',
+            'tháng 11,'    => 'nov',
+            'tháng 12,'    => 'dec',
+            'Januar'        => 'jan',
+            'Februar'=> 'feb',
+            'März' => 'march',
+            'April' => 'apr',
+            'Mai' => 'may',
+            'Juni' => 'jun',
+            'Juli' => 'jul',
+            'August' => 'aug',
+            'September' => 'sep',
+            'Oktober' => 'oct',
+            'November' => 'nov',
+            'Dezember' => 'dec'
+        );
+
+        $result = strtr(strtolower($date_string), $months);
+        if ($result == '') {
+            $result = strtr(($date_string), $months);
+        }
+
+        if(empty($result)) {
+            return $result;
+        }
+
+        return strtotime($result);
+    }
+}

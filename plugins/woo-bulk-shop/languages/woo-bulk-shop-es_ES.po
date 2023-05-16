@@ -1,0 +1,569 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Bulk Shop for WooCommerce\n"
+"POT-Creation-Date: 2020-10-28 08:29+0100\n"
+"PO-Revision-Date: 2020-10-28 08:29+0100\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: es\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Poedit 2.2.4\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-Flags-xgettext: --add-comments=translators:\n"
+"X-Poedit-WPHeader: woo-bulk-shop.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.min.js\n"
+
+#: includes/class-wbs-options.php:25 includes/class-wbs-options.php:61
+#: includes/class-wbs-options.php:201 includes/class-wbs-options.php:242
+#: views/wbs-shortcodes.php:43
+msgid "Bulk Shop"
+msgstr "Bulk Shop"
+
+#: includes/class-wbs-options.php:41
+msgid "List settings"
+msgstr "Configuración de lista"
+
+#: includes/class-wbs-options.php:42
+msgid "CSS"
+msgstr "CSS"
+
+#: includes/class-wbs-options.php:43
+msgid "Integrations"
+msgstr "Integraciones"
+
+#: includes/class-wbs-options.php:63
+msgid ""
+"Settings for table headings and buttons. Use with caution, this options "
+"overwrites language settings."
+msgstr ""
+"Configuración de los encabezados y botones de la tabla. Si se usa con "
+"precaución, esta opción sobrescribe la configuración de idioma."
+
+#: includes/class-wbs-options.php:68
+msgid "Heading(mobile): Product image"
+msgstr "Encabezado (móvil): Imagen del producto"
+
+#: includes/class-wbs-options.php:69
+msgid "Set your own label for product image. If blank the default name is used"
+msgstr ""
+"Establezca su propia etiqueta para la imagen del producto. Si está en "
+"blanco, se utiliza el nombre predeterminado"
+
+#: includes/class-wbs-options.php:76
+msgid "Heading: Name"
+msgstr "Encabezado: Nombre"
+
+#: includes/class-wbs-options.php:77
+msgid "Set your own heading for name. If blank the default name is used"
+msgstr ""
+"Establezca su propio rumbo para el nombre. Si está en blanco, se utiliza el "
+"nombre predeterminado"
+
+#: includes/class-wbs-options.php:84
+msgid "Heading: Description"
+msgstr "Encabezado: Descripción"
+
+#: includes/class-wbs-options.php:85
+msgid "Set your own heading for description. If blank the default name is used"
+msgstr ""
+"Establezca su propio encabezado para la descripción. Si está en blanco, se "
+"utiliza el nombre predeterminado"
+
+#: includes/class-wbs-options.php:92
+msgid "Heading: Price"
+msgstr "Encabezado: Precio"
+
+#: includes/class-wbs-options.php:93
+msgid "Set your own heading for price. If blank the default name is used"
+msgstr ""
+"Establezca su propio rumbo para el precio. Si está en blanco, se utiliza el "
+"nombre predeterminado"
+
+#: includes/class-wbs-options.php:100
+msgid "Heading: Quantity"
+msgstr "Encabezado: Cantidad"
+
+#: includes/class-wbs-options.php:101
+msgid "Set your own heading for quantity. If blank the default name is used"
+msgstr ""
+"Establezca su propio encabezado para la cantidad. Si está en blanco, se "
+"utiliza el nombre predeterminado"
+
+#: includes/class-wbs-options.php:108
+msgid "Heading: Total"
+msgstr "Encabezado: Total"
+
+#: includes/class-wbs-options.php:109
+msgid "Set your own heading for total. If blank the default name is used"
+msgstr ""
+"Establezca su propio rumbo para el total. Si está en blanco, se utiliza el "
+"nombre predeterminado"
+
+#: includes/class-wbs-options.php:116
+msgid "Button: Add"
+msgstr "Botón: Añadir"
+
+#: includes/class-wbs-options.php:117
+msgid "Set your own button name for Add. If blank the default name is used"
+msgstr ""
+"Establezca su propio nombre de botón para Agregar. Si está en blanco, se "
+"utiliza el nombre predeterminado"
+
+#: includes/class-wbs-options.php:124
+msgid "Button: Add to cart"
+msgstr "Botón: Añadir al carrito"
+
+#: includes/class-wbs-options.php:125
+msgid ""
+"Set your own button name for Add to cart. If blank the default name is used"
+msgstr ""
+"Establezca su propio nombre de botón para Agregar al carrito. Si está en "
+"blanco, se utiliza el nombre predeterminado"
+
+#: includes/class-wbs-options.php:132
+msgid "Button: Sales"
+msgstr "Botón: Ventas"
+
+#: includes/class-wbs-options.php:133
+msgid "Set your own button name for Sales. If blank the default name is used"
+msgstr ""
+"Establezca su propio nombre de botón para Ventas. Si está en blanco, se "
+"utiliza el nombre predeterminado"
+
+#: includes/class-wbs-options.php:140
+msgid "Placeholder: Quantity"
+msgstr "Marcador de posición: Cantidad"
+
+#: includes/class-wbs-options.php:141 includes/class-wbs-options.php:149
+msgid "Set your own placeholder. If blank the default name is used"
+msgstr ""
+"Establezca su propio marcador de posición. Si está en blanco, se utiliza el "
+"nombre predeterminado"
+
+#: includes/class-wbs-options.php:148
+msgid "Placeholder: Search"
+msgstr "Marcador de posición: Buscar"
+
+#: includes/class-wbs-options.php:156
+msgid "Search radio: Text"
+msgstr "Buscar radio: Texto"
+
+#: includes/class-wbs-options.php:157 includes/class-wbs-options.php:165
+#: includes/class-wbs-options.php:173 includes/class-wbs-options.php:181
+msgid "If blank the default name is used"
+msgstr "Si está en blanco, se utiliza el nombre predeterminado"
+
+#: includes/class-wbs-options.php:164
+msgid "Search radio: SKU"
+msgstr "Buscar radio: SKU"
+
+#: includes/class-wbs-options.php:172
+msgid "Search radio: Tag"
+msgstr "Buscar radio: Etiqueta"
+
+#: includes/class-wbs-options.php:180 includes/class-wbsfunctions.php:950
+msgid "Login to see price"
+msgstr "Inicie sesión para ver el precio"
+
+#: includes/class-wbs-options.php:203
+msgid "Styling options"
+msgstr "Opciones de estilo"
+
+#: includes/class-wbs-options.php:208
+msgid "Remove storefront (shop-table) CSS"
+msgstr "Eliminar escaparate (shop-table) CSS"
+
+#: includes/class-wbs-options.php:209
+msgid "If your theme have truble showing Bulk Shop on i.e mobile"
+msgstr "Si su tema tiene truble mostrando Tienda a granel en es decir, móvil"
+
+#: includes/class-wbs-options.php:216
+msgid "Thumbnail size (max width)"
+msgstr "Tamaño de miniatura (ancho máximo)"
+
+#: includes/class-wbs-options.php:217
+msgid "Set thumbnail image size, default 50px"
+msgstr "Establecer el tamaño de la imagen en miniatura, por defecto 50px"
+
+#: includes/class-wbs-options.php:224
+msgid "Thumbnail size - mobile (max width)"
+msgstr "Tamaño de miniatura - móvil (ancho máximo)"
+
+#: includes/class-wbs-options.php:225
+msgid "Set thumbnail image size, default 150px"
+msgstr "Establecer el tamaño de la imagen en miniatura, por defecto 150px"
+
+#: includes/class-wbs-options.php:244
+msgid "Settings for integration options"
+msgstr "Configuración de las opciones de integración"
+
+#: includes/class-wbs-options.php:249
+msgid "Name your price: Text"
+msgstr "Nombre de su precio: Texto"
+
+#: includes/class-wbs-options.php:250
+msgid "Set label for Name your price"
+msgstr "Establezca la etiqueta para Nombre de su precio"
+
+#: includes/class-wbs-options.php:257
+msgid "Name your price: Min price"
+msgstr "Nombre de su precio: Precio mínimo"
+
+#: includes/class-wbs-options.php:258
+msgid "Set label for minimum price"
+msgstr "Establecer etiqueta para precio mínimo"
+
+#: includes/class-wbs-options.php:293
+msgid "Clear fields"
+msgstr "Campos claros"
+
+#: includes/class-wbsfunctions.php:30
+msgid "Select category"
+msgstr "Seleccionar categoría"
+
+#: includes/class-wbsfunctions.php:58
+msgid "All categories"
+msgstr "Todos los productos"
+
+#: includes/class-wbsfunctions.php:345
+msgid "First page"
+msgstr "Primera página"
+
+#: includes/class-wbsfunctions.php:347
+msgid "Previous page"
+msgstr "Página anterior"
+
+#: includes/class-wbsfunctions.php:351
+msgid "of"
+msgstr "de"
+
+#: includes/class-wbsfunctions.php:369
+msgid "Next page"
+msgstr "Siguiente página"
+
+#: includes/class-wbsfunctions.php:371
+msgid "Last page"
+msgstr "Última página"
+
+#: includes/class-wbsfunctions.php:463
+msgid "In stock"
+msgstr "En stock"
+
+#: includes/class-wbsfunctions.php:466
+msgid "Out of stock"
+msgstr "Agotado"
+
+#: includes/class-wbsfunctions.php:469
+msgid "On backorder"
+msgstr "En pedido"
+
+#: includes/class-wbsfunctions.php:484
+msgid "Select"
+msgstr "Seleccionar"
+
+#: includes/class-wbsfunctions.php:638
+msgid "In cart"
+msgstr "En carrito"
+
+#. translators: quantity in stock
+#: includes/class-wbsfunctions.php:736
+#, php-format
+msgid "%1$s in stock"
+msgstr "%1$s en stock"
+
+#: includes/class-wbsfunctions.php:757 includes/class-wbsfunctions.php:942
+msgid "SKU"
+msgstr "SKU"
+
+#: includes/class-wbsfunctions.php:886 includes/class-wbsfunctions.php:910
+msgid "Quantity"
+msgstr "Cantidad"
+
+#: includes/class-wbsfunctions.php:890
+msgid "Add"
+msgstr "Añadir"
+
+#: includes/class-wbsfunctions.php:894
+msgid "Search.."
+msgstr "Buscar.."
+
+#: includes/class-wbsfunctions.php:898
+msgid "Name"
+msgstr "Nombre"
+
+#: includes/class-wbsfunctions.php:902
+msgid "Description"
+msgstr "Descripción"
+
+#: includes/class-wbsfunctions.php:906
+msgid "Price"
+msgstr "Precio"
+
+#: includes/class-wbsfunctions.php:914
+msgid "Total"
+msgstr "Total"
+
+#: includes/class-wbsfunctions.php:918
+msgid "Add to cart"
+msgstr "Añadir al carrito"
+
+#: includes/class-wbsfunctions.php:922
+msgid "SALE"
+msgstr "OFERTA"
+
+#: includes/class-wbsfunctions.php:926
+msgid "Product image"
+msgstr "Imagen de producto"
+
+#: includes/class-wbsfunctions.php:930
+msgid "Name your price"
+msgstr "Nombrar el precio"
+
+#: includes/class-wbsfunctions.php:934
+msgid "Minimum price"
+msgstr "Precio mínimo"
+
+#: includes/class-wbsfunctions.php:938
+msgid "Text"
+msgstr "Texto"
+
+#: includes/class-wbsfunctions.php:946
+msgid "Tag"
+msgstr "Etiqueta"
+
+#: includes/class-wbstemplates.php:125
+msgid "Search"
+msgstr "Buscar"
+
+#: includes/class-wbstemplates.php:208
+msgid "Total quantity"
+msgstr "Cantidad total"
+
+#: includes/class-wbstemplates.php:209
+msgid "Totals"
+msgstr "Totales"
+
+#: views/wbs-shortcodes.php:47
+msgid ""
+"The shortcode: [bulkshop] shows all features default, generate shortcode to "
+"specify or hide features and columns. "
+msgstr ""
+"El shortcode: [bulkshop] muestra todas las características predeterminadas, "
+"generar shortcode para especificar u ocultar entidades y columnas."
+
+#: views/wbs-shortcodes.php:48
+msgid ""
+"After creating a new shortcode, copy and use it in new or existing posts or "
+"pages. "
+msgstr ""
+"Después de crear un nuevo shortcode, cópielo y utilícelo en publicaciones o "
+"páginas nuevas o existentes."
+
+#. translators: %s: url for documentation
+#: views/wbs-shortcodes.php:50 woo-bulk-shop.php:92
+#, php-format
+msgid "Read the %1$s extension documentation %2$s for more information."
+msgstr "Lea la %1$s documentación completa %2$s para obtener más información."
+
+#: views/wbs-shortcodes.php:60
+msgid "Select categories"
+msgstr "Seleccionar categorías"
+
+#: views/wbs-shortcodes.php:70
+msgid "Products per page"
+msgstr "Productos por página"
+
+#: views/wbs-shortcodes.php:77
+msgid "Default product quantity"
+msgstr "Cantidad de producto predeterminada"
+
+#: views/wbs-shortcodes.php:84
+msgid "Related products (in single product page)"
+msgstr "Productos relacionados (en la página de un solo producto)"
+
+#: views/wbs-shortcodes.php:91
+msgid "Related products quantity"
+msgstr "Cantidad de productos relacionados"
+
+#: views/wbs-shortcodes.php:98
+msgid "Sort products Z - A (desc) "
+msgstr "Ordenar productos Z - A (desc)"
+
+#: views/wbs-shortcodes.php:105
+msgid "Hide expanded variations (show select option for variations)"
+msgstr ""
+"Ocultar variaciones expandidas (mostrar la opción de selección para "
+"variaciones)"
+
+#: views/wbs-shortcodes.php:112
+msgid "Hide stock"
+msgstr "Ocultar stock"
+
+#: views/wbs-shortcodes.php:119
+msgid "Hide sale badge"
+msgstr "Ocultar insignia de ofertas"
+
+#: views/wbs-shortcodes.php:126
+msgid "Hide category selector"
+msgstr "Oclutar selector de categoría"
+
+#: views/wbs-shortcodes.php:133
+msgid "Hide SKU"
+msgstr "Ocultar SKU"
+
+#: views/wbs-shortcodes.php:140
+msgid "Hide thumbnail (column)"
+msgstr "Ocultar miniatura (columna)"
+
+#: views/wbs-shortcodes.php:147
+msgid "Hide short description (column)"
+msgstr "Ocultar descripción breve (columna)"
+
+#: views/wbs-shortcodes.php:154
+msgid "Hide price (column)"
+msgstr "Ocultar precio (columna)"
+
+#: views/wbs-shortcodes.php:161
+msgid "Hide total (column)"
+msgstr "Ocultar total (columna)"
+
+#: views/wbs-shortcodes.php:168
+msgid "Hide add to cart icon (per row)"
+msgstr "Ocultar añadir al icono del carrito (por fila)"
+
+#: views/wbs-shortcodes.php:175
+msgid "Hide bulk add (input and button)"
+msgstr "Ocultar adición masiva (entrada y botón)"
+
+#: views/wbs-shortcodes.php:182
+msgid "Hide search (search box and buttons)"
+msgstr "Ocultar búsqueda (cuadro de búsqueda y botones)"
+
+#: views/wbs-shortcodes.php:189
+msgid "Hide checkboxes (first column)"
+msgstr "Ocultar casillas de verificación (primera columna)"
+
+#: views/wbs-shortcodes.php:196
+msgid "Hide price (for not logged in users)"
+msgstr "Ocultar precio (para usuarios no conectados)"
+
+#: views/wbs-shortcodes.php:203
+msgid "Custom price"
+msgstr "Nombre precio personalizado"
+
+#: views/wbs-shortcodes.php:206
+msgid "i.e _wholesaler_price"
+msgstr "p.ej. _precio_mayorista"
+
+#: views/wbs-shortcodes.php:211
+msgid "Custom price roles"
+msgstr "Precio personalizado labores"
+
+#: views/wbs-shortcodes.php:214
+msgid "Select roles"
+msgstr "Seleccionar labores"
+
+#: views/wbs-shortcodes.php:223
+msgid "Add price and role(s)"
+msgstr "Añadir precio y rol(s)"
+
+#: views/wbs-shortcodes.php:228
+msgid "Price and role(s) - max 10"
+msgstr "Precio y rol - máximo 10"
+
+#: views/wbs-shortcodes.php:237 woo-bulk-shop.php:162
+msgid "Create shortcode"
+msgstr "Crear shortcode"
+
+#: views/wbs-shortcodes.php:242
+msgid "Shortcode"
+msgstr "Shortcode"
+
+#: views/wbs-shortcodes.php:251
+msgid "Copy shortcode"
+msgstr "Copiar shortcode"
+
+#: woo-bulk-shop.php:87
+msgid "Dismiss"
+msgstr "Descartar"
+
+#: woo-bulk-shop.php:90
+msgid ""
+"Thank you for installing Bulk Shop for WooCommerce. You can now start to "
+"create your lists and pages."
+msgstr ""
+"Gracias por instalar Bulk Shop para WooCommerce. Ahora puede empezar a crear "
+"sus listas y páginas."
+
+#: woo-bulk-shop.php:95
+msgid "Start bulk shop generator"
+msgstr "Iniciar bulk shop generador"
+
+#: woo-bulk-shop.php:96 woo-bulk-shop.php:171 woo-bulk-shop.php:172
+msgid "Settings"
+msgstr "Configuración"
+
+#: woo-bulk-shop.php:161
+#, fuzzy
+#| msgid "Bulk Shop, shortcode generator"
+msgid "Shortcode generator"
+msgstr "Bulk Shop, generador de shortcode"
+
+#. translators: %s: url to vendor and logo
+#: woo-bulk-shop.php:361
+#, php-format
+msgid "- developed by %1$s%2$s%3$s"
+msgstr "- desarrollado por %1$s%2$s%3$s"
+
+#. Plugin Name of the plugin/theme
+msgid "Bulk Shop for WooCommerce"
+msgstr "Bulk Shop for WooCommerce"
+
+#. Plugin URI of the plugin/theme
+msgid "https://woocommerce.com/products/bulk-shop-for-woocommerce/"
+msgstr "https://woocommerce.com/products/bulk-shop-for-woocommerce/"
+
+#. Description of the plugin/theme
+msgid "List products in a table, enables bulk ordering of products."
+msgstr ""
+"Enumere los productos en una tabla, permite el pedido masivo de productos."
+
+#. Author of the plugin/theme
+msgid "Consortia"
+msgstr "Consortia"
+
+#. Author URI of the plugin/theme
+msgid "https://www.consortia.no/en/"
+msgstr "https://www.consortia.no/en/"
+
+#~ msgid "Has variations"
+#~ msgstr "Tiene variaciones"
+
+#~ msgid "Hide variations"
+#~ msgstr "Ocultar variaciones"
+
+#~ msgid ""
+#~ "Use shortcode: [bulkshop] in your pages to show the Bulk Shop product "
+#~ "catalog. "
+#~ msgstr ""
+#~ "Usa shortcode: [bulkshop] en sus páginas para mostrar el catálogo de "
+#~ "productos de Bulk Shop. "
+
+#~ msgid "Generate shortcodes here for other pages i.e a category page. "
+#~ msgstr ""
+#~ "Genere shortcodes aquí para otras páginas, p.ej. una página de categoría. "
+
+#~ msgid ""
+#~ "Select several categories if you like then copy the shortcode to your "
+#~ "page. "
+#~ msgstr ""
+#~ "Seleccione varias categorías si lo desea y copie el shortcode en su "
+#~ "página. "

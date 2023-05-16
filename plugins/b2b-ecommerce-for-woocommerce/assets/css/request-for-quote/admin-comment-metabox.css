@@ -1,0 +1,146 @@
+#rfq_admin_comment_box{
+	width: -webkit-fill-available;
+	border-spacing: 0;
+}
+table#rfq_admin_comment_box tr:nth-child(odd) {
+	background: #f9f9f9 !important;
+}
+table#rfq_admin_comment_box tr {
+	height: 65px;
+	width: 100%;
+}
+#rfq_admin_comment_box_author_column{
+	box-shadow: inset 0 -1px 0 rgba(0,0,0,.1);
+	vertical-align: top;
+	padding: 8px 10px;
+	width:25%;
+	word-wrap: break-word;
+}
+#rfq_admin_comment_box_comment_column{
+	box-shadow: inset 0 -1px 0 rgba(0,0,0,.1);
+	vertical-align: top;
+	padding: 8px 10px;
+	width:75%;
+	word-wrap: break-word;
+}
+#rfq_admin_comment_box_author_column_div{
+	font-size: 13px;
+	line-height: 1.5em;
+	color:#555
+}
+#rfq_admin_comment_box_comment_column_div{
+	font-size: 13px;
+	line-height: 1.5em;
+}
+#rfq_customer_comment_submit_button,#rfq_admin_comment_submit_button{
+	background: #008ec2;
+	border-color: #006799;
+	color: #fff;
+	height: 30px;
+	line-height: 28px;
+	padding: 0 12px 2px;
+	text-decoration: none;
+	text-shadow: 0 -1px 1px #006799, 1px 0 1px #006799, 0 1px 1px #006799, -1px 0 1px #006799;
+	cursor: pointer;
+	border-width: 1px;
+	border-style: solid;
+	-webkit-appearance: none;
+	border-radius: 3px;
+	white-space: nowrap;
+	box-sizing: border-box;
+}
+#rfq_admin_comment_box {
+margin: 0 !important;
+}
+.rfq_customer_comments_box{
+overflow-y:scroll !important;
+}
+
+#view_rfq_order .added_to_cart,
+#view_rfq_order .button,
+#view_rfq_order button,
+#view_rfq_order input[type=button],
+#view_rfq_order input[type=reset],
+#view_rfq_order input[type=submit] {
+	padding: 10px;
+	font-weight: normal;
+	margin-bottom: 5px;
+	margin-right: 2px;
+	width: max-content !important;
+	font-size: 12px;
+	text-align: center;
+	float: left;
+}
+table#view_rfq_order th, table#view_rfq_order td {
+    padding: 8px 10px;
+}
+div#view_rfq_order_length {
+	margin-bottom: 15px !important;
+}
+th.woocommerce-quotes-table__header.woocommerce-quotes-table__header-quote-number.sorting_disabled {
+	width: 80px !important;
+}
+
+table.rfq .product-thumbnail img {
+	margin: 0 auto;
+	max-width: 3.706325903em;
+	height: auto;
+}
+table.rfq td {
+	padding: 1.618em;
+}
+form.rfq-class input{
+	width:100%;
+}
+
+td.woocommerce-quotes-table__cell.woocommerce-quotes-table__cell-quote-actions a {
+	font-size: 14px;
+	padding: 7px 10px !important;
+	text-transform: capitalize;
+	margin: 0 auto 6px;
+	float: none;
+	border-radius: 3px;
+	display: block;
+	width: 80% !important;
+	font-weight: normal;
+}
+
+div#view_rfq_order_info {
+	float: left;
+}
+
+div#view_rfq_order_paginate {
+	float: right;
+}
+
+div#view_rfq_order_paginate a {
+	display: inline-block;
+	padding: 0px 10px;
+	font-size: 15px;
+	text-decoration: none;
+	border: 1px solid;
+	margin-left: 11px;
+}
+
+table.shop_table.shop_table_responsive.rfq.woocommerce-cart-form__contents th {
+	width: 15%;
+}
+th.product-remove {
+	width: 3% !IMPORTANT;
+}
+table.shop_table.shop_table_responsive.rfq.woocommerce-cart-form__contents td {
+	padding: 1.618em 5px;
+}
+#b2be_discount_rule_table td,
+#b2be_discount_rule_table th {
+	vertical-align: middle;
+	text-align: center;
+}
+.b2be_discount_rule_div {
+	text-align: center;
+}
+
+.rfq-details-wrapper{
+	width: 50%;
+	height: 100%;
+}

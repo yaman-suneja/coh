@@ -1,0 +1,216 @@
+.woocommerce-save-button {
+	display:none !important;
+}
+.codup-contact-us {
+	display:none;
+}
+.b2be-signup-form-wrapper {
+	background: #fff;
+	box-shadow: 0 0 4px 1px #e2e2e2;
+	padding: 10px 20px 30px 20px;
+	margin: 20px 0;
+}
+.b2be-signup-form-fields-main-toggler {
+    display: flex;
+    justify-content: space-between;
+}
+.b2be-signup-form-bottom-layer {
+	border-top: 1px solid #ccc;
+	border-bottom: 1px solid #ccc;
+}
+.b2be-signup-form-fields-wrapper,
+.b2be-signup-form-preview-wrapper {
+	border: 1px solid #ccc;
+	width: 40%;
+	padding: 20px;
+	margin: 20px 0;
+	min-height: 500px;
+	float: left;
+}
+.b2be-signup-form-preview-wrapper {
+	float: right;
+	width: 30%;
+	position: relative;
+}
+.preview-fields-wrapper {
+	width: 33.33%;
+	float: left;
+	height: 66px;
+}
+.b2be-signup-form-preview-wrapper p {
+    margin: 5px 0;
+    height: 21px;
+}
+.b2be-signup-form-field {
+	border: 1px solid #ccc;
+	background: #fafafa;
+	margin: 10px 0;
+	cursor: grab;
+}
+.b2be-signup-form-field.ui-sortable-helper {
+    cursor: grabbing;
+}
+.b2be-signup-form-field__header {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	font-size: 15px;
+	font-weight: bold;
+	padding: 10px 20px 10px 10px;
+}
+.b2be-signup-form-field__body.open {
+	border-top: 1px solid #ccc;
+	background: #fdfdfd;
+}
+.b2be-signup-form-field__body {
+	display:none;
+	padding: 10px 20px 20px 20px;
+}
+.b2be-signup-form-body-field-wrapper {
+	display: flex;
+	padding: 10px 0;
+	justify-content: flex-start;
+	align-items: center;
+	font-weight: 600;
+}
+.field_labels {
+	width: 100px;
+}
+.field-name {
+	margin-left: 5px;
+}
+.b2be-signup-form-body-field-wrapper input[type="text"],
+.b2be-signup-form-body-field-wrapper select, 
+.b2be-signup-form-body-field-wrapper textarea {
+	width: 20em;
+}
+.b2be-signup-form-field-add-fields-wrapper {
+	text-align: center;
+}
+.b2be-signup-form-preview-wrapper input {
+	width: 100%;
+}
+.b2be-signup-form-preview-wrapper h2, 
+.b2be-signup-form-preview-wrapper p {
+	margin: 5px 0;
+}
+.b2be-signup-form-preview-wrapper label {
+	font-size: 12px;
+	font-weight: 700;
+}
+.preview-button {
+	margin-top: 10px !important;
+}
+.preview-overlay {
+	position: absolute;
+	background: #f9f9f9;
+	top: 0;
+	right: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	opacity: 0.5;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.preview-overlay p {
+	font-size: 50px;
+	transform: rotate(320deg);
+	-ms-transform: rotate(320deg);
+}
+.b2be-signup-form-field-header__label .select-signup-form-field {
+    margin: 0;
+    margin-right: 5px;
+}
+.b2be-signup-form-field-roles-wrapper {
+    padding: 0 0 10px 0;
+    border-bottom: 1px solid #ccc;
+}
+.b2be-signup-form-field-roles-wrapper p {
+    font-weight: bold;
+}
+.b2be-signup-form-field-roles-wrapper label {
+    display: block;
+    width: 33.33%;
+    float: left;
+    padding: 5px 0;
+}
+.b2be-signup-form-select-all-roles {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+.b2be-signup-form-select-all-roles label {
+	width: auto !important;
+	font-weight: 400 !important;
+}
+.b2be-signup-form-entries-top {
+    padding: 10px 0px;
+}
+.b2be-signup-form-entries-bottom {
+    background: #fff;
+    margin-right: 20px;
+    padding: 20px;
+	min-height: 370px;
+}
+#b2be-signup-form-entry-table {
+    width: 100%;
+}
+.b2be-signup-fomr-user-info {
+    display: flex;
+    background: #f1f1f1;
+    padding: 10px 20px;
+    border: 1px solid #ccc;
+    align-items: center;
+    justify-content: space-between;
+	cursor: pointer;
+}
+.b2be-signup-fomr-user-info .user-email {
+    font-weight: 600;
+}
+.b2be-signup-form-user-entries-wrapper {
+	display: none;
+}
+.b2be-signup-form-user-entries {
+    display: none;
+    margin: 0;
+    display: grid;
+    grid-template-columns: repeat(4, auto);
+    grid-gap: 0.75rem;
+    padding: 10px 20px;
+    border: 1px solid #ccc;
+    border-top: 0;
+}
+.b2be-signup-form-user-entries p {
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    margin: 0;
+    max-width: 300px;
+    width: 300px;
+    word-wrap: break-word;
+}
+.b2be-signup-form-user-entries p label {
+    font-weight: 700;
+    min-width: 90px;
+}
+#b2be-signup-form-entry-table_paginate {
+	float: right;
+    padding-top: .755em;
+}
+#b2be-signup-form-entry-table_paginate a {
+	margin: 0 5px;
+	cursor: pointer;
+}
+.b2be-signup-form-user-toggle {
+    display: flex;
+    align-items: center;
+}
+.b2be-signup-user-status {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    margin-right: 40px;
+    width: 110px;
+}

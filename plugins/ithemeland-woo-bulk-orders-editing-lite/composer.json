@@ -1,0 +1,15 @@
+{
+    "name": "ithemeland/ithemeland-woocommerce-bulk-order-editing",
+    "authors": [
+        {
+            "name": "iThemeland",
+            "email": "info@ithemelandco.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "wobef\\classes\\": "classes/"
+        }
+    },
+    "require": {}
+}

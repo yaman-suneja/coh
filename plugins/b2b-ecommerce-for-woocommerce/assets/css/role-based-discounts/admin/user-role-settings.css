@@ -1,0 +1,17 @@
+.empty-product-role-message {
+	font-size: x-large !important;
+	background: #0073aa;
+	color: #fff;
+	padding: 15px;
+	text-align: center;
+}
+p.form-field.custom-field input {
+	width: 100%;
+	vertical-align: middle;
+	margin: 2px 0 0;
+	padding: 5px;
+}
+
+p.form-field.custom-field {
+	width: 48%;
+}

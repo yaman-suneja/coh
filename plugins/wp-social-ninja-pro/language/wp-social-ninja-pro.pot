@@ -1,0 +1,372 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: WP Social Ninja Pro\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-02-16 09:06+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: \n"
+"Language: \n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco https://localise.biz/\n"
+"X-Loco-Version: 2.5.4; wp-5.8.1\n"
+"X-Domain: wp-social-ninja-pro"
+
+#: includes/Hooks/Frontend.php:822
+msgid " Comments"
+msgstr ""
+
+#: includes/Hooks/Frontend.php:815
+msgid " Likes"
+msgstr ""
+
+#: includes/views/reviews-templates/business_info.php:31
+msgid " Rating"
+msgstr ""
+
+#: includes/Hooks/Frontend.php:678 includes/Hooks/Frontend.php:949
+msgid " Subscribers"
+msgstr ""
+
+#: includes/Classes/Reviews/Tripadvisor.php:305
+msgid " Unable to find any new reviews."
+msgstr ""
+
+#: includes/Hooks/Frontend.php:685
+msgid " Videos"
+msgstr ""
+
+#: includes/Hooks/Frontend.php:692 includes/Hooks/Frontend.php:779
+#: includes/Hooks/Frontend.php:883
+msgid " Views"
+msgstr ""
+
+#: includes/Classes/Reviews/Aliexpress.php:178
+msgid "AliExpress"
+msgstr ""
+
+#: includes/Classes/Reviews/Aliexpress.php:164
+msgid "AliExpress reviews not found!"
+msgstr ""
+
+#: includes/Classes/Reviews/Amazon.php:158
+msgid "Amazon"
+msgstr ""
+
+#: includes/Classes/Reviews/Fluentform.php:49
+msgid "Approve WP Social Ninja"
+msgstr ""
+
+#: includes/Classes/Reviews/Booking.php:157
+msgid "Booking.com"
+msgstr ""
+
+#: includes/Classes/Reviews/Booking.php:93
+#: includes/Classes/Reviews/Aliexpress.php:78
+#: includes/Classes/Reviews/Aliexpress.php:124
+#: includes/Classes/Reviews/Aliexpress.php:189
+#: includes/Classes/Reviews/Tripadvisor.php:157
+#: includes/Classes/Reviews/Tripadvisor.php:426
+#: includes/Classes/Reviews/Trustpilot.php:91
+#: includes/Classes/Reviews/Amazon.php:99
+#: includes/Classes/Reviews/Amazon.php:168
+msgid "Can't fetch reviews due to slow network, please try again"
+msgstr ""
+
+#: includes/Classes/Reviews/Fluentform.php:195
+msgid "Category"
+msgstr ""
+
+#: wp-social-ninja-pro.php:69
+msgid "Click Here to Activate the Plugin"
+msgstr ""
+
+#: wp-social-ninja-pro.php:66
+msgid "Click Here to Install the Plugin"
+msgstr ""
+
+#: includes/Classes/Reviews/Fluentform.php:180
+msgid "Comment"
+msgstr ""
+
+#: includes/Hooks/Frontend.php:1248
+msgid "Comments"
+msgstr ""
+
+#: includes/Classes/Reviews/FacebookBusiness.php:60
+msgid "Facebook"
+msgstr ""
+
+#: includes/Classes/Reviews/FacebookBusiness.php:45
+msgid "Facebook Business Reviews Successfully Saved"
+msgstr ""
+
+#: includes/Classes/Reviews/Fluentform.php:225
+msgid "Fluent Forms"
+msgstr ""
+
+#: includes/Hooks/Frontend.php:625 includes/Hooks/Frontend.php:1112
+msgid "Followers"
+msgstr ""
+
+#: includes/Hooks/Frontend.php:617
+msgid "Following"
+msgstr ""
+
+#: includes/Hooks/Frontend.php:356
+msgid "Friday"
+msgstr ""
+
+#. Author URI of the plugin
+msgid "https://wpmanageninja.com"
+msgstr ""
+
+#. URI of the plugin
+msgid "https://wpsocialninja.com/"
+msgstr ""
+
+#: includes/Hooks/Frontend.php:832
+msgid "LIVE NOW"
+msgstr ""
+
+#: includes/Hooks/Frontend.php:352
+msgid "Monday"
+msgstr ""
+
+#: includes/Hooks/Frontend.php:1013
+msgid "Next"
+msgstr ""
+
+#: includes/Classes/Reviews/Woocommerce.php:90
+msgid "No reviews found for this product!"
+msgstr ""
+
+#: includes/Classes/Reviews/Booking.php:143
+#: includes/Classes/Reviews/Aliexpress.php:159
+#: includes/Classes/Reviews/Woocommerce.php:108
+#: includes/Classes/Reviews/Trustpilot.php:138
+msgid "No reviews Found!"
+msgstr ""
+
+#: includes/Hooks/Frontend.php:274
+msgid "No templates found!! Please save template and try again"
+msgstr ""
+
+#: includes/views/reviews-templates/notification.php:49
+msgid "on"
+msgstr ""
+
+#: includes/views/reviews-templates/business_info.php:31
+msgid "Overall Rating"
+msgstr ""
+
+#: includes/Hooks/Backend.php:372
+msgid "Please enter a channel id to fetch videos!! "
+msgstr ""
+
+#: includes/Hooks/Backend.php:376
+msgid "Please enter a valid channel id!! "
+msgstr ""
+
+#: includes/Classes/Reviews/FacebookBusiness.php:101
+msgid "Please enter a valid page id"
+msgstr ""
+
+#: includes/Classes/Reviews/Booking.php:148
+#: includes/Classes/Reviews/Aliexpress.php:169
+#: includes/Classes/Reviews/Tripadvisor.php:319
+#: includes/Classes/Reviews/Trustpilot.php:143
+#: includes/Classes/Reviews/Amazon.php:149
+msgid "Please enter a valid url!"
+msgstr ""
+
+#: includes/Hooks/Backend.php:342
+msgid "Please enter playlist id to fetch videos!! "
+msgstr ""
+
+#: includes/Hooks/Backend.php:357
+msgid "Please enter search term to fetch videos!! "
+msgstr ""
+
+#: includes/Classes/Reviews/Woocommerce.php:63
+msgid "Please provide a valid product id!!"
+msgstr ""
+
+#: includes/Classes/Reviews/Amazon.php:144
+msgid "Please try again after few minutes!"
+msgstr ""
+
+#: includes/Hooks/Frontend.php:1106
+msgid "Posts"
+msgstr ""
+
+#: includes/Hooks/Frontend.php:1012
+msgid "Prev"
+msgstr ""
+
+#: includes/Classes/Reviews/Fluentform.php:160
+msgid "Ratings"
+msgstr ""
+
+#: includes/Classes/Reviews/Fluentform.php:175
+msgid "Review Title"
+msgstr ""
+
+#: includes/Classes/Reviews/Fluentform.php:170
+msgid "Reviewer Email"
+msgstr ""
+
+#: includes/Classes/Reviews/Fluentform.php:185
+msgid "Reviewer Image"
+msgstr ""
+
+#: includes/Classes/Reviews/Fluentform.php:165
+msgid "Reviewer Name"
+msgstr ""
+
+#: includes/Classes/Reviews/Fluentform.php:190
+msgid "Reviewer Url"
+msgstr ""
+
+#: includes/Hooks/Frontend.php:350
+msgid "Saturday"
+msgstr ""
+
+#: includes/Hooks/Frontend.php:801
+msgid "Streamed "
+msgstr ""
+
+#: includes/Hooks/Frontend.php:962
+msgid "Subscribe"
+msgstr ""
+
+#: includes/Hooks/Frontend.php:351
+msgid "Sunday"
+msgstr ""
+
+#: includes/Hooks/Frontend.php:355
+msgid "Thursday"
+msgstr ""
+
+#: includes/Classes/Reviews/Tripadvisor.php:328
+msgid "Tripadvisor"
+msgstr ""
+
+#: includes/Classes/Reviews/Trustpilot.php:152
+msgid "Trustpilot"
+msgstr ""
+
+#: includes/Hooks/Frontend.php:353
+msgid "Tuesday"
+msgstr ""
+
+#: includes/Hooks/Frontend.php:609
+msgid "Tweets"
+msgstr ""
+
+#: includes/Classes/Reviews/Booking.php:68
+#: includes/Classes/Reviews/Aliexpress.php:64
+#: includes/Classes/Reviews/Tripadvisor.php:78
+#: includes/Classes/Reviews/Trustpilot.php:65
+#: includes/Classes/Reviews/Amazon.php:67
+msgid "URL field should not be empty!"
+msgstr ""
+
+#: includes/Classes/Reviews/YelpBusiness.php:69
+msgid ""
+"We can't fetch any reviews from this business name, Please check your "
+"business name is correct or not."
+msgstr ""
+
+#: includes/Classes/Reviews/FacebookBusiness.php:78
+msgid "We could not find any reviews from this page."
+msgstr ""
+
+#: includes/Hooks/Frontend.php:354
+msgid "Wednesday"
+msgstr ""
+
+#: includes/views/reviews-templates/business_info.php:85
+msgid "Where you want to leave a review?"
+msgstr ""
+
+#: includes/Classes/Reviews/Woocommerce.php:29
+msgid "Woocommerce"
+msgstr ""
+
+#: includes/Classes/Reviews/Fluentform.php:44
+msgid "WP Social Ninja"
+msgstr ""
+
+#. Description of the plugin
+msgid ""
+"WP Social Ninja - is an all-in-one WordPress Social plugin to automatically "
+"integrate your social media reviews, news feeds, and chat functionalities on "
+"your website."
+msgstr ""
+
+#: includes/Classes/Reviews/Fluentform.php:95
+msgid "WP Social Ninja activated!"
+msgstr ""
+
+#: includes/Classes/Reviews/Fluentform.php:45
+msgid ""
+"WP Social Ninja is the all-in-one WordPress plugin for automatically "
+"integrating your social media reviews, news feeds, and chat functionalities."
+msgstr ""
+
+#: includes/Classes/Reviews/Fluentform.php:89
+msgid "WP Social Ninja Module Deactivated!"
+msgstr ""
+
+#: includes/Classes/Reviews/Fluentform.php:48
+msgid "WP Social Ninja need to approve first "
+msgstr ""
+
+#. Name of the plugin
+msgid "WP Social Ninja Pro"
+msgstr ""
+
+#. Author of the plugin
+msgid "WPManageNinja LLC"
+msgstr ""
+
+#: includes/Classes/Reviews/YelpBusiness.php:58
+msgid "Yelp"
+msgstr ""
+
+#: includes/Classes/Reviews/YelpBusiness.php:43
+msgid "Yelp Business Reviews Successfully Saved"
+msgstr ""
+
+#: includes/Classes/Reviews/FacebookBusiness.php:199
+msgid "You are Successfully Verified"
+msgstr ""
+
+#: includes/Classes/Feeds/Instagram/HashtagFeed.php:107
+msgid "You need a business account to get hashtag feed!!"
+msgstr ""
+
+#: includes/Classes/Feeds/Instagram/TaggedFeed.php:67
+msgid "You need business account to get tagged feed!!"
+msgstr ""
+
+#: includes/Hooks/License.php:48
+msgid "Your license key has been successfully updated"
+msgstr ""
+
+#: includes/Classes/Reviews/Fluentform.php:47
+msgid "Your WP Social Ninja integration activated"
+msgstr ""
+
+#: includes/Classes/Reviews/Zomato.php:60
+msgid "Zomato Business"
+msgstr ""
+
+#: includes/Classes/Reviews/Zomato.php:39
+msgid "Zomato Business Reviews successfully saved"
+msgstr ""

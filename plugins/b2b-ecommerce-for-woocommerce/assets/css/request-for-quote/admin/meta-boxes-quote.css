@@ -1,0 +1,44 @@
+#wcrfq-quote-data .handlediv, #wcrfq-quote-data .hndle{
+	display: none;
+}
+#quote_data h2 {
+	margin: 0;
+	font-family: HelveticaNeue-Light,"Helvetica Neue Light","Helvetica Neue",sans-serif;
+	font-size: 21px;
+	font-weight: 400;
+	line-height: 1.2;
+	text-shadow: 1px 1px 1px #fff;
+	padding: 0;
+}
+#quote_data .quote_data_column {
+	width: 32%;
+	padding: 0 2% 0 0;
+	float: left;
+}
+#quote_data .quote_data_column .form-field label {
+	display: block;
+	padding: 0 0 3px;
+}
+#quote_data .quote_data_column .form-field .date-picker{
+	width: 50%
+}
+#quote_data .quote_data_column .form-field .hour, #quote_data .quote_data_column .form-field .minute {
+	width: 3.5em;
+}
+#quote_data .quote_data_column .details strong {
+	display: block;
+}
+#quote_data {
+	padding: 23px 24px 12px;
+}
+.woocommerce_quote_items_wrapper input 	{
+	width: 80px !important;
+	text-align: center;
+	padding-right: 0px !important;
+}
+.woocommerce_quote_items_wrapper.cwrfq-quote-items-editable {
+	margin-top: 20px;
+}
+.rfq_customer_comments_box{
+overflow-y:scroll !important;
+}

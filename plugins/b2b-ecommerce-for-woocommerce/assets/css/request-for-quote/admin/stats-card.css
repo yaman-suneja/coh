@@ -1,0 +1,11 @@
+@media screen and (max-width: 375px) {
+
+	.rfq-stat-table th{
+    	font-size: 8px;
+	}
+
+}
+
+.card_rfq_td{
+	 font-weight: 400 !important;
+}

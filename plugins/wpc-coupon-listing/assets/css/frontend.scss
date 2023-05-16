@@ -1,0 +1,216 @@
+@keyframes wpc-spinner {
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@-webkit-keyframes wpc-spinner {
+  to {
+    -webkit-transform: rotate(360deg);
+  }
+}
+
+@keyframes wpccl-spinner {
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@-webkit-keyframes wpccl-spinner {
+  to {
+    -webkit-transform: rotate(360deg);
+  }
+}
+
+.wpccl-btn-wrapper {
+  text-align: left;
+
+  .wpccl-btn {
+    padding-left: 25px;
+    background-image: url("../images/coupon.svg");
+    background-repeat: no-repeat;
+    background-position: left center;
+    background-size: 20px;
+  }
+}
+
+.wpccl-lightbox {
+  display: none;
+}
+
+.wpccl-featherlight {
+  .featherlight-content {
+    width: 90%;
+    max-width: 500px;
+    padding: 20px;
+    border-bottom: 0;
+  }
+
+  .featherlight-close {
+    outline: none;
+  }
+}
+
+.wpccl-heading {
+  font-weight: 700;
+  color: #222222;
+  text-align: center;
+  margin-bottom: 15px;
+}
+
+.wpccl-coupons {
+  .wpccl-coupon {
+    background-color: #f8f8f8;
+    color: #666;
+    width: 100%;
+    padding: 10px 15px;
+    margin-bottom: 15px;
+    border: 1px solid #f8f8f8;
+    cursor: pointer;
+
+    .wpccl-coupon-info {
+      .wpccl-coupon-value {
+        font-weight: 600;
+        color: #000;
+        line-height: 1.2;
+      }
+
+      .wpccl-coupon-code-wrap {
+        display: flex;
+        width: 100%;
+        align-items: center;
+
+        .wpccl-coupon-code {
+          border: 1px dashed #9d9d9d;
+          background-color: #f1f1f1;
+          padding: 5px 10px;
+          margin: 5px 10px 5px 0;
+          letter-spacing: 1px;
+          color: #000000;
+          line-height: 1.4;
+          font-size: 18px;
+        }
+
+        .wpccl-coupon-more {
+          font-size: 14px;
+          line-height: 1.2;
+
+          .wpccl-coupon-expiry {
+            span {
+              color: #ff6600;
+            }
+          }
+        }
+      }
+    }
+
+    &:hover {
+      border-color: #222222;
+
+      .wpccl-coupon-info {
+        .wpccl-coupon-code-wrap {
+          .wpccl-coupon-code {
+            border-color: #222222;
+          }
+        }
+      }
+    }
+
+    &.wpccl-coupon-applied {
+      position: relative;
+      cursor: unset;
+
+      .wpccl-coupon-applied-txt {
+        position: absolute;
+        top: 0;
+        right: 0;
+        font-size: 12px;
+        line-height: 1;
+        padding: 4px 6px;
+        background-color: #222222;
+        color: #ffffff;
+      }
+    }
+
+    &:last-child {
+      margin-bottom: 0;
+    }
+
+    &.wpccl-coupon-loading {
+      position: relative;
+
+      &:before {
+        width: 32px;
+        height: 32px;
+        display: block;
+        margin-top: -16px;
+        margin-left: -16px;
+        content: '';
+        background-image: url("../images/curve.svg");
+        background-repeat: no-repeat;
+        background-position: center;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        z-index: 8;
+        -webkit-animation: wpccl-spinner 1s linear infinite;
+        -moz-animation: wpccl-spinner 1s linear infinite;
+        -ms-animation: wpccl-spinner 1s linear infinite;
+        -o-animation: wpccl-spinner 1s linear infinite;
+        animation: wpccl-spinner 1s linear infinite;
+      }
+
+      .wpccl-coupon-info {
+        opacity: .5;
+      }
+    }
+  }
+
+  .wpccl-empty {
+    padding: 20px 0;
+    text-align: center;
+  }
+
+  &.wpccl-coupons-loading {
+    position: relative;
+    min-height: 120px;
+
+    &:before {
+      width: 32px;
+      height: 32px;
+      display: block;
+      margin-top: -16px;
+      margin-left: -16px;
+      content: '';
+      background-image: url("../images/curve.svg");
+      background-repeat: no-repeat;
+      background-position: center;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      z-index: 8;
+      -webkit-animation: wpccl-spinner 1s linear infinite;
+      -moz-animation: wpccl-spinner 1s linear infinite;
+      -ms-animation: wpccl-spinner 1s linear infinite;
+      -o-animation: wpccl-spinner 1s linear infinite;
+      animation: wpccl-spinner 1s linear infinite;
+    }
+
+    .wpccl-coupon {
+      opacity: .5;
+      pointer-events: none;
+    }
+  }
+}
+
+// Checkout
+.woocommerce-form-coupon-toggle {
+  .woocommerce-info {
+    display: flex;
+  }
+
+  .wpccl-btn-wrapper {
+    flex-grow: 1;
+    text-align: right;
+  }
+}

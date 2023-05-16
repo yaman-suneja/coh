@@ -1,0 +1,26 @@
+# Files and directories to exclude from Plugin releases.
+/bin
+/vendor
+/tests
+/scripts
+.changelogger*
+.DS_Store
+.git
+.github
+.gitignore
+.idea
+.phpunit.*
+.phpcs.*
+.python-version
+.pre-commit-config.yaml
+.travis.yml
+data
+wordpress
+CHANGELOG.md
+README.md
+composer.*
+exclude-files.txt
+phpunit.xml.dist
+Dockerfile
+docker-compose.yml
+Makefile

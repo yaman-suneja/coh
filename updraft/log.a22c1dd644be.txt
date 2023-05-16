@@ -1,0 +1,476 @@
+0000.000 (0) Opened log file at time: Sun, 21 Aug 2022 14:53:40 +0000 on https://coh.404found.co
+0000.665 (0) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.22.14 WP: 6.0.1 PHP: 8.0.17 (litespeed, Linux box2139.bluehost.com 4.19.150-76.ELK.el7.x86_64 #1 SMP Wed Oct 7 01:33:43 CDT 2020 x86_64) MySQL: 5.7.23-23 (max packet size=268435456) WPLANG: en_US Server: Apache safe_mode: 0 max_execution_time: 900 memory_limit: 512M (used: 39.4M | 42M) multisite: N openssl: OpenSSL 1.1.1n  15 Mar 2022 mcrypt: N LANG:  ZipArchive::addFile: Y
+0000.724 (0) Free space on disk containing Updraft's temporary directory: 786741.3 MB
+0000.741 (0) Tasks: Backup files: 0 (schedule: unset) Backup DB: 1 (schedule: unset)
+0000.745 (0) Semaphore (d, OUO_options) being initialised
+0000.751 (0) Requesting semaphore lock (d) (apparently not via scheduler)
+0000.754 (0) Set semaphore last lock (d) time to 2022-08-21 14:53:41
+0000.754 (0) Semaphore lock (d) complete
+0000.758 (0) Backup run: resumption=0, nonce=a22c1dd644be, file_nonce=a22c1dd644be begun at=1661093620 (1s ago), job type=backup
+0000.759 (0) Scheduling a resumption (1) after 300 seconds (1661093921) in case this run gets aborted
+0000.775 (0) This backup run is not intended for files - skipping
+0000.776 (0) Beginning creation of database dump (WordPress DB)
+0000.777 (0) SQL compatibility mode is: NO_AUTO_CREATE_USER,NO_ENGINE_SUBSTITUTION
+0000.780 (0) Testing potential mysqldump binary: /usr/bin/mysqldump
+0000.834 (0) Output: /*!40103 SET @OLD_TIME_ZONE=@@TIME_ZONE */;\n/*!40103 SET TIME_ZONE='+00:00' */;\n/*!40014 SET @OLD_UNIQUE_CHECKS=@@UNIQUE_CHECKS, UNIQUE_CHECKS=0 */;\n/*!40014 SET @OLD_FOREIGN_KEY_CHECKS=@@FOREIGN_KEY_CHECKS, FOREIGN_KEY_CHECKS=0 */;\n/*!40101 SET @OLD_SQL_MODE=@@SQL_MODE, SQL_MODE='NO_AUTO_VALUE_ON_ZERO' */;\n/*!40111 SET @OLD_SQL_NOTES=@@SQL_NOTES, SQL_NOTES=0 */;\n/*!50717 SELECT COUNT(*) INTO @rocksdb_has_p_s_session_variables FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_SCHEMA = 'performance_schema' AND TABL (truncated - 2584 bytes total)
+0000.835 (0) Working binary mysqldump found: /usr/bin/mysqldump
+0000.972 (0) Table OUO_options: Total expected rows (approximate): 1739
+0001.311 (0) Table OUO_options: Rows added in this batch (next record: 118819): 1567 (uncompressed bytes in this segment=7391884) in 0.35 seconds
+0001.318 (0) Table OUO_options: finishing file(s) (2, 838.1 KB)
+0001.348 (0) Table OUO_users: Total expected rows (via COUNT): 18
+0001.350 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0001.356 (0) Table OUO_users: Rows added in this batch (next record: 41): 18 (uncompressed bytes in this segment=4277) in 0.04 seconds
+0001.365 (0) Table OUO_users: finishing file(s) (2, 1.8 KB)
+0001.378 (0) Table OUO_usermeta: Total expected rows (via COUNT): 1045
+0001.379 (0) Table is relatively small; fetch_rows will thus be: 500 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0001.395 (0) Table OUO_usermeta: Rows added in this batch (next record: 2615): 1045 (uncompressed bytes in this segment=104965) in 0.03 seconds
+0001.400 (0) Table OUO_usermeta: finishing file(s) (2, 18.9 KB)
+0001.406 (0) Table OUO_actionscheduler_actions: Total expected rows (via COUNT): 490
+0001.407 (0) Table is relatively small; fetch_rows will thus be: 500 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0001.423 (0) Table OUO_actionscheduler_actions: Rows added in this batch (next record: 2403): 490 (uncompressed bytes in this segment=180695) in 0.02 seconds
+0001.441 (0) Table OUO_actionscheduler_actions: finishing file(s) (2, 12.7 KB)
+0001.446 (0) Table OUO_actionscheduler_claims: Total expected rows (via COUNT): 0
+0001.449 (0) Table OUO_actionscheduler_claims: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=632) in 0.00 seconds
+0001.453 (0) Table OUO_actionscheduler_claims: finishing file(s) (2, 0.4 KB)
+0001.458 (0) Table OUO_actionscheduler_groups: Total expected rows (via COUNT): 8
+0001.459 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0001.462 (0) Table OUO_actionscheduler_groups: Rows added in this batch (next record: 8): 8 (uncompressed bytes in this segment=905) in 0.01 seconds
+0001.466 (0) Table OUO_actionscheduler_groups: finishing file(s) (2, 0.5 KB)
+0001.471 (0) Table OUO_actionscheduler_logs: Total expected rows (approximate): 1352
+0001.506 (0) Table OUO_actionscheduler_logs: Rows added in this batch (next record: 7161): 1454 (uncompressed bytes in this segment=129693) in 0.04 seconds
+0001.511 (0) Table OUO_actionscheduler_logs: finishing file(s) (2, 12.6 KB)
+0001.527 (0) Table OUO_commentmeta: Total expected rows (via COUNT): 2
+0001.528 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0001.535 (0) Table OUO_commentmeta: Rows added in this batch (next record: 2): 2 (uncompressed bytes in this segment=795) in 0.02 seconds
+0001.542 (0) Table OUO_commentmeta: finishing file(s) (2, 0.4 KB)
+0001.550 (0) Table OUO_comments: Total expected rows (via COUNT): 14
+0001.552 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0001.554 (0) Table OUO_comments: Rows added in this batch (next record: 16): 14 (uncompressed bytes in this segment=5616) in 0.01 seconds
+0001.558 (0) Table OUO_comments: finishing file(s) (2, 1.4 KB)
+0001.565 (0) Table OUO_links: Total expected rows (via COUNT): 0
+0001.568 (0) Table OUO_links: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1316) in 0.01 seconds
+0001.572 (0) Table OUO_links: finishing file(s) (2, 0.5 KB)
+0001.576 (0) Table OUO_postmeta: Total expected rows (approximate): 10109
+0002.015 (0) Table OUO_postmeta: binary mysqldump finished (writes: 50, bytes 5403663, return code 0) in 0.44 seconds
+0002.019 (0) Table OUO_postmeta: finishing file(s) (1, 629.9 KB)
+0002.041 (0) Table OUO_posts: Total expected rows (via COUNT): 801
+0002.121 (0) Table OUO_posts: Rows added in this batch (next record: 37781): 801 (uncompressed bytes in this segment=992277) in 0.08 seconds
+0002.126 (0) Table OUO_posts: finishing file(s) (2, 159 KB)
+0002.130 (0) Table OUO_term_relationships: Total expected rows (approximate): 405
+0002.134 (0) Table OUO_term_relationships: Rows added in this batch (next record: 100000): 435 (uncompressed bytes in this segment=8076) in 0.00 seconds
+0002.138 (0) Table OUO_term_relationships: finishing file(s) (2, 1.6 KB)
+0002.144 (0) Table OUO_term_taxonomy: Total expected rows (via COUNT): 197
+0002.145 (0) Table is relatively small; fetch_rows will thus be: 250 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0002.149 (0) Table OUO_term_taxonomy: Rows added in this batch (next record: 200): 197 (uncompressed bytes in this segment=8330) in 0.01 seconds
+0002.153 (0) Table OUO_term_taxonomy: finishing file(s) (2, 1.7 KB)
+0002.172 (0) Table OUO_termmeta: Total expected rows (via COUNT): 1010
+0002.176 (0) Table is relatively small; fetch_rows will thus be: 500 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0002.204 (0) Table OUO_termmeta: Rows added in this batch (next record: 1032): 1010 (uncompressed bytes in this segment=41551) in 0.05 seconds
+0002.221 (0) Table OUO_termmeta: finishing file(s) (2, 6 KB)
+0002.237 (0) Table OUO_terms: Total expected rows (via COUNT): 197
+0002.238 (0) Table is relatively small; fetch_rows will thus be: 250 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0002.243 (0) Table OUO_terms: Rows added in this batch (next record: 200): 197 (uncompressed bytes in this segment=8519) in 0.02 seconds
+0002.251 (0) Table OUO_terms: finishing file(s) (2, 2.9 KB)
+0002.272 (0) Table OUO_wc_category_lookup: Total expected rows (approximate): 13
+0002.280 (0) Table OUO_wc_category_lookup: Rows added in this batch (next record: 1000): 13 (uncompressed bytes in this segment=733) in 0.01 seconds
+0002.296 (0) Table OUO_wc_category_lookup: finishing file(s) (2, 0.4 KB)
+0002.312 (0) Table OUO_wc_product_meta_lookup: Total expected rows (via COUNT): 220
+0002.317 (0) Table is relatively small; fetch_rows will thus be: 250 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0002.330 (0) Table OUO_wc_product_meta_lookup: Rows added in this batch (next record: 37778): 220 (uncompressed bytes in this segment=22507) in 0.02 seconds
+0002.337 (0) Table OUO_wc_product_meta_lookup: finishing file(s) (2, 2.2 KB)
+0002.345 (0) Table OUO_wc_reserved_stock: Total expected rows (approximate): 0
+0002.363 (0) Table OUO_wc_reserved_stock: Rows added in this batch (next record: 0): 0 (uncompressed bytes in this segment=671) in 0.02 seconds
+0002.373 (0) Table OUO_wc_reserved_stock: finishing file(s) (2, 0.4 KB)
+0002.382 (0) Table OUO_wc_tax_rate_classes: Total expected rows (via COUNT): 2
+0002.384 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0002.390 (0) Table OUO_wc_tax_rate_classes: Rows added in this batch (next record: 2): 2 (uncompressed bytes in this segment=819) in 0.01 seconds
+0002.394 (0) Table OUO_wc_tax_rate_classes: finishing file(s) (2, 0.4 KB)
+0002.404 (0) Table OUO_woocommerce_order_itemmeta: Total expected rows (via COUNT): 128
+0002.405 (0) Table is relatively small; fetch_rows will thus be: 250 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0002.409 (0) Table OUO_woocommerce_order_itemmeta: Rows added in this batch (next record: 160): 128 (uncompressed bytes in this segment=6026) in 0.01 seconds
+0002.414 (0) Table OUO_woocommerce_order_itemmeta: finishing file(s) (2, 1.5 KB)
+0002.428 (0) Table OUO_woocommerce_payment_tokenmeta: Total expected rows (via COUNT): 0
+0002.430 (0) Table OUO_woocommerce_payment_tokenmeta: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=804) in 0.01 seconds
+0002.435 (0) Table OUO_woocommerce_payment_tokenmeta: finishing file(s) (2, 0.4 KB)
+0002.456 (0) Table OUO_aiowps_debug_log: Total expected rows (via COUNT): 0
+0002.481 (0) Table OUO_aiowps_debug_log: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=713) in 0.04 seconds
+0002.489 (0) Table OUO_aiowps_debug_log: finishing file(s) (2, 0.4 KB)
+0002.513 (0) Table OUO_aiowps_events: Total expected rows (via COUNT): 0
+0002.519 (0) Table OUO_aiowps_events: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1025) in 0.02 seconds
+0002.529 (0) Table OUO_aiowps_events: finishing file(s) (2, 0.4 KB)
+0002.539 (0) Table OUO_aiowps_failed_logins: Total expected rows (via COUNT): 11
+0002.542 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0002.550 (0) Table OUO_aiowps_failed_logins: Rows added in this batch (next record: 11): 11 (uncompressed bytes in this segment=1477) in 0.01 seconds
+0002.556 (0) Table OUO_aiowps_failed_logins: finishing file(s) (2, 0.7 KB)
+0002.566 (0) Table OUO_aiowps_global_meta: Total expected rows (via COUNT): 0
+0002.568 (0) Table OUO_aiowps_global_meta: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1198) in 0.01 seconds
+0002.580 (0) Table OUO_aiowps_global_meta: finishing file(s) (2, 0.4 KB)
+0002.602 (0) Table OUO_aiowps_login_activity: Total expected rows (via COUNT): 81
+0002.605 (0) Table is relatively small; fetch_rows will thus be: 100 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0002.611 (0) Table OUO_aiowps_login_activity: Rows added in this batch (next record: 81): 81 (uncompressed bytes in this segment=8578) in 0.02 seconds
+0002.619 (0) Table OUO_aiowps_login_activity: finishing file(s) (2, 1.8 KB)
+0002.628 (0) Table OUO_aiowps_login_lockdown: Total expected rows (via COUNT): 0
+0002.631 (0) Table OUO_aiowps_login_lockdown: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=958) in 0.00 seconds
+0002.643 (0) Table OUO_aiowps_login_lockdown: finishing file(s) (2, 0.4 KB)
+0002.650 (0) Table OUO_aiowps_permanent_block: Total expected rows (via COUNT): 0
+0002.652 (0) Table OUO_aiowps_permanent_block: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=839) in 0.00 seconds
+0002.657 (0) Table OUO_aiowps_permanent_block: finishing file(s) (2, 0.4 KB)
+0002.677 (0) Table OUO_ce4wp_abandoned_checkout: Total expected rows (via COUNT): 0
+0002.686 (0) Table OUO_ce4wp_abandoned_checkout: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1303) in 0.02 seconds
+0002.701 (0) Table OUO_ce4wp_abandoned_checkout: finishing file(s) (2, 0.5 KB)
+0002.711 (0) Table OUO_ce4wp_contacts: Total expected rows (via COUNT): 0
+0002.716 (0) Table OUO_ce4wp_contacts: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=846) in 0.01 seconds
+0002.738 (0) Table OUO_ce4wp_contacts: finishing file(s) (2, 0.4 KB)
+0002.757 (0) Table OUO_cwrf_credit_payment_logs: Total expected rows (via COUNT): 0
+0002.759 (0) Table OUO_cwrf_credit_payment_logs: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=722) in 0.01 seconds
+0002.764 (0) Table OUO_cwrf_credit_payment_logs: finishing file(s) (2, 0.4 KB)
+0002.801 (0) Table OUO_e_events: Total expected rows (via COUNT): 0
+0002.804 (0) Table OUO_e_events: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=535) in 0.01 seconds
+0002.816 (0) Table OUO_e_events: finishing file(s) (2, 0.4 KB)
+0002.831 (0) Table OUO_gglcptch_allowlist: Total expected rows (via COUNT): 0
+0002.834 (0) Table OUO_gglcptch_allowlist: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=599) in 0.01 seconds
+0002.844 (0) Table OUO_gglcptch_allowlist: finishing file(s) (2, 0.4 KB)
+0002.905 (0) Table OUO_groups_capability: Total expected rows (via COUNT): 157
+0002.906 (0) Table is relatively small; fetch_rows will thus be: 250 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0002.916 (0) Table OUO_groups_capability: Rows added in this batch (next record: 157): 157 (uncompressed bytes in this segment=9590) in 0.04 seconds
+0002.922 (0) Table OUO_groups_capability: finishing file(s) (2, 1.5 KB)
+0002.936 (0) Table OUO_groups_group: Total expected rows (via COUNT): 1
+0002.937 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0002.942 (0) Table OUO_groups_group: Rows added in this batch (next record: 1): 1 (uncompressed bytes in this segment=825) in 0.02 seconds
+0002.947 (0) Table OUO_groups_group: finishing file(s) (2, 0.5 KB)
+0002.955 (0) Table OUO_groups_group_capability: Total expected rows (approximate): 0
+0002.962 (0) Table OUO_groups_group_capability: Rows added in this batch (next record: 0): 0 (uncompressed bytes in this segment=617) in 0.01 seconds
+0002.967 (0) Table OUO_groups_group_capability: finishing file(s) (2, 0.3 KB)
+0002.972 (0) Table OUO_groups_user_capability: Total expected rows (approximate): 0
+0002.984 (0) Table OUO_groups_user_capability: Rows added in this batch (next record: 0): 0 (uncompressed bytes in this segment=607) in 0.01 seconds
+0002.990 (0) Table OUO_groups_user_capability: finishing file(s) (2, 0.3 KB)
+0002.997 (0) Table OUO_groups_user_group: Total expected rows (approximate): 14
+0003.003 (0) Table OUO_groups_user_group: Rows added in this batch (next record: 1000): 14 (uncompressed bytes in this segment=739) in 0.01 seconds
+0003.008 (0) Table OUO_groups_user_group: finishing file(s) (2, 0.4 KB)
+0003.058 (0) Table OUO_lws_webhooks_events: Total expected rows (via COUNT): 0
+0003.061 (0) Table OUO_lws_webhooks_events: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1252) in 0.03 seconds
+0003.070 (0) Table OUO_lws_webhooks_events: finishing file(s) (2, 0.6 KB)
+0003.082 (0) Table OUO_lws_wr_achieved_log: Total expected rows (via COUNT): 0
+0003.084 (0) Table OUO_lws_wr_achieved_log: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1363) in 0.01 seconds
+0003.096 (0) Table OUO_lws_wr_achieved_log: finishing file(s) (2, 0.6 KB)
+0003.119 (0) Table OUO_lws_wr_historic: Total expected rows (via COUNT): 6
+0003.120 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0003.133 (0) Table OUO_lws_wr_historic: Rows added in this batch (next record: 6): 6 (uncompressed bytes in this segment=2445) in 0.03 seconds
+0003.146 (0) Table OUO_lws_wr_historic: finishing file(s) (2, 0.9 KB)
+0003.159 (0) Table OUO_lws_wr_tinyurls: Total expected rows (approximate): 0
+0003.180 (0) Table OUO_lws_wr_tinyurls: Rows added in this batch (next record: 0): 0 (uncompressed bytes in this segment=619) in 0.02 seconds
+0003.186 (0) Table OUO_lws_wr_tinyurls: finishing file(s) (2, 0.4 KB)
+0003.198 (0) Table OUO_lws_wr_userbadge: Total expected rows (via COUNT): 0
+0003.201 (0) Table OUO_lws_wr_userbadge: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=802) in 0.01 seconds
+0003.206 (0) Table OUO_lws_wr_userbadge: finishing file(s) (2, 0.4 KB)
+0003.218 (0) Table OUO_um_metadata: Total expected rows (via COUNT): 0
+0003.221 (0) Table OUO_um_metadata: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=726) in 0.01 seconds
+0003.226 (0) Table OUO_um_metadata: finishing file(s) (2, 0.4 KB)
+0003.234 (0) Table OUO_user_registration_sessions: Total expected rows (approximate): 0
+0003.238 (0) Table OUO_user_registration_sessions: Rows added in this batch (next record: 0): 0 (uncompressed bytes in this segment=758) in 0.00 seconds
+0003.243 (0) Table OUO_user_registration_sessions: finishing file(s) (2, 0.4 KB)
+0003.254 (0) Table OUO_wc_admin_note_actions: Total expected rows (via COUNT): 85
+0003.255 (0) Table is relatively small; fetch_rows will thus be: 100 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0003.262 (0) Table OUO_wc_admin_note_actions: Rows added in this batch (next record: 23537): 85 (uncompressed bytes in this segment=15806) in 0.01 seconds
+0003.267 (0) Table OUO_wc_admin_note_actions: finishing file(s) (2, 3.3 KB)
+0003.282 (0) Table OUO_wc_admin_notes: Total expected rows (via COUNT): 76
+0003.284 (0) Table is relatively small; fetch_rows will thus be: 100 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0003.290 (0) Table OUO_wc_admin_notes: Rows added in this batch (next record: 77): 76 (uncompressed bytes in this segment=36849) in 0.02 seconds
+0003.295 (0) Table OUO_wc_admin_notes: finishing file(s) (2, 9.3 KB)
+0003.303 (0) Table OUO_wc_customer_lookup: Total expected rows (via COUNT): 6
+0003.304 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0003.308 (0) Table OUO_wc_customer_lookup: Rows added in this batch (next record: 8): 6 (uncompressed bytes in this segment=2100) in 0.01 seconds
+0003.312 (0) Table OUO_wc_customer_lookup: finishing file(s) (2, 0.7 KB)
+0003.324 (0) Table OUO_wc_download_log: Total expected rows (via COUNT): 0
+0003.335 (0) Table OUO_wc_download_log: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=934) in 0.02 seconds
+0003.352 (0) Table OUO_wc_download_log: finishing file(s) (2, 0.5 KB)
+0003.372 (0) Table OUO_wc_order_coupon_lookup: Total expected rows (approximate): 0
+0003.389 (0) Table OUO_wc_order_coupon_lookup: Rows added in this batch (next record: 0): 0 (uncompressed bytes in this segment=723) in 0.02 seconds
+0003.400 (0) Table OUO_wc_order_coupon_lookup: finishing file(s) (2, 0.4 KB)
+0003.423 (0) Table OUO_wc_order_product_lookup: Total expected rows (via COUNT): 8
+0003.424 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0003.429 (0) Table OUO_wc_order_product_lookup: Rows added in this batch (next record: 19): 8 (uncompressed bytes in this segment=1991) in 0.02 seconds
+0003.435 (0) Table OUO_wc_order_product_lookup: finishing file(s) (2, 0.7 KB)
+0003.452 (0) Table OUO_wc_order_stats: Total expected rows (via COUNT): 8
+0003.455 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0003.458 (0) Table OUO_wc_order_stats: Rows added in this batch (next record: 37598): 8 (uncompressed bytes in this segment=2020) in 0.01 seconds
+0003.466 (0) Table OUO_wc_order_stats: finishing file(s) (2, 0.7 KB)
+0003.475 (0) Table OUO_wc_order_tax_lookup: Total expected rows (approximate): 0
+0003.479 (0) Table OUO_wc_order_tax_lookup: Rows added in this batch (next record: 0): 0 (uncompressed bytes in this segment=805) in 0.00 seconds
+0003.498 (0) Table OUO_wc_order_tax_lookup: finishing file(s) (2, 0.4 KB)
+0003.514 (0) Table OUO_wc_product_attributes_lookup: Total expected rows (approximate): 0
+0003.516 (0) Table OUO_wc_product_attributes_lookup: Rows added in this batch (next record: 0): 0 (uncompressed bytes in this segment=868) in 0.00 seconds
+0003.521 (0) Table OUO_wc_product_attributes_lookup: finishing file(s) (2, 0.4 KB)
+0003.574 (0) Table OUO_wc_product_download_directories: Total expected rows (via COUNT): 2
+0003.576 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0003.580 (0) Table OUO_wc_product_download_directories: Rows added in this batch (next record: 2): 2 (uncompressed bytes in this segment=923) in 0.05 seconds
+0003.587 (0) Table OUO_wc_product_download_directories: finishing file(s) (2, 0.5 KB)
+0003.594 (0) Table OUO_wc_rate_limits: Total expected rows (via COUNT): 0
+0003.603 (0) Table OUO_wc_rate_limits: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=706) in 0.01 seconds
+0003.615 (0) Table OUO_wc_rate_limits: finishing file(s) (2, 0.4 KB)
+0003.637 (0) Table OUO_wc_webhooks: Total expected rows (via COUNT): 0
+0003.642 (0) Table OUO_wc_webhooks: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1236) in 0.02 seconds
+0003.646 (0) Table OUO_wc_webhooks: finishing file(s) (2, 0.5 KB)
+0003.657 (0) Table OUO_wcb2brp_credit_logs: Total expected rows (via COUNT): 0
+0003.659 (0) Table OUO_wcb2brp_credit_logs: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=695) in 0.01 seconds
+0003.663 (0) Table OUO_wcb2brp_credit_logs: finishing file(s) (2, 0.4 KB)
+0003.704 (0) Table OUO_woocommerce_api_keys: Total expected rows (via COUNT): 5
+0003.705 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0003.708 (0) Table OUO_woocommerce_api_keys: Rows added in this batch (next record: 5): 5 (uncompressed bytes in this segment=2115) in 0.04 seconds
+0003.712 (0) Table OUO_woocommerce_api_keys: finishing file(s) (2, 1 KB)
+0003.718 (0) Table OUO_woocommerce_attribute_taxonomies: Total expected rows (via COUNT): 0
+0003.721 (0) Table OUO_woocommerce_attribute_taxonomies: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=967) in 0.01 seconds
+0003.725 (0) Table OUO_woocommerce_attribute_taxonomies: finishing file(s) (2, 0.4 KB)
+0003.734 (0) Table OUO_woocommerce_downloadable_product_permissions: Total expected rows (via COUNT): 0
+0003.752 (0) Table OUO_woocommerce_downloadable_product_permissions: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1544) in 0.02 seconds
+0003.757 (0) Table OUO_woocommerce_downloadable_product_permissions: finishing file(s) (2, 0.5 KB)
+0003.765 (0) Table OUO_woocommerce_log: Total expected rows (via COUNT): 0
+0003.768 (0) Table OUO_woocommerce_log: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=728) in 0.01 seconds
+0003.772 (0) Table OUO_woocommerce_log: finishing file(s) (2, 0.4 KB)
+0003.779 (0) Table OUO_woocommerce_order_items: Total expected rows (via COUNT): 16
+0003.779 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0003.782 (0) Table OUO_woocommerce_order_items: Rows added in this batch (next record: 20): 16 (uncompressed bytes in this segment=2101) in 0.01 seconds
+0003.786 (0) Table OUO_woocommerce_order_items: finishing file(s) (2, 0.7 KB)
+0003.796 (0) Table OUO_woocommerce_payment_tokens: Total expected rows (via COUNT): 0
+0003.807 (0) Table OUO_woocommerce_payment_tokens: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=847) in 0.02 seconds
+0003.828 (0) Table OUO_woocommerce_payment_tokens: finishing file(s) (2, 0.4 KB)
+0003.840 (0) Table OUO_woocommerce_sessions: Total expected rows (via COUNT): 1
+0003.842 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0003.844 (0) Table OUO_woocommerce_sessions: Rows added in this batch (next record: 1589): 1 (uncompressed bytes in this segment=3391) in 0.01 seconds
+0003.849 (0) Table OUO_woocommerce_sessions: finishing file(s) (2, 1.4 KB)
+0003.859 (0) Table OUO_woocommerce_shipping_zone_locations: Total expected rows (via COUNT): 1
+0003.860 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0003.862 (0) Table OUO_woocommerce_shipping_zone_locations: Rows added in this batch (next record: 1): 1 (uncompressed bytes in this segment=984) in 0.01 seconds
+0003.867 (0) Table OUO_woocommerce_shipping_zone_locations: finishing file(s) (2, 0.4 KB)
+0003.872 (0) Table OUO_woocommerce_shipping_zone_methods: Total expected rows (via COUNT): 3
+0003.873 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0003.874 (0) Table OUO_woocommerce_shipping_zone_methods: Rows added in this batch (next record: 3): 3 (uncompressed bytes in this segment=952) in 0.00 seconds
+0003.878 (0) Table OUO_woocommerce_shipping_zone_methods: finishing file(s) (2, 0.5 KB)
+0003.882 (0) Table OUO_woocommerce_shipping_zones: Total expected rows (via COUNT): 1
+0003.883 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0003.887 (0) Table OUO_woocommerce_shipping_zones: Rows added in this batch (next record: 1): 1 (uncompressed bytes in this segment=724) in 0.01 seconds
+0003.897 (0) Table OUO_woocommerce_shipping_zones: finishing file(s) (2, 0.4 KB)
+0003.902 (0) Table OUO_woocommerce_square_customers: Total expected rows (approximate): 0
+0003.925 (0) Table OUO_woocommerce_square_customers: Rows added in this batch (next record: 0): 0 (uncompressed bytes in this segment=665) in 0.02 seconds
+0003.931 (0) Table OUO_woocommerce_square_customers: finishing file(s) (2, 0.4 KB)
+0003.938 (0) Table OUO_woocommerce_tax_rate_locations: Total expected rows (via COUNT): 0
+0003.941 (0) Table OUO_woocommerce_tax_rate_locations: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=854) in 0.01 seconds
+0003.946 (0) Table OUO_woocommerce_tax_rate_locations: finishing file(s) (2, 0.4 KB)
+0003.967 (0) Table OUO_woocommerce_tax_rates: Total expected rows (via COUNT): 0
+0003.972 (0) Table OUO_woocommerce_tax_rates: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1307) in 0.02 seconds
+0003.980 (0) Table OUO_woocommerce_tax_rates: finishing file(s) (2, 0.5 KB)
+0004.010 (0) Table OUO_wpfm_backup: Total expected rows (via COUNT): 0
+0004.012 (0) Table OUO_wpfm_backup: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=520) in 0.01 seconds
+0004.018 (0) Table OUO_wpfm_backup: finishing file(s) (2, 0.3 KB)
+0004.026 (0) Table OUO_wpforms_tasks_meta: Total expected rows (via COUNT): 4
+0004.027 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0004.030 (0) Table OUO_wpforms_tasks_meta: Rows added in this batch (next record: 117): 4 (uncompressed bytes in this segment=990) in 0.01 seconds
+0004.035 (0) Table OUO_wpforms_tasks_meta: finishing file(s) (2, 0.5 KB)
+0004.056 (0) Table OUO_wpsr_caches: Total expected rows (via COUNT): 3
+0004.058 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0004.092 (0) Table OUO_wpsr_caches: Rows added in this batch (next record: 5): 3 (uncompressed bytes in this segment=392253) in 0.05 seconds
+0004.098 (0) Table OUO_wpsr_caches: finishing file(s) (2, 124.8 KB)
+0004.114 (0) Table OUO_wpsr_reviews: Total expected rows (via COUNT): 133
+0004.115 (0) Table is relatively small; fetch_rows will thus be: 250 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0004.125 (0) Table OUO_wpsr_reviews: Rows added in this batch (next record: 133): 133 (uncompressed bytes in this segment=50964) in 0.02 seconds
+0004.131 (0) Table OUO_wpsr_reviews: finishing file(s) (2, 14.1 KB)
+0004.139 (0) Table OUO_yoast_indexable: Total expected rows (via COUNT): 844
+0004.203 (0) Table OUO_yoast_indexable: Rows added in this batch (next record: 1295): 844 (uncompressed bytes in this segment=482047) in 0.07 seconds
+0004.210 (0) Table OUO_yoast_indexable: finishing file(s) (2, 61.6 KB)
+0004.217 (0) Table OUO_yoast_indexable_hierarchy: Total expected rows (approximate): 468
+0004.225 (0) Table OUO_yoast_indexable_hierarchy: Rows added in this batch (next record: 1000): 469 (uncompressed bytes in this segment=9010) in 0.01 seconds
+0004.230 (0) Table OUO_yoast_indexable_hierarchy: finishing file(s) (2, 1.7 KB)
+0004.246 (0) Table OUO_yoast_migrations: Total expected rows (via COUNT): 23
+0004.250 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0004.260 (0) Table OUO_yoast_migrations: Rows added in this batch (next record: 23): 23 (uncompressed bytes in this segment=1249) in 0.03 seconds
+0004.264 (0) Table OUO_yoast_migrations: finishing file(s) (2, 0.6 KB)
+0004.272 (0) Table OUO_yoast_primary_term: Total expected rows (via COUNT): 14
+0004.273 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0004.275 (0) Table OUO_yoast_primary_term: Rows added in this batch (next record: 64): 14 (uncompressed bytes in this segment=2073) in 0.01 seconds
+0004.280 (0) Table OUO_yoast_primary_term: finishing file(s) (2, 0.8 KB)
+0004.286 (0) Table OUO_yoast_seo_links: Total expected rows (via COUNT): 761
+0004.335 (0) Table OUO_yoast_seo_links: Rows added in this batch (next record: 2715): 761 (uncompressed bytes in this segment=126190) in 0.05 seconds
+0004.340 (0) Table OUO_yoast_seo_links: finishing file(s) (2, 11.4 KB)
+0004.343 (0) backup_2022-08-21-1453_Code_of_Harmony_a22c1dd644be-db-table-OUO_options.table.tmpr118820.gz (1/81/fopen): adding to final database dump
+0004.377 (0) backup_2022-08-21-1453_Code_of_Harmony_a22c1dd644be-db-table-OUO_options.table.gz (2/81/fopen): adding to final database dump
+0004.378 (0) backup_2022-08-21-1453_Code_of_Harmony_a22c1dd644be-db-table-OUO_users.table.tmpr42.gz (3/81/fopen): adding to final database dump
+0004.380 (0) backup_2022-08-21-1453_Code_of_Harmony_a22c1dd644be-db-table-OUO_users.table.gz (4/81/fopen): adding to final database dump
+0004.382 (0) backup_2022-08-21-1453_Code_of_Harmony_a22c1dd644be-db-table-OUO_usermeta.table.tmpr2616.gz (5/81/fopen): adding to final database dump
+0004.383 (0) backup_2022-08-21-1453_Code_of_Harmony_a22c1dd644be-db-table-OUO_usermeta.table.gz (6/81/fopen): adding to final database dump
+0004.384 (0) backup_2022-08-21-1453_Code_of_Harmony_a22c1dd644be-db-table-OUO_actionscheduler_actions.table.tmpr2404.gz (7/81/fopen): adding to final database dump
+0004.388 (0) backup_2022-08-21-1453_Code_of_Harmony_a22c1dd644be-db-table-OUO_actionscheduler_actions.table.gz (8/81/fopen): adding to final database dump
+0004.393 (0) backup_2022-08-21-1453_Code_of_Harmony_a22c1dd644be-db-table-OUO_actionscheduler_claims.table.tmpr0.gz (9/81/fopen): adding to final database dump
+0004.395 (0) backup_2022-08-21-1453_Code_of_Harmony_a22c1dd644be-db-table-OUO_actionscheduler_claims.table.gz (10/81/fopen): adding to final database dump
+0004.396 (0) backup_2022-08-21-1453_Code_of_Harmony_a22c1dd644be-db-table-OUO_actionscheduler_groups.table.tmpr9.gz (11/81/fopen): adding to final database dump
+0004.400 (0) backup_2022-08-21-1453_Code_of_Harmony_a22c1dd644be-db-table-OUO_actionscheduler_groups.table.gz (12/81/fopen): adding to final database dump
+0004.402 (0) backup_2022-08-21-1453_Code_of_Harmony_a22c1dd644be-db-table-OUO_actionscheduler_logs.table.tmpr7162.gz (13/81/fopen): adding to final database dump
+0004.404 (0) backup_2022-08-21-1453_Code_of_Harmony_a22c1dd644be-db-table-OUO_actionscheduler_logs.table.gz (14/81/fopen): adding to final database dump
+0004.405 (0) backup_2022-08-21-1453_Code_of_Harmony_a22c1dd644be-db-table-OUO_commentmeta.table.tmpr3.gz (15/81/fopen): adding to final database dump
+0004.407 (0) backup_2022-08-21-1453_Code_of_Harmony_a22c1dd644be-db-table-OUO_commentmeta.table.gz (16/81/fopen): adding to final database dump
+0004.407 (0) backup_2022-08-21-1453_Code_of_Harmony_a22c1dd644be-db-table-OUO_comments.table.tmpr17.gz (17/81/fopen): adding to final database dump
+0004.408 (0) backup_2022-08-21-1453_Code_of_Harmony_a22c1dd644be-db-table-OUO_comments.table.gz (18/81/fopen): adding to final database dump
+0004.409 (0) backup_2022-08-21-1453_Code_of_Harmony_a22c1dd644be-db-table-OUO_links.table.tmpr0.gz (19/81/fopen): adding to final database dump
+0004.410 (0) backup_2022-08-21-1453_Code_of_Harmony_a22c1dd644be-db-table-OUO_links.table.gz (20/81/fopen): adding to final database dump
+0004.412 (0) backup_2022-08-21-1453_Code_of_Harmony_a22c1dd644be-db-table-OUO_postmeta.table.gz (21/81/fopen): adding to final database dump
+0004.426 (0) backup_2022-08-21-1453_Code_of_Harmony_a22c1dd644be-db-table-OUO_posts.table.tmpr37782.gz (22/81/fopen): adding to final database dump
+0004.430 (0) backup_2022-08-21-1453_Code_of_Harmony_a22c1dd644be-db-table-OUO_posts.table.gz (23/81/fopen): adding to final database dump
+0004.430 (0) backup_2022-08-21-1453_Code_of_Harmony_a22c1dd644be-db-table-OUO_term_relationships.table.tmpr100001.gz (24/81/fopen): adding to final database dump
+0004.431 (0) backup_2022-08-21-1453_Code_of_Harmony_a22c1dd644be-db-table-OUO_term_relationships.table.gz (25/81/fopen): adding to final database dump
+0004.432 (0) backup_2022-08-21-1453_Code_of_Harmony_a22c1dd644be-db-table-OUO_term_taxonomy.table.tmpr201.gz (26/81/fopen): adding to final database dump
+0004.433 (0) backup_2022-08-21-1453_Code_of_Harmony_a22c1dd644be-db-table-OUO_term_taxonomy.table.gz (27/81/fopen): adding to final database dump
+0004.433 (0) backup_2022-08-21-1453_Code_of_Harmony_a22c1dd644be-db-table-OUO_termmeta.table.tmpr1033.gz (28/81/fopen): adding to final database dump
+0004.434 (0) backup_2022-08-21-1453_Code_of_Harmony_a22c1dd644be-db-table-OUO_termmeta.table.gz (29/81/fopen): adding to final database dump
+0004.435 (0) backup_2022-08-21-1453_Code_of_Harmony_a22c1dd644be-db-table-OUO_terms.table.tmpr201.gz (30/81/fopen): adding to final database dump
+0004.436 (0) backup_2022-08-21-1453_Code_of_Harmony_a22c1dd644be-db-table-OUO_terms.table.gz (31/81/fopen): adding to final database dump
+0004.436 (0) backup_2022-08-21-1453_Code_of_Harmony_a22c1dd644be-db-table-OUO_wc_category_lookup.table.tmpr1001.gz (32/81/fopen): adding to final database dump
+0004.437 (0) backup_2022-08-21-1453_Code_of_Harmony_a22c1dd644be-db-table-OUO_wc_category_lookup.table.gz (33/81/fopen): adding to final database dump
+0004.437 (0) backup_2022-08-21-1453_Code_of_Harmony_a22c1dd644be-db-table-OUO_wc_product_meta_lookup.table.tmpr37779.gz (34/81/fopen): adding to final database dump
+0004.438 (0) backup_2022-08-21-1453_Code_of_Harmony_a22c1dd644be-db-table-OUO_wc_product_meta_lookup.table.gz (35/81/fopen): adding to final database dump
+0004.439 (0) backup_2022-08-21-1453_Code_of_Harmony_a22c1dd644be-db-table-OUO_wc_reserved_stock.table.tmpr1.gz (36/81/fopen): adding to final database dump
+0004.439 (0) backup_2022-08-21-1453_Code_of_Harmony_a22c1dd644be-db-table-OUO_wc_reserved_stock.table.gz (37/81/fopen): adding to final database dump
+0004.440 (0) backup_2022-08-21-1453_Code_of_Harmony_a22c1dd644be-db-table-OUO_wc_tax_rate_classes.table.tmpr3.gz (38/81/fopen): adding to final database dump
+0004.440 (0) backup_2022-08-21-1453_Code_of_Harmony_a22c1dd644be-db-table-OUO_wc_tax_rate_classes.table.gz (39/81/fopen): adding to final database dump
+0004.441 (0) backup_2022-08-21-1453_Code_of_Harmony_a22c1dd644be-db-table-OUO_woocommerce_order_itemmeta.table.tmpr161.gz (40/81/fopen): adding to final database dump
+0004.442 (0) backup_2022-08-21-1453_Code_of_Harmony_a22c1dd644be-db-table-OUO_woocommerce_order_itemmeta.table.gz (41/81/fopen): adding to final database dump
+0004.442 (0) backup_2022-08-21-1453_Code_of_Harmony_a22c1dd644be-db-table-OUO_woocommerce_payment_tokenmeta.table.tmpr0.gz (42/81/fopen): adding to final database dump
+0004.443 (0) backup_2022-08-21-1453_Code_of_Harmony_a22c1dd644be-db-table-OUO_woocommerce_payment_tokenmeta.table.gz (43/81/fopen): adding to final database dump
+0004.443 (0) backup_2022-08-21-1453_Code_of_Harmony_a22c1dd644be-db-table-OUO_aiowps_debug_log.table.tmpr0.gz (44/81/fopen): adding to final database dump
+0004.444 (0) backup_2022-08-21-1453_Code_of_Harmony_a22c1dd644be-db-table-OUO_aiowps_debug_log.table.gz (45/81/fopen): adding to final database dump
+0004.445 (0) backup_2022-08-21-1453_Code_of_Harmony_a22c1dd644be-db-table-OUO_aiowps_events.table.tmpr0.gz (46/81/fopen): adding to final database dump
+0004.445 (0) backup_2022-08-21-1453_Code_of_Harmony_a22c1dd644be-db-table-OUO_aiowps_events.table.gz (47/81/fopen): adding to final database dump
+0004.446 (0) backup_2022-08-21-1453_Code_of_Harmony_a22c1dd644be-db-table-OUO_aiowps_failed_logins.table.tmpr12.gz (48/81/fopen): adding to final database dump
+0004.447 (0) backup_2022-08-21-1453_Code_of_Harmony_a22c1dd644be-db-table-OUO_aiowps_failed_logins.table.gz (49/81/fopen): adding to final database dump
+0004.447 (0) backup_2022-08-21-1453_Code_of_Harmony_a22c1dd644be-db-table-OUO_aiowps_global_meta.table.tmpr0.gz (50/81/fopen): adding to final database dump
+0004.448 (0) backup_2022-08-21-1453_Code_of_Harmony_a22c1dd644be-db-table-OUO_aiowps_global_meta.table.gz (51/81/fopen): adding to final database dump
+0004.448 (0) backup_2022-08-21-1453_Code_of_Harmony_a22c1dd644be-db-table-OUO_aiowps_login_activity.table.tmpr82.gz (52/81/fopen): adding to final database dump
+0004.449 (0) backup_2022-08-21-1453_Code_of_Harmony_a22c1dd644be-db-table-OUO_aiowps_login_activity.table.gz (53/81/fopen): adding to final database dump
+0004.450 (0) backup_2022-08-21-1453_Code_of_Harmony_a22c1dd644be-db-table-OUO_aiowps_login_lockdown.table.tmpr0.gz (54/81/fopen): adding to final database dump
+0004.450 (0) backup_2022-08-21-1453_Code_of_Harmony_a22c1dd644be-db-table-OUO_aiowps_login_lockdown.table.gz (55/81/fopen): adding to final database dump
+0004.451 (0) backup_2022-08-21-1453_Code_of_Harmony_a22c1dd644be-db-table-OUO_aiowps_permanent_block.table.tmpr0.gz (56/81/fopen): adding to final database dump
+0004.451 (0) backup_2022-08-21-1453_Code_of_Harmony_a22c1dd644be-db-table-OUO_aiowps_permanent_block.table.gz (57/81/fopen): adding to final database dump
+0004.452 (0) backup_2022-08-21-1453_Code_of_Harmony_a22c1dd644be-db-table-OUO_ce4wp_abandoned_checkout.table.tmpr0.gz (58/81/fopen): adding to final database dump
+0004.453 (0) backup_2022-08-21-1453_Code_of_Harmony_a22c1dd644be-db-table-OUO_ce4wp_abandoned_checkout.table.gz (59/81/fopen): adding to final database dump
+0004.453 (0) backup_2022-08-21-1453_Code_of_Harmony_a22c1dd644be-db-table-OUO_ce4wp_contacts.table.tmpr0.gz (60/81/fopen): adding to final database dump
+0004.454 (0) backup_2022-08-21-1453_Code_of_Harmony_a22c1dd644be-db-table-OUO_ce4wp_contacts.table.gz (61/81/fopen): adding to final database dump
+0004.455 (0) backup_2022-08-21-1453_Code_of_Harmony_a22c1dd644be-db-table-OUO_cwrf_credit_payment_logs.table.tmpr0.gz (62/81/fopen): adding to final database dump
+0004.455 (0) backup_2022-08-21-1453_Code_of_Harmony_a22c1dd644be-db-table-OUO_cwrf_credit_payment_logs.table.gz (63/81/fopen): adding to final database dump
+0004.456 (0) backup_2022-08-21-1453_Code_of_Harmony_a22c1dd644be-db-table-OUO_e_events.table.tmpr0.gz (64/81/fopen): adding to final database dump
+0004.457 (0) backup_2022-08-21-1453_Code_of_Harmony_a22c1dd644be-db-table-OUO_e_events.table.gz (65/81/fopen): adding to final database dump
+0004.457 (0) backup_2022-08-21-1453_Code_of_Harmony_a22c1dd644be-db-table-OUO_gglcptch_allowlist.table.tmpr0.gz (66/81/fopen): adding to final database dump
+0004.458 (0) backup_2022-08-21-1453_Code_of_Harmony_a22c1dd644be-db-table-OUO_gglcptch_allowlist.table.gz (67/81/fopen): adding to final database dump
+0004.459 (0) backup_2022-08-21-1453_Code_of_Harmony_a22c1dd644be-db-table-OUO_groups_capability.table.tmpr158.gz (68/81/fopen): adding to final database dump
+0004.460 (0) backup_2022-08-21-1453_Code_of_Harmony_a22c1dd644be-db-table-OUO_groups_capability.table.gz (69/81/fopen): adding to final database dump
+0004.460 (0) backup_2022-08-21-1453_Code_of_Harmony_a22c1dd644be-db-table-OUO_groups_group.table.tmpr2.gz (70/81/fopen): adding to final database dump
+0004.461 (0) backup_2022-08-21-1453_Code_of_Harmony_a22c1dd644be-db-table-OUO_groups_group.table.gz (71/81/fopen): adding to final database dump
+0004.462 (0) backup_2022-08-21-1453_Code_of_Harmony_a22c1dd644be-db-table-OUO_groups_group_capability.table.tmpr1.gz (72/81/fopen): adding to final database dump
+0004.462 (0) backup_2022-08-21-1453_Code_of_Harmony_a22c1dd644be-db-table-OUO_groups_group_capability.table.gz (73/81/fopen): adding to final database dump
+0004.463 (0) backup_2022-08-21-1453_Code_of_Harmony_a22c1dd644be-db-table-OUO_groups_user_capability.table.tmpr1.gz (74/81/fopen): adding to final database dump
+0004.464 (0) backup_2022-08-21-1453_Code_of_Harmony_a22c1dd644be-db-table-OUO_groups_user_capability.table.gz (75/81/fopen): adding to final database dump
+0004.465 (0) backup_2022-08-21-1453_Code_of_Harmony_a22c1dd644be-db-table-OUO_groups_user_group.table.tmpr1001.gz (76/81/fopen): adding to final database dump
+0004.465 (0) backup_2022-08-21-1453_Code_of_Harmony_a22c1dd644be-db-table-OUO_groups_user_group.table.gz (77/81/fopen): adding to final database dump
+0004.466 (0) backup_2022-08-21-1453_Code_of_Harmony_a22c1dd644be-db-table-OUO_lws_webhooks_events.table.tmpr0.gz (78/81/fopen): adding to final database dump
+0004.467 (0) backup_2022-08-21-1453_Code_of_Harmony_a22c1dd644be-db-table-OUO_lws_webhooks_events.table.gz (79/81/fopen): adding to final database dump
+0004.468 (0) backup_2022-08-21-1453_Code_of_Harmony_a22c1dd644be-db-table-OUO_lws_wr_achieved_log.table.tmpr0.gz (80/81/fopen): adding to final database dump
+0004.469 (0) backup_2022-08-21-1453_Code_of_Harmony_a22c1dd644be-db-table-OUO_lws_wr_achieved_log.table.gz (81/81/fopen): adding to final database dump
+0004.471 (0) backup_2022-08-21-1453_Code_of_Harmony_a22c1dd644be-db-table-OUO_lws_wr_historic.table.tmpr7.gz (82/81/fopen): adding to final database dump
+0004.472 (0) backup_2022-08-21-1453_Code_of_Harmony_a22c1dd644be-db-table-OUO_lws_wr_historic.table.gz (83/81/fopen): adding to final database dump
+0004.473 (0) backup_2022-08-21-1453_Code_of_Harmony_a22c1dd644be-db-table-OUO_lws_wr_tinyurls.table.tmpr1.gz (84/81/fopen): adding to final database dump
+0004.474 (0) backup_2022-08-21-1453_Code_of_Harmony_a22c1dd644be-db-table-OUO_lws_wr_tinyurls.table.gz (85/81/fopen): adding to final database dump
+0004.474 (0) backup_2022-08-21-1453_Code_of_Harmony_a22c1dd644be-db-table-OUO_lws_wr_userbadge.table.tmpr0.gz (86/81/fopen): adding to final database dump
+0004.475 (0) backup_2022-08-21-1453_Code_of_Harmony_a22c1dd644be-db-table-OUO_lws_wr_userbadge.table.gz (87/81/fopen): adding to final database dump
+0004.476 (0) backup_2022-08-21-1453_Code_of_Harmony_a22c1dd644be-db-table-OUO_um_metadata.table.tmpr0.gz (88/81/fopen): adding to final database dump
+0004.477 (0) backup_2022-08-21-1453_Code_of_Harmony_a22c1dd644be-db-table-OUO_um_metadata.table.gz (89/81/fopen): adding to final database dump
+0004.477 (0) backup_2022-08-21-1453_Code_of_Harmony_a22c1dd644be-db-table-OUO_user_registration_sessions.table.tmpr1.gz (90/81/fopen): adding to final database dump
+0004.478 (0) backup_2022-08-21-1453_Code_of_Harmony_a22c1dd644be-db-table-OUO_user_registration_sessions.table.gz (91/81/fopen): adding to final database dump
+0004.479 (0) backup_2022-08-21-1453_Code_of_Harmony_a22c1dd644be-db-table-OUO_wc_admin_note_actions.table.tmpr23538.gz (92/81/fopen): adding to final database dump
+0004.480 (0) backup_2022-08-21-1453_Code_of_Harmony_a22c1dd644be-db-table-OUO_wc_admin_note_actions.table.gz (93/81/fopen): adding to final database dump
+0004.480 (0) backup_2022-08-21-1453_Code_of_Harmony_a22c1dd644be-db-table-OUO_wc_admin_notes.table.tmpr78.gz (94/81/fopen): adding to final database dump
+0004.481 (0) backup_2022-08-21-1453_Code_of_Harmony_a22c1dd644be-db-table-OUO_wc_admin_notes.table.gz (95/81/fopen): adding to final database dump
+0004.482 (0) backup_2022-08-21-1453_Code_of_Harmony_a22c1dd644be-db-table-OUO_wc_customer_lookup.table.tmpr9.gz (96/81/fopen): adding to final database dump
+0004.483 (0) backup_2022-08-21-1453_Code_of_Harmony_a22c1dd644be-db-table-OUO_wc_customer_lookup.table.gz (97/81/fopen): adding to final database dump
+0004.484 (0) backup_2022-08-21-1453_Code_of_Harmony_a22c1dd644be-db-table-OUO_wc_download_log.table.tmpr0.gz (98/81/fopen): adding to final database dump
+0004.484 (0) backup_2022-08-21-1453_Code_of_Harmony_a22c1dd644be-db-table-OUO_wc_download_log.table.gz (99/81/fopen): adding to final database dump
+0004.486 (0) backup_2022-08-21-1453_Code_of_Harmony_a22c1dd644be-db-table-OUO_wc_order_coupon_lookup.table.tmpr1.gz (100/81/fopen): adding to final database dump
+0004.487 (0) backup_2022-08-21-1453_Code_of_Harmony_a22c1dd644be-db-table-OUO_wc_order_coupon_lookup.table.gz (101/81/fopen): adding to final database dump
+0004.487 (0) backup_2022-08-21-1453_Code_of_Harmony_a22c1dd644be-db-table-OUO_wc_order_product_lookup.table.tmpr20.gz (102/81/fopen): adding to final database dump
+0004.488 (0) backup_2022-08-21-1453_Code_of_Harmony_a22c1dd644be-db-table-OUO_wc_order_product_lookup.table.gz (103/81/fopen): adding to final database dump
+0004.489 (0) backup_2022-08-21-1453_Code_of_Harmony_a22c1dd644be-db-table-OUO_wc_order_stats.table.tmpr37599.gz (104/81/fopen): adding to final database dump
+0004.490 (0) backup_2022-08-21-1453_Code_of_Harmony_a22c1dd644be-db-table-OUO_wc_order_stats.table.gz (105/81/fopen): adding to final database dump
+0004.491 (0) backup_2022-08-21-1453_Code_of_Harmony_a22c1dd644be-db-table-OUO_wc_order_tax_lookup.table.tmpr1.gz (106/81/fopen): adding to final database dump
+0004.491 (0) backup_2022-08-21-1453_Code_of_Harmony_a22c1dd644be-db-table-OUO_wc_order_tax_lookup.table.gz (107/81/fopen): adding to final database dump
+0004.492 (0) backup_2022-08-21-1453_Code_of_Harmony_a22c1dd644be-db-table-OUO_wc_product_attributes_lookup.table.tmpr1.gz (108/81/fopen): adding to final database dump
+0004.493 (0) backup_2022-08-21-1453_Code_of_Harmony_a22c1dd644be-db-table-OUO_wc_product_attributes_lookup.table.gz (109/81/fopen): adding to final database dump
+0004.494 (0) backup_2022-08-21-1453_Code_of_Harmony_a22c1dd644be-db-table-OUO_wc_product_download_directories.table.tmpr3.gz (110/81/fopen): adding to final database dump
+0004.495 (0) backup_2022-08-21-1453_Code_of_Harmony_a22c1dd644be-db-table-OUO_wc_product_download_directories.table.gz (111/81/fopen): adding to final database dump
+0004.496 (0) backup_2022-08-21-1453_Code_of_Harmony_a22c1dd644be-db-table-OUO_wc_rate_limits.table.tmpr0.gz (112/81/fopen): adding to final database dump
+0004.496 (0) backup_2022-08-21-1453_Code_of_Harmony_a22c1dd644be-db-table-OUO_wc_rate_limits.table.gz (113/81/fopen): adding to final database dump
+0004.497 (0) backup_2022-08-21-1453_Code_of_Harmony_a22c1dd644be-db-table-OUO_wc_webhooks.table.tmpr0.gz (114/81/fopen): adding to final database dump
+0004.498 (0) backup_2022-08-21-1453_Code_of_Harmony_a22c1dd644be-db-table-OUO_wc_webhooks.table.gz (115/81/fopen): adding to final database dump
+0004.499 (0) backup_2022-08-21-1453_Code_of_Harmony_a22c1dd644be-db-table-OUO_wcb2brp_credit_logs.table.tmpr0.gz (116/81/fopen): adding to final database dump
+0004.500 (0) backup_2022-08-21-1453_Code_of_Harmony_a22c1dd644be-db-table-OUO_wcb2brp_credit_logs.table.gz (117/81/fopen): adding to final database dump
+0004.500 (0) backup_2022-08-21-1453_Code_of_Harmony_a22c1dd644be-db-table-OUO_woocommerce_api_keys.table.tmpr6.gz (118/81/fopen): adding to final database dump
+0004.501 (0) backup_2022-08-21-1453_Code_of_Harmony_a22c1dd644be-db-table-OUO_woocommerce_api_keys.table.gz (119/81/fopen): adding to final database dump
+0004.502 (0) backup_2022-08-21-1453_Code_of_Harmony_a22c1dd644be-db-table-OUO_woocommerce_attribute_taxonomies.table.tmpr0.gz (120/81/fopen): adding to final database dump
+0004.503 (0) backup_2022-08-21-1453_Code_of_Harmony_a22c1dd644be-db-table-OUO_woocommerce_attribute_taxonomies.table.gz (121/81/fopen): adding to final database dump
+0004.504 (0) backup_2022-08-21-1453_Code_of_Harmony_a22c1dd644be-db-table-OUO_woocommerce_downloadable_product_permissions.table.tmpr0.gz (122/81/fopen): adding to final database dump
+0004.505 (0) backup_2022-08-21-1453_Code_of_Harmony_a22c1dd644be-db-table-OUO_woocommerce_downloadable_product_permissions.table.gz (123/81/fopen): adding to final database dump
+0004.505 (0) backup_2022-08-21-1453_Code_of_Harmony_a22c1dd644be-db-table-OUO_woocommerce_log.table.tmpr0.gz (124/81/fopen): adding to final database dump
+0004.507 (0) backup_2022-08-21-1453_Code_of_Harmony_a22c1dd644be-db-table-OUO_woocommerce_log.table.gz (125/81/fopen): adding to final database dump
+0004.508 (0) backup_2022-08-21-1453_Code_of_Harmony_a22c1dd644be-db-table-OUO_woocommerce_order_items.table.tmpr21.gz (126/81/fopen): adding to final database dump
+0004.509 (0) backup_2022-08-21-1453_Code_of_Harmony_a22c1dd644be-db-table-OUO_woocommerce_order_items.table.gz (127/81/fopen): adding to final database dump
+0004.510 (0) backup_2022-08-21-1453_Code_of_Harmony_a22c1dd644be-db-table-OUO_woocommerce_payment_tokens.table.tmpr0.gz (128/81/fopen): adding to final database dump
+0004.510 (0) backup_2022-08-21-1453_Code_of_Harmony_a22c1dd644be-db-table-OUO_woocommerce_payment_tokens.table.gz (129/81/fopen): adding to final database dump
+0004.511 (0) backup_2022-08-21-1453_Code_of_Harmony_a22c1dd644be-db-table-OUO_woocommerce_sessions.table.tmpr1590.gz (130/81/fopen): adding to final database dump
+0004.512 (0) backup_2022-08-21-1453_Code_of_Harmony_a22c1dd644be-db-table-OUO_woocommerce_sessions.table.gz (131/81/fopen): adding to final database dump
+0004.513 (0) backup_2022-08-21-1453_Code_of_Harmony_a22c1dd644be-db-table-OUO_woocommerce_shipping_zone_locations.table.tmpr2.gz (132/81/fopen): adding to final database dump
+0004.514 (0) backup_2022-08-21-1453_Code_of_Harmony_a22c1dd644be-db-table-OUO_woocommerce_shipping_zone_locations.table.gz (133/81/fopen): adding to final database dump
+0004.515 (0) backup_2022-08-21-1453_Code_of_Harmony_a22c1dd644be-db-table-OUO_woocommerce_shipping_zone_methods.table.tmpr4.gz (134/81/fopen): adding to final database dump
+0004.516 (0) backup_2022-08-21-1453_Code_of_Harmony_a22c1dd644be-db-table-OUO_woocommerce_shipping_zone_methods.table.gz (135/81/fopen): adding to final database dump
+0004.516 (0) backup_2022-08-21-1453_Code_of_Harmony_a22c1dd644be-db-table-OUO_woocommerce_shipping_zones.table.tmpr2.gz (136/81/fopen): adding to final database dump
+0004.517 (0) backup_2022-08-21-1453_Code_of_Harmony_a22c1dd644be-db-table-OUO_woocommerce_shipping_zones.table.gz (137/81/fopen): adding to final database dump
+0004.518 (0) backup_2022-08-21-1453_Code_of_Harmony_a22c1dd644be-db-table-OUO_woocommerce_square_customers.table.tmpr1.gz (138/81/fopen): adding to final database dump
+0004.519 (0) backup_2022-08-21-1453_Code_of_Harmony_a22c1dd644be-db-table-OUO_woocommerce_square_customers.table.gz (139/81/fopen): adding to final database dump
+0004.520 (0) backup_2022-08-21-1453_Code_of_Harmony_a22c1dd644be-db-table-OUO_woocommerce_tax_rate_locations.table.tmpr0.gz (140/81/fopen): adding to final database dump
+0004.520 (0) backup_2022-08-21-1453_Code_of_Harmony_a22c1dd644be-db-table-OUO_woocommerce_tax_rate_locations.table.gz (141/81/fopen): adding to final database dump
+0004.521 (0) backup_2022-08-21-1453_Code_of_Harmony_a22c1dd644be-db-table-OUO_woocommerce_tax_rates.table.tmpr0.gz (142/81/fopen): adding to final database dump
+0004.522 (0) backup_2022-08-21-1453_Code_of_Harmony_a22c1dd644be-db-table-OUO_woocommerce_tax_rates.table.gz (143/81/fopen): adding to final database dump
+0004.523 (0) backup_2022-08-21-1453_Code_of_Harmony_a22c1dd644be-db-table-OUO_wpfm_backup.table.tmpr0.gz (144/81/fopen): adding to final database dump
+0004.524 (0) backup_2022-08-21-1453_Code_of_Harmony_a22c1dd644be-db-table-OUO_wpfm_backup.table.gz (145/81/fopen): adding to final database dump
+0004.524 (0) backup_2022-08-21-1453_Code_of_Harmony_a22c1dd644be-db-table-OUO_wpforms_tasks_meta.table.tmpr118.gz (146/81/fopen): adding to final database dump
+0004.525 (0) backup_2022-08-21-1453_Code_of_Harmony_a22c1dd644be-db-table-OUO_wpforms_tasks_meta.table.gz (147/81/fopen): adding to final database dump
+0004.526 (0) backup_2022-08-21-1453_Code_of_Harmony_a22c1dd644be-db-table-OUO_wpsr_caches.table.tmpr6.gz (148/81/fopen): adding to final database dump
+0004.530 (0) backup_2022-08-21-1453_Code_of_Harmony_a22c1dd644be-db-table-OUO_wpsr_caches.table.gz (149/81/fopen): adding to final database dump
+0004.531 (0) backup_2022-08-21-1453_Code_of_Harmony_a22c1dd644be-db-table-OUO_wpsr_reviews.table.tmpr134.gz (150/81/fopen): adding to final database dump
+0004.532 (0) backup_2022-08-21-1453_Code_of_Harmony_a22c1dd644be-db-table-OUO_wpsr_reviews.table.gz (151/81/fopen): adding to final database dump
+0004.533 (0) backup_2022-08-21-1453_Code_of_Harmony_a22c1dd644be-db-table-OUO_yoast_indexable.table.tmpr1296.gz (152/81/fopen): adding to final database dump
+0004.535 (0) backup_2022-08-21-1453_Code_of_Harmony_a22c1dd644be-db-table-OUO_yoast_indexable.table.gz (153/81/fopen): adding to final database dump
+0004.545 (0) backup_2022-08-21-1453_Code_of_Harmony_a22c1dd644be-db-table-OUO_yoast_indexable_hierarchy.table.tmpr1001.gz (154/81/fopen): adding to final database dump
+0004.547 (0) backup_2022-08-21-1453_Code_of_Harmony_a22c1dd644be-db-table-OUO_yoast_indexable_hierarchy.table.gz (155/81/fopen): adding to final database dump
+0004.547 (0) backup_2022-08-21-1453_Code_of_Harmony_a22c1dd644be-db-table-OUO_yoast_migrations.table.tmpr24.gz (156/81/fopen): adding to final database dump
+0004.548 (0) backup_2022-08-21-1453_Code_of_Harmony_a22c1dd644be-db-table-OUO_yoast_migrations.table.gz (157/81/fopen): adding to final database dump
+0004.549 (0) backup_2022-08-21-1453_Code_of_Harmony_a22c1dd644be-db-table-OUO_yoast_primary_term.table.tmpr65.gz (158/81/fopen): adding to final database dump
+0004.550 (0) backup_2022-08-21-1453_Code_of_Harmony_a22c1dd644be-db-table-OUO_yoast_primary_term.table.gz (159/81/fopen): adding to final database dump
+0004.551 (0) backup_2022-08-21-1453_Code_of_Harmony_a22c1dd644be-db-table-OUO_yoast_seo_links.table.tmpr2716.gz (160/81/fopen): adding to final database dump
+0004.552 (0) backup_2022-08-21-1453_Code_of_Harmony_a22c1dd644be-db-table-OUO_yoast_seo_links.table.gz (161/81/fopen): adding to final database dump
+0004.593 (0) backup_2022-08-21-1453_Code_of_Harmony_a22c1dd644be-db.gz: finished writing out complete database file (1946.7 KB)
+0004.650 (0) Total database tables backed up: 81 (backup_2022-08-21-1453_Code_of_Harmony_a22c1dd644be-db.gz, size: 1993531, sha1: ea834710a099f68eab479e698e77c9cf74162e4f, sha256: 2986ed47811a9c116f1652d3ab5d8bbcc991664ce175ce2c227baf4ac47834bc)
+0004.656 (0) backup_2022-08-21-1453_Code_of_Harmony_a22c1dd644be-db.gz: db: This file has not yet been successfully uploaded: will queue
+0004.657 (0) Saving backup history. Total backup size: 1.9 MB
+0004.660 (0) Requesting upload of the files that have not yet been successfully uploaded (1)
+0004.662 (0) Cloud backup selection (1/1): none with instance (1/1) (last)
+0004.663 (0) No remote despatch: user chose no remote backup service
+0004.664 (0) Recording as successfully uploaded: backup_2022-08-21-1453_Code_of_Harmony_a22c1dd644be-db.gz
+0004.669 (0) Retain: beginning examination of existing backup sets; user setting: retain_files=2, retain_db=2
+0004.671 (0) Number of backup sets in history: 1; groups (db): 1
+0004.672 (0) Examining (for databases) backup set with group_id=0, nonce=a22c1dd644be, datestamp=1661093620 (Aug 21 2022 14:53:40)
+0004.673 (0) This backup set is the backup set just made, so will not be deleted.
+0004.673 (0) Number of backup sets in history: 1; groups (files): 1
+0004.674 (0) Examining (for files) backup set with nonce=a22c1dd644be, datestamp=1661093620 (Aug 21 2022 14:53:40)
+0004.674 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0004.675 (0) Retain: saving new backup history (sets now: 1) and finishing retain operation
+0004.678 (0) Resume backup (a22c1dd644be, 0): finish run
+0004.679 (0) Decremented the semaphore (d) by 1
+0004.681 (0) Semaphore (d) unlocked
+0004.682 (0) There were no errors in the uploads, so the 'resume' event (1) is being unscheduled
+0004.687 (0) No email will/can be sent - the user has not configured an email address.
+0004.688 (0) The backup apparently succeeded and is now complete

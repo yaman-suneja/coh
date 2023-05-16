@@ -1,0 +1,159 @@
+*** Bulk Shop for WooCommerce Changelog ***
+
+2020-11-14 - version 1.3.29
+* Minor fix in selector for variables
+* Created the add to cart (on mobile) as a button
+* Other minor fixes and improvements
+
+2020-11-04 - version 1.3.28
+* Minor fixes for b2b/wholesaler prices and other fixes
+* Minor CSS fixes
+
+2020-10-26 - version 1.3.27
+* Added related products (shortcode options) to enable Bulk Shop to be used in product page.
+
+2020-10-14 - version 1.3.26
+* Minor fix when plugin is used on homepage
+* Fix in attributes for variables
+
+2020-10-06 - version 1.3.25
+* Added shortcode option to hide checkboxes in first column
+* Added shortcode option to hide search
+* Added small search button to search form
+* Minor CSS fixes
+
+2020-09-14 - version 1.3.24
+* Added search functionality for SKU and Tags
+* Minor CSS changes 
+
+2020-08-13 - version 1.3.23
+* Added support for Dynamic pricing for WooCommerce
+
+2020-08-06 - version 1.3.22
+* Added progress bar to let customers see progress of bulk add to cart
+
+2020-08-03 - version 1.3.21
+* Added settings page for table headings, buttons, integrations and more 
+* Added shortcode option - hide prices for not logged in users
+
+2020-07-26 - version 1.3.20
+* Fixed minor issue in add to cart (bulk) 
+* Minor css changes
+
+2020-07-17 - version 1.3.19
+* Fix in products to show - hide products not in stock 
+* Minor fixes for prices and more
+
+2020-07-15 - version 1.3.18
+* Added css fix for mobile views
+* Added fix for product visibility
+* Added fix for prices on variable products 
+* Added dropdown selectors for products with variables 
+* Added price and roles generator(shortcode), set up to 10 prices and their roles (B2B/Wholesaler solutions)
+
+2020-05-28 - version 1.3.17
+* Fixes in JS 
+* Changed the variable products to better names 
+
+2020-05-05 - version 1.3.16
+* Minor fix in shortcode page 
+
+2020-05-05 - version 1.3.15
+* Minor fix in quantity add function  
+
+2020-05-05 - version 1.3.14
+* Minor fixes in js files
+* Minor changes in shortcode page 
+
+2020-04-21 - version 1.3.13 
+* Added integration for Name your price for WooCommerce
+
+2020-04-15 - version 1.3.12
+* Added quantity pluss/minus buttons
+* Added option to hide price and totals 
+* Changed add to cart button functionality
+* Changed logic for calculations and more 
+* Image on mobile view is larger
+
+2020-03-26 - version 1.3.11
+* Minor fix for loading scripts
+
+2020-03-10 - version 1.3.10
+* Added test for MS browsers to work better with Elementor 
+* Minor css changes
+
+2020-03-04 - version 1.3.9
+* Added product order option 
+* Minor fixes
+
+2020-03-03 - version 1.3.8
+* Added default product quantity and fixes for totals when using this option
+
+2020-01-24 - version 1.3.7
+* Added option to hide bulk add (input and button)
+* Other minor fixes
+
+2020-01-22 - version 1.3.6
+* Fix in add quantity and allow only positive integer values for quantity
+* Fix in paging function
+* Added French language
+
+2020-01-17 - version 1.3.5
+* Fix for setting image size and allowing HTML in short description
+
+2020-01-14 - version 1.3.4
+* Minor fix for compability for Composite products
+
+2020-01-01 - version 1.3.3
+* Fixes and improvements for paging, frontpage and other
+
+2019-11-11 - version 1.3.2
+* Fix in stock status text
+
+2019-11-08 - version 1.3.1
+* Added option to hide add to cart icon
+
+2019-11-06 - version 1.3.0
+* Added SKU and options to hide
+* Added Thumbnail options to hide column
+* Added Product short description and options to hide column
+* Added Add to cart icon on every row
+* Added numbers of items in the cart badge
+* Fix in integration - added a default empty role 
+* Made table views more compact
+* Fix in internal link when sorting, no more jump to top of page
+* Optimized mobile view
+
+2019-10-23 - version 1.2.7
+* Added custom price field and roles for custom price. This enables integration for i.e wholesales prices.
+
+2019-10-03 - version 1.2.6
+* Fixed bug for paging
+
+2019-10-03 - version 1.2.5
+* Fixed ajax add to cart url
+* Fixed minor issue with variations 
+* Removed grouped products from views
+* Added info icon for product with variables 
+
+2019-10-02 - version 1.2.4
+* Fix: cart / shortcodes in admin pages and posts
+
+2019-10-01 - version 1.2.3
+* Added basket to show products in the cart
+* Changed stock label
+
+2019-09-28 - version 1.2.2
+* Fix for variation names
+
+2019-09-26 - version 1.2.1
+* Added woo id
+
+2019-09-25 - version 1.2.0
+* Updated pot files
+* Added category selector in category view
+* Added option for hide category selector
+* Minor code changes
+
+2019-09-20 - version 1.1.9
+* Inital release

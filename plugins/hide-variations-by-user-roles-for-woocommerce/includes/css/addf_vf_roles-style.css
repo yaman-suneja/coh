@@ -1,0 +1,15 @@
+.align-center-vfr-heading{
+    background-color: white;
+    font-size: 25px;
+    font-weight: 600;
+}
+.addf_vfr_checkbox{
+    max-width: 20px !important;
+}
+.addf_vfr_center{
+    text-align: center;
+}
+.addf_vf_role_table{
+    border-top: 1px solid rgba(179, 179, 179, 0.5);
+    border-bottom: 1px solid rgb(179, 179, 179, 0.5);
+}

@@ -1,0 +1,120 @@
+table#bulk-inner-rows td {
+	vertical-align: top;
+}
+.bulk-quantity-base > input {
+	padding: 5px;
+}
+.bulk-template > .bulk-inner-template {
+	background: white !important;
+	padding: 1px 20px 20px 20px;
+	margin-top: 20px;
+	box-shadow: 2px 2px 10px #888;
+}
+.bulk-template {
+	padding: 20px;
+}
+.submit{
+	display:none;
+}
+#add_bulk_quantity_range,
+#remove_bulk_quantity_range {
+	margin-top: 22px;
+	width: max-content !important;
+	border-radius: 5px;
+	font-size: 15px;
+}
+.select2.select2-container.select2-container--default.select2-container--above {
+	width: 200px !important;
+}
+.select2-search__field {
+	width: 50px !important;
+}
+.select2-container {
+	width: 200px !important;
+	min-width: 200px !important;
+}
+#bulk-type,
+.bulk-priority {
+	padding-top: 4px !important;
+	padding-bottom: 5px !important;
+}
+.role-discount,
+.category-discount,
+.customer-discount,
+.product-discount {
+	display: none;
+}
+
+.priorityError {
+	border: 2px solid red !important;
+	box-shadow: 0px 0px 10px red !important;
+}
+.empty-field-error {
+	border: 1px solid red !important;
+}
+
+.switch {
+  position: relative;
+  display: inline-block;
+  width: 40px;
+  height: 18px;
+}
+
+.switch input {
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+.slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #ccc;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+.slider:before {
+  position: absolute;
+  content: "";
+  height: 10px;
+  width: 10px;
+  left: 3px;
+  bottom: 4px;
+  background-color: white;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+input:checked + .slider {
+  background-color: #007cba;
+}
+
+input:focus + .slider {
+  box-shadow: 0 0 1px #2196F3;
+}
+
+input:checked + .slider:before {
+  -webkit-transform: translateX(22px);
+  -ms-transform: translateX(22px);
+  transform: translateX(22px);
+}
+
+/* Rounded sliders */
+.slider.round {
+  border-radius: 34px;
+}
+
+.slider.round:before {
+  border-radius: 50%;
+}
+.select2-container--default .select2-selection--multiple .select2-selection__clear {
+  cursor: pointer;
+  position: absolute;
+  right: 0px;
+  top: 0px;
+}

@@ -1,0 +1,318 @@
+*** B2B Ecommerce for WooCommerce ***
+
+2022-03-16 - version 1.3.20.4
+* Added hide whole site setting.
+* Fixed payment issue on add new user.
+
+2022-03-14 - version 1.3.20.3
+* Add new Hooks.
+
+2022-03-09 - version 1.3.20.2
+* Add new Hooks.
+* Fixed template overriding in emails.
+
+2022-02-04 - version 1.3.20.1
+* Hide Add to cart button compatibility for few themes.
+
+2022-01-17 - version 1.3.20.0
+* Hide categories from shop page and menu/sub-menu using catalogue visibility option.
+* Fixed hide page issue.
+
+2021-12-14 - version 1.3.19.11
+* Add an extra class in the sign-in to view button.
+* Fixed issue of RFQ Quantity on shop page.
+
+2021-12-10 - version 1.3.19.10
+* Add new Hooks.
+* Code Refactoring.
+
+2021-12-06 - version 1.3.19.9
+* Add new Hooks related to price.
+
+2021-11-30 - version 1.3.19.8
+* Improvements in Removing the hidden products feature.
+
+2021-11-15 - version 1.3.19.7
+* Issue fixed signup form(text fields).
+* Add new Hooks in bulk discount.
+
+2021-10-06 - version 1.3.19.6
+* Issue fixed during Account Page saving changes.
+
+2021-10-04 - version 1.3.19.5
+* Issue fixed related to lost password page.
+
+2021-09-24 - version 1.3.19.4
+* Removing the hidden products from related products.
+
+2021-09-23 - version 1.3.19.3
+* Removing the hidden products from Gutengerb
+
+2021-09-22 - version 1.3.19.2
+* Fixed Cart Subtotal when discount applied.
+
+2021-09-21 - version 1.3.19.1
+* Built compatibility of woocommerce mini cart with bulk discount.
+* Remove products from cart if that product needs to be hidden.
+
+2021-09-16 - version 1.3.19.0
+* Bulit Product table compatibility with B2B Ecommerce Product Visibility.
+
+2021-09-10 - version 1.3.18.8
+* Removed sniffer issues.
+* Removed warnings from payment method tabs.
+
+2021-09-06 - version 1.3.18.7
+* Exempt shipping tax if shipping class is exempted.
+
+2021-09-03 - version 1.3.18.6
+* Fixed Hide shop page issue for non login customers.
+* Fixed payment issue for customers with no role assigned.
+
+2021-08-27 - version 1.3.18.5
+* Custom payment option is showing for the non-login customers fixed
+* WooCommerce payment methods not showing in custom roles issue fixed.
+* Added hide pages option for non-login users on catalogue.
+* Payment Gateway issue on the checkout page fixed.
+
+2021-08-16 - version 1.3.18.4
+* Built WooCommerce version 5.6.0 compatibility.
+
+2021-08-16 - version 1.3.18.3
+* Added hooks for b2be payment methods extensibility. 
+* Fixed signup form scripting issue.
+* Removed Catalogue visibility warnings.
+
+2021-08-12 - version 1.3.18.2
+* Fixed Backward Compatibility Issue.
+
+2021-08-10 - version 1.3.18.1
+* Fixed Spelling Issue
+* Changed text for required approval
+* Shown float value on discount table
+
+2021-08-08 - version 1.3.18.0
+* Sign up form modification done.
+* Built compatibilitywith woocommerce 5.5.2.
+* Sign up form username issue resolved.
+* Moq Issue on cart page resolved.
+
+2021-08-02 - version 1.3.17.0
+* Added Catalogue Visibility functionality.
+* Built Geo Location integration with woocommerce.
+* Added user group submenu under users menu.
+
+2021-07-16 - version 1.3.15.3
+* Build compatibility with woocommerce 5.5.1.
+
+2021-06-23 - version 1.3.15.2
+* Datatable UI fixed.
+* Fixed guest user sign up approval flow.
+
+2021-06-11 - version 1.3.15.1
+* Fixed overlapping of order fields on wc edit order page.
+
+2021-05-31 - version 1.3.15.0
+* Add RFQ stats Card on woocommerce Home.
+
+2021-05-26 - version 1.3.14.9
+* Improvement on multiplier functionality.
+
+2021-05-21 - version 1.3.14.8
+* Replace RFQ Comments with Messages On admin side.
+* Modify sorry message for not purchasable products on Add to RFQ.
+
+2021-05-20 - version 1.3.14.7
+* Fixed Email issue from admin side when submitted Quote.
+* Make RFQ Message box large.
+* Replace Customer Chat with Messages On RFQ.
+
+2021-05-17 - version 1.3.14.6
+* Bug Fixing in Bulk discounts for default.
+* Woo version update.
+
+2021-05-07 - version 1.3.14.5
+* Bug Fixing in Bulk Discount option for variable product.
+
+2021-05-05 - version 1.3.14.4
+* Enabled sign form visibility for admin on theme builders.
+* Fixed admin setting and button issue on bulk discounts.
+
+2021-04-14 - version 1.3.14.3
+* Add Selected to RFQ.
+
+2021-04-02 - version 1.3.14.2
+* Fixed Custom Payment method issue on role cpt.
+
+2021-03-31 - version 1.3.14.1
+* Fixed Payment method issue.
+
+2021-03-29 - version 1.3.14.0
+* Added quantity format in moq.
+* Fixed signup form new added fields issue.
+* Fixed status issue for rejected users.
+* Fixed issue in Filter on Order listing page.
+* Fixed price Visibility api issue.
+
+2021-03-17 - version 1.3.13.0
+* Added role based shipping methods exemption feature.
+* Added minimum order value feature.
+* Added mapping of sign up form fields with WooCommerce User fields.
+* Added Role based filtering on order listing page for custom roles.
+* Fixed Discount Rule Priority issue.
+* Fixed Major Api issues.
+* Fixed Discount Format issue.
+* Fixed Discount Format issue.
+
+2021-03-05 - version 1.3.12.1
+* Fixed Api issues.
+* Fixed Discount Format Radio button issue.
+
+2021-02-27 - version 1.3.12.0
+* Added Discount Format functionality.
+
+2021-02-25 - version 1.3.11.0
+* Created Api support for B2B Ecommerce For WooCommerce.
+
+2021-02-15 - version 1.3.10.6
+* Converted Checkboxes into radio button for payment method.
+* Added utility function for getting payment method by user id.
+* Added formatted commetns for actions and filters.
+
+2021-01-11 - version 1.3.10.5
+* Fixed quote tab issue on my account page.
+
+2020-12-31 - version 1.3.10.4
+* Bug fixing in Credit Payment.
+
+2020-12-23 - version 1.3.10.3
+* Bug fixing in Credit Payment.
+
+2020-12-23 - version 1.3.10.2
+* Bug fixing in Credit Payment.
+
+2020-12-22 - version 1.3.10.1
+* Bug fixing/ Improvments for Credit Payment.
+
+2020-12-21 - version 1.3.10.0
+* Added RFQ cart dynamic url.
+* Added template overirde support.
+* Bug fixing/ Improvments.
+
+2020-12-16 - version 1.3.9.6
+* Bug fixing/ Improvments.
+
+2020-12-10 - version 1.3.9.5
+* Bug fixing.
+* Improvments in log.
+
+2020-12-03 - version 1.3.9.4
+* Fixed Payment method issue.
+* Fixed Add to cart flow.
+* Fixed Variation Table Issue.
+
+2020-12-03 - version 1.3.9.3
+* Bug fixing.
+
+2020-12-03 - version 1.3.9.2
+* Bug fixing / Improvements for Credit Payment feature.
+* Remove all notices.
+
+2020-12-01 - version 1.3.9.1
+* Add requested quote count on admin menu.
+* Added moq compatibilty with shop rfq button.
+* Fixed Multiple bugs.
+
+2020-11-30 - version 1.3.9.0
+* Add new feature Credit Payment.
+
+2020-11-19 - version 1.3.8.0
+* Add new feature Re-Order.
+
+2020-10-20 - version 1.3.7.2
+* Fixed multiple bugs.
+
+2020-10-20 - version 1.3.7.1
+* Fixed multiple bugs.
+* Added Enable/Disable Functionality for MOQ and Discount options.
+
+2020-10-13 - version  1.3.7.0
+* Resitrict whole store for non logged in user.
+
+2020-10-13 - version  1.3.6.1
+* Translate support
+
+2020-09-16 - version  1.3.6.0
+* Shipping Exemptions & Tax Exemptions
+* RFQ Button On Cart Page
+* Custom Payment Method & Enable Payment Method By Role
+* Bug Fixing Done.
+
+2020-09-16 - version  1.3.3.0
+* Added Product support for Moq.
+* Added Product support for Discount Rule.
+* Bug Fixing Done.
+
+2020-09-03 - version  1.3.2.1
+* Added RFQ button on shop page.
+
+2020-09-02 - version  1.3.2.0
+* Added Moq functionality
+* Bulk Discount Options Bug fixes
+
+2020-08-27 - version  1.3.1.0
+* Added Bulk Discount Options
+
+2020-09-15 - version  1.2.1.19
+* add to cart show/hide issue on theme changing.
+
+2020-09-14 - version  1.2.1.18
+* Add to Rfq will be showed on no price.
+
+2020-09-08 - version  1.2.1.17
+* Inter Plugin Compatibility Issue.
+
+2020-09-03 - version  1.2.1.16
+* Translation issues
+
+2020-09-01 - version  1.2.1.15
+* Added Translation Support
+
+2020-07-30 - version  1.2.1.14
+* Added support option
+
+2020-07-09 - version  1.2.1.13
+* Build compatiblity with WC 4.3.0
+
+2020-07-09 - version  1.2.1.12
+* Added Sinup Form feature
+* Added custom roles creation support
+* Added Roles based prcing support
+* Added login to view price
+* Improvements in payment method functionality 
+* Build Compatibility with Product Table for WooCommerce
+* Build Compatiblity with Quick Order for WooCommerce
+* Fixed Request for quote bugs.
+
+
+2020-04-30 - version  1.1.7.16
+* Fixed RFQ button issue 
+
+2020-04-20 - version  1.1.7.15
+* Build Compatibility with latest WooCommerce
+* Build Compatibility with latest WordPress
+
+
+2020-01-20 - version 1.1.7.13
+* Fixed Unique Username Issue
+* Fixed Customer Email Sending Issue
+* Fixed Admin Email Sending Issue
+
+2020-01-16 - version 1.1.7.12
+* Fixed Ui Issues
+* Fixed RFQ Button Functionality Issue
+
+2020-01-13 - version 1.1.7.11
+* Added Customizable Fields
+* Added Specific User Has Term Payment Functionality
+* Fixed RFQ Button Functionality Issue

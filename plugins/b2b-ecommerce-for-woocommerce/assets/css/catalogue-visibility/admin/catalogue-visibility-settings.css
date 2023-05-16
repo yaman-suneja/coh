@@ -1,0 +1,385 @@
+/*Reset CSS*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	padding: 0;
+	border: 0;
+	vertical-align: baseline;
+}
+#b2be_catalogue_visibility_settings_hide_catalog_section h4, #b2be_catalogue_visibility_settings_hide_catalog_section label {
+	color: black;
+	font-size: 16px;
+	font-weight: 600;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* Script for role and group table */
+.b2be_catalogue_role_and_group_table{
+	width:30%;
+}
+.b2be_catalogue_role_and_group_table tr{
+	padding-top: 2px;
+	padding-bottom: 2px;
+}
+.b2be_catalogue_role_and_group_table td:first-child{
+	width: 60%;
+}
+/* End script for role and group table */
+
+/* Style for visibility section */
+#b2be_catalogue_visibility_table tr td{
+	padding-left: 10px;
+	padding-right: 4px;
+	padding-top: 12px;
+	vertical-align: middle;
+	padding-bottom: 12px;
+}
+#b2be_catalogue_visibility_table td:first-child{
+	width:auto;
+	padding: 10px 0;
+}
+.b2be_catalogue_show_hide_radio_buttons {
+	display: inline-block;
+}
+.b2be_catalogue_show_hide_radio_buttons label {
+	font-size: 12px;
+	width: 35px;
+	display: inline-block;
+}
+.b2be_catalogue_show_hide_radio_buttons input[type=radio] {
+	margin-top: 0px;
+}
+#b2be_catalogue_visibility_settings_hide_catalog_section{
+	width: 62.75%;
+}
+#b2be_catalogue_visibility_settings_hide_catalog_section tr td{
+	width: 265px;
+	padding-left: 4px;
+	padding-right: 4px;
+		padding-top: 12px;
+	padding-bottom: 12px;
+}
+#b2be_catalogue_visibility_settings_hide_catalog_section td:first-child,
+#b2be_catalogue_visibility_settings_hide_catalog_section h4 {
+	width:max-content;
+}
+/* End Style for visibility section */
+
+/* Script for repeater field buttons */
+.b2be_catalogue_repeater_field_button, .b2be_catalogue_remove_row_btn{
+	border-radius: 0%;
+	height: 24px;
+	width: 22px;
+	cursor: pointer;
+	border: none;
+	color: white;
+	font-weight: 500;
+	padding: 0;
+}
+.b2be_catalogue_repeater_field_button{
+	background-color: silver;
+	font-size: x-large;
+	width: 25px;
+	height: 25px;
+	border-radius: 50px;
+	padding-bottom: 26px;
+}
+.b2be_catalogue_repeater_field_button:hover,
+.b2be_catalogue_repeater_field_button:focus{
+	background-color: #016fa7;
+	outline: none;
+}
+.b2be_catalogue_remove_row_btn{
+	background-color: silver;
+	font-size: large;
+	width: 25px;
+	height: 25px;
+	border-radius: 50px;
+}
+.b2be_catalogue_remove_row_btn:hover{
+	background-color: #c71337;
+}
+/* End script for repeater field buttons */
+
+/* CSS script for toggle switch button */
+.form-switch {
+	display: inline-block;
+	cursor: pointer;
+	-webkit-tap-highlight-color: transparent;
+}
+
+.form-switch i {
+	position: relative;
+	display: inline-block;
+	margin-right: .5rem;
+	width: 38px;
+	height: 18px;
+	background-color: #e6e6e6;
+	border-radius: 23px;
+	vertical-align: text-bottom;
+	transition: all 0.3s linear;
+}
+
+.form-switch i::before {
+	content: "";
+	position: absolute;
+	left: 0;
+	width: 42px;
+	height: 18px;
+	background-color: #999;
+	border-radius: 11px;
+	transform: translate3d(2px, 2px, 0) scale3d(1, 1, 1);
+	transition: all 0.25s linear;
+
+}
+.form-switch i::after {
+	content: "";
+	position: absolute;
+	left: 0;
+	width: 16px;
+	height: 16px;
+	background-color: #fff;
+	border-radius: 11px;
+	box-shadow: 0 2px 2px rgba(0, 0, 0, 0.24);
+	transform: translate3d(2px, 3px, 0);
+	transition: all 0.2s ease-in-out;
+}
+
+.form-switch:active i::after {
+	width: 28px;
+	transform: translate3d(2px, 2px, 0);
+}
+
+span.select2-selection.select2-selection--multiple {
+	min-height: 28px;
+	border-color: #7e8993;
+	border-radius: 4px;
+	height: 70px;
+	width: 100%;
+	padding: 0px 0;
+	overflow-y: scroll;
+}
+
+.select2-container--default .select2-selection--multiple .select2-selection__rendered li {
+	list-style: none;
+	margin: 2.2px 5px 0 0 !important;
+	font-size: 13px;
+}
+
+table#b2be_catalogue_visibility_table {
+	font-family: sans-serif;
+	font-size: 15px;
+	margin-top: 20px;
+}
+
+input[type=radio]:checked:before {
+	content: "";
+	width: .5rem;
+	height: .5rem;
+	margin: .1875rem;
+	background-color: #1e8cbe;
+	line-height: 1.14285714;
+}
+
+input[type=radio] {
+	margin-right: 4px;
+	line-height: 10px;
+}
+
+tr.b2be_catalogue_individual_user_row {border-bottom: 1px solid #dbdcde;}
+
+tr.b2be_catalogue_user_roles_row {
+	border-bottom: 1px solid #dbdcde;
+}
+
+tr.b2be_catalogue_user_groups_row {
+	border-bottom: 1px solid #dbdcde;
+}
+
+tr.b2be_catalogue_price_tier_row {
+	border-bottom: 1px solid #dbdcde;
+}
+
+input.b2be_catalogue_price_tier_from_text_field {
+	margin-bottom: 5px;
+	display: inline-block !important;
+	width: 50% !important;
+}
+input.b2be_catalogue_price_tier_to_text_field {
+	width: 45%;
+	display: inline-flex;
+}
+h3.b2be_catalogue_role_sub_title {
+	margin-bottom: 10px;
+}
+button.b2be_catalogue_edit_group_button.button-primary {
+	margin: 3px 5px;
+}
+button.b2be_catalogue_edit_role_button.button-primary {
+	margin: 3px 2px;
+}
+.form-switch:active input:checked + i::after { transform: translate3d(16px, 2px, 0); }
+
+.form-switch input { display: none; }
+
+.form-switch input:checked + i { background-color: #6acc78; }
+
+.form-switch input:checked + i::before { transform: translate3d(18px, 2px, 0) scale3d(0, 0, 0);}
+
+.form-switch input:checked + i::after { transform: translate3d(22px, 1px, 0); }
+
+table.b2be_catalogue_role_and_group_table .dashicons {
+	position: relative;
+	top: 4px;
+}
+table.b2be_catalogue_role_and_group_table button.b2be_catalogue_save_role_button,
+table.b2be_catalogue_role_and_group_table button.b2be_catalogue_cancel_button {
+	position: relative;
+	left: 2px;
+}
+table.b2be_catalogue_role_and_group_table button.b2be_catalogue_cancel_button {
+	left: 4px;
+}
+table.b2be_catalogue_role_and_group_table tbody tr td {
+	padding: 5px 0;
+}
+table.b2be_catalogue_role_and_group_table td.user_role_name {
+	 font-size: 15px;
+}
+table.b2be_catalogue_tbl_add_role tr td .button-add-role,
+table.b2be_catalogue_tbl_add_group tr td .button-add-role {
+	position: relative;
+	top: 1px;
+	left: 5px;
+	padding: 0 5px!important;
+	min-height: 15px !important;
+	line-height: normal !important;
+}
+
+table.b2be_catalogue_tbl_add_role tr td .button-add-role .dashicons-plus,
+table.b2be_catalogue_tbl_add_group tr td .button-add-role .dashicons-plus {
+	position: relative;
+	top: 2px;
+	width: 8px;
+	height: 6px;
+	font-size: 14px;
+	left: -3px;
+}
+
+table.b2be_catalogue_role_and_group_table button.b2be_catalogue_save_group_button{
+	position: relative;
+	left: 5px;
+	margin-right: 6px;
+}
+
+/* End CSS script for toggle button */
+.wp-core-ui table.b2be_catalogue_role_and_group_table .button,
+.wp-core-ui table.b2be_catalogue_role_and_group_table .button-primary,
+.wp-core-ui table.b2be_catalogue_role_and_group_table .button-secondary,
+.wp-core-ui table.b2be_catalogue_tbl_add_role .button-add-role {
+	padding: 0 5px;
+}
+.woocommerce-page .wrap .button-success{
+	background-color: #1e7e34 !important;
+	border-color: #1c7430 !important;
+}
+.woocommerce-page .wrap .button-success:hover,
+.woocommerce-page .wrap .button-success:focus{
+	background-color: #1e7e34 !important;
+	border-color: #1e7e34 !important;
+}
+.woocommerce-page .wrap .button-danger {
+	background-color: #dc3545 !important;
+	border-color: #dc3545 !important;
+}
+.woocommerce-page .wrap .button-grey {
+	background-color: #6c757d !important;
+	border-color: #6c757d !important;
+}
+.woocommerce-page .wrap .button-danger:hover,
+.woocommerce-page .wrap .button-danger:focus,
+.woocommerce-page .wrap .button-danger:disabled,
+.woocommerce-page .wrap .button-danger[disabled] {
+	color:#ffffff !important;
+	background-color: #bd2130 !important;
+	border-color: #b21f2d !important;
+}
+
+/* Tooltip */
+.b2be_catalogue_tooltip {
+	position: relative;
+	display: inline;
+}
+
+.b2be_catalogue_tooltip .b2be_catalogue_tooltiptext {
+	visibility: hidden;
+	width: 200px;
+	background-color: #444444;
+	color: #fff;
+	text-align: center;
+	padding: 5px 10px;
+	font-weight: 400;
+	font-size: 12px;
+	border-radius: 6px;
+	position: absolute;
+	z-index: 1;
+	top: 100%;
+	left: 50%;
+	margin-left: -110px;
+	margin-top: 4px;
+}
+
+.b2be_catalogue_tooltip:hover .b2be_catalogue_tooltiptext {
+	visibility: visible;
+}
+.b2be_catalogue_tooltip_bottom::after {
+	content: "";
+	position: absolute;
+	bottom: 100%;
+	left: 50%;
+	margin-left: -5px;
+	border-width: 5px;
+	border-style: solid;
+	border-color: transparent transparent #555 transparent;
+}
+.b2be_catalogue_tooltip span.dashicons.dashicons-editor-help {
+	width: 14px;
+	height: 14px;
+	font-size: 16px;
+}
+.b2be_catalogue_priority_dropdown_error{
+	border-color: red !important;
+	border-width: 1px !important;
+}
